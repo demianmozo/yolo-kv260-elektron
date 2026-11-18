@@ -1,0 +1,62 @@
+[
+  {
+    "type": "CPU",
+    "info": {
+      "Cores": 4,
+      "Model": "ARM-v8",
+      "Freq": "1333 MHz"
+    }
+  },
+  {
+    "type": "Memory",
+    "info": {
+      "Total Memory": "4023 MB"
+    }
+  },
+  {
+    "type": "CUMap",
+    "info": {
+      "DPUCZDX8G_1": "0xa0010000"
+    }
+  },
+  {
+    "type": "DPU",
+    "info": {
+      "DPU IP Spec": {
+        "git commit id": "7d32c41",
+        "git commit time": 2023022121,
+        "generation timestamp": "2023-02-21 21-30-00",
+        "IP version": "v4.1.0",
+        "regmap": "1to1 version",
+        "DPU Core Count": 1
+      },
+      "VAI Version": {
+        "libxir.so": "Xilinx xir Version: xir-9204ac72103092a7b253a0c23ec7471481656940 2022-12-27-00:46:16",
+        "libvart-runner.so": "Xilinx vart-runner Version: 3.0.0-2efa5fe1e56c2b2c8a7e71e9fc1636242dd50a9f  2022-12-27-00:47:05 ",
+        "libvitis_ai_library-dpu_task.so": "Xilinx vitis_ai_library dpu_task Version: 3.0.0-1cccff04dc341c4a6287226828f90aed56005f4f  2022-12-20 10:29:01 [UTC] ",
+        "target_factory": "target-factory.3.0.0 860ed0499ab009084e2df3004eeb9ae710c26351",
+        "libvaip-core.so": "Xilinx vaip Version: 1.0.0-a176db67b19f94b0a31f9d24ef80322efe4494ad  2022-12-27-01:24:22 "
+      },
+      "kernels": [
+        {
+          "fingerprint": "0x101000016010407",
+          "cu_handle": "0xaaaaeb65e450",
+          "cu_idx": 0,
+          "cu_mask": 1,
+          "cu_name": "DPUCZDX8G:DPUCZDX8G_1",
+          "device_id": 0,
+          "cu_addr": "0xa0010000",
+          "name": "DPU Core 0",
+          "DPU Arch": "DPUCZDX8G_ISA1_B4096_0101000016010407",
+          "IP Type": "DPU",
+          "DPU Frequency (MHz)": 300,
+          "XRT Frequency (MHz)": 300,
+          "Save Parallel": 2,
+          "Load Parallel": 2,
+          "Load minus mean": "disable",
+          "Load augmentation": "enable"
+        }
+      ]
+    }
+  }
+]

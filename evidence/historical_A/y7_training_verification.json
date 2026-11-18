@@ -1,0 +1,19 @@
+{
+  "initial_state_exactly_identical": true,
+  "seed": 42,
+  "split_unchanged": true,
+  "epochs": 121,
+  "batches_per_epoch": 15,
+  "images_per_epoch": 59,
+  "updates_per_epoch": 15,
+  "total_optimizer_steps": 1815,
+  "best_epoch": 81,
+  "best_updates": 1215,
+  "best_val_mAP50_95": 0.277390775772267,
+  "checkpoint_sha256": "b58cf917f108e788c0cfcc403f266545dc69e59dbbfa1fa268ffaa833914a612",
+  "selection": "val_mAP50_95",
+  "patience": 40,
+  "accumulate": 1,
+  "validation_and_last_save_once_per_epoch": true,
+  "original_images_and_labels_unchanged": true
+}

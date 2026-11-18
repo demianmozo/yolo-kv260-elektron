@@ -1,0 +1,16 @@
+Property         Type     Read-only  Value
+ARCHITECTURES    string*  true       
+CLASS            string   true       rule_check
+DESCRIPTION      string   true       Reconfigurable Pblocks must use valid types
+FEATURES         string*  true       
+GROUP            string   true       HDPR
+HIERNAME         string   true       Dynamic Function eXchange.Pblock
+IS_ENABLED       bool     false      1
+IS_READ_ONLY     bool     true       0
+IS_USER_DEFINED  bool     true       0
+MAX_MESSAGES     int      false      -1
+MAX_NAMES        int      false      0
+MESSAGE          string   true       Reconfigurable cell '<NETLIST_ELEMENT>' with Pblock '<NETLIST_ELEMENT>' uses the invalid type '<MESSAGE_STRING>' to define the Pblock range.  This type is only valid in static logic.  Please remove this type from Pblock '<NETLIST_ELEMENT>'.
+MSG_ID           int      true       5
+NAME             string   true       HDPR-5
+SEVERITY         enum     false      Error

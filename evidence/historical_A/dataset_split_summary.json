@@ -1,0 +1,13 @@
+{
+  "audited_files": 84,
+  "class_in_files": "fish",
+  "semantic_class": "merluza",
+  "train": {"images": 59, "boxes": 1688, "range": "P1-P60 excluding P39"},
+  "validation": {"images": 18, "boxes": 548, "range": "P66-P83"},
+  "gap_not_used_for_selection": {"images": 5, "boxes": 103, "range": "P61-P65"},
+  "duplicate_pending_review": {"identifier": "P39", "files": 2, "boxes_total": 75},
+  "independent_test": false,
+  "grouping_limit": "Available names and metadata do not establish an independent acoustic campaign; validation is internal and blocked by sequence.",
+  "split_sha256": "971b6269a988f05c1bdc609c27c3da7a0b002930acb7680b32b9d2e6d1f8c48a",
+  "raw_data_in_package": false
+}

@@ -1,0 +1,3211 @@
+--- /dev/null
++++ b/LICENSE.md
+@@ -0,0 +1,674 @@
++                    GNU GENERAL PUBLIC LICENSE
++                       Version 3, 29 June 2007
++
++ Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
++ Everyone is permitted to copy and distribute verbatim copies
++ of this license document, but changing it is not allowed.
++
++                            Preamble
++
++  The GNU General Public License is a free, copyleft license for
++software and other kinds of works.
++
++  The licenses for most software and other practical works are designed
++to take away your freedom to share and change the works.  By contrast,
++the GNU General Public License is intended to guarantee your freedom to
++share and change all versions of a program--to make sure it remains free
++software for all its users.  We, the Free Software Foundation, use the
++GNU General Public License for most of our software; it applies also to
++any other work released this way by its authors.  You can apply it to
++your programs, too.
++
++  When we speak of free software, we are referring to freedom, not
++price.  Our General Public Licenses are designed to make sure that you
++have the freedom to distribute copies of free software (and charge for
++them if you wish), that you receive source code or can get it if you
++want it, that you can change the software or use pieces of it in new
++free programs, and that you know you can do these things.
++
++  To protect your rights, we need to prevent others from denying you
++these rights or asking you to surrender the rights.  Therefore, you have
++certain responsibilities if you distribute copies of the software, or if
++you modify it: responsibilities to respect the freedom of others.
++
++  For example, if you distribute copies of such a program, whether
++gratis or for a fee, you must pass on to the recipients the same
++freedoms that you received.  You must make sure that they, too, receive
++or can get the source code.  And you must show them these terms so they
++know their rights.
++
++  Developers that use the GNU GPL protect your rights with two steps:
++(1) assert copyright on the software, and (2) offer you this License
++giving you legal permission to copy, distribute and/or modify it.
++
++  For the developers' and authors' protection, the GPL clearly explains
++that there is no warranty for this free software.  For both users' and
++authors' sake, the GPL requires that modified versions be marked as
++changed, so that their problems will not be attributed erroneously to
++authors of previous versions.
++
++  Some devices are designed to deny users access to install or run
++modified versions of the software inside them, although the manufacturer
++can do so.  This is fundamentally incompatible with the aim of
++protecting users' freedom to change the software.  The systematic
++pattern of such abuse occurs in the area of products for individuals to
++use, which is precisely where it is most unacceptable.  Therefore, we
++have designed this version of the GPL to prohibit the practice for those
++products.  If such problems arise substantially in other domains, we
++stand ready to extend this provision to those domains in future versions
++of the GPL, as needed to protect the freedom of users.
++
++  Finally, every program is threatened constantly by software patents.
++States should not allow patents to restrict development and use of
++software on general-purpose computers, but in those that do, we wish to
++avoid the special danger that patents applied to a free program could
++make it effectively proprietary.  To prevent this, the GPL assures that
++patents cannot be used to render the program non-free.
++
++  The precise terms and conditions for copying, distribution and
++modification follow.
++
++                       TERMS AND CONDITIONS
++
++  0. Definitions.
++
++  "This License" refers to version 3 of the GNU General Public License.
++
++  "Copyright" also means copyright-like laws that apply to other kinds of
++works, such as semiconductor masks.
++
++  "The Program" refers to any copyrightable work licensed under this
++License.  Each licensee is addressed as "you".  "Licensees" and
++"recipients" may be individuals or organizations.
++
++  To "modify" a work means to copy from or adapt all or part of the work
++in a fashion requiring copyright permission, other than the making of an
++exact copy.  The resulting work is called a "modified version" of the
++earlier work or a work "based on" the earlier work.
++
++  A "covered work" means either the unmodified Program or a work based
++on the Program.
++
++  To "propagate" a work means to do anything with it that, without
++permission, would make you directly or secondarily liable for
++infringement under applicable copyright law, except executing it on a
++computer or modifying a private copy.  Propagation includes copying,
++distribution (with or without modification), making available to the
++public, and in some countries other activities as well.
++
++  To "convey" a work means any kind of propagation that enables other
++parties to make or receive copies.  Mere interaction with a user through
++a computer network, with no transfer of a copy, is not conveying.
++
++  An interactive user interface displays "Appropriate Legal Notices"
++to the extent that it includes a convenient and prominently visible
++feature that (1) displays an appropriate copyright notice, and (2)
++tells the user that there is no warranty for the work (except to the
++extent that warranties are provided), that licensees may convey the
++work under this License, and how to view a copy of this License.  If
++the interface presents a list of user commands or options, such as a
++menu, a prominent item in the list meets this criterion.
++
++  1. Source Code.
++
++  The "source code" for a work means the preferred form of the work
++for making modifications to it.  "Object code" means any non-source
++form of a work.
++
++  A "Standard Interface" means an interface that either is an official
++standard defined by a recognized standards body, or, in the case of
++interfaces specified for a particular programming language, one that
++is widely used among developers working in that language.
++
++  The "System Libraries" of an executable work include anything, other
++than the work as a whole, that (a) is included in the normal form of
++packaging a Major Component, but which is not part of that Major
++Component, and (b) serves only to enable use of the work with that
++Major Component, or to implement a Standard Interface for which an
++implementation is available to the public in source code form.  A
++"Major Component", in this context, means a major essential component
++(kernel, window system, and so on) of the specific operating system
++(if any) on which the executable work runs, or a compiler used to
++produce the work, or an object code interpreter used to run it.
++
++  The "Corresponding Source" for a work in object code form means all
++the source code needed to generate, install, and (for an executable
++work) run the object code and to modify the work, including scripts to
++control those activities.  However, it does not include the work's
++System Libraries, or general-purpose tools or generally available free
++programs which are used unmodified in performing those activities but
++which are not part of the work.  For example, Corresponding Source
++includes interface definition files associated with source files for
++the work, and the source code for shared libraries and dynamically
++linked subprograms that the work is specifically designed to require,
++such as by intimate data communication or control flow between those
++subprograms and other parts of the work.
++
++  The Corresponding Source need not include anything that users
++can regenerate automatically from other parts of the Corresponding
++Source.
++
++  The Corresponding Source for a work in source code form is that
++same work.
++
++  2. Basic Permissions.
++
++  All rights granted under this License are granted for the term of
++copyright on the Program, and are irrevocable provided the stated
++conditions are met.  This License explicitly affirms your unlimited
++permission to run the unmodified Program.  The output from running a
++covered work is covered by this License only if the output, given its
++content, constitutes a covered work.  This License acknowledges your
++rights of fair use or other equivalent, as provided by copyright law.
++
++  You may make, run and propagate covered works that you do not
++convey, without conditions so long as your license otherwise remains
++in force.  You may convey covered works to others for the sole purpose
++of having them make modifications exclusively for you, or provide you
++with facilities for running those works, provided that you comply with
++the terms of this License in conveying all material for which you do
++not control copyright.  Those thus making or running the covered works
++for you must do so exclusively on your behalf, under your direction
++and control, on terms that prohibit them from making any copies of
++your copyrighted material outside their relationship with you.
++
++  Conveying under any other circumstances is permitted solely under
++the conditions stated below.  Sublicensing is not allowed; section 10
++makes it unnecessary.
++
++  3. Protecting Users' Legal Rights From Anti-Circumvention Law.
++
++  No covered work shall be deemed part of an effective technological
++measure under any applicable law fulfilling obligations under article
++11 of the WIPO copyright treaty adopted on 20 December 1996, or
++similar laws prohibiting or restricting circumvention of such
++measures.
++
++  When you convey a covered work, you waive any legal power to forbid
++circumvention of technological measures to the extent such circumvention
++is effected by exercising rights under this License with respect to
++the covered work, and you disclaim any intention to limit operation or
++modification of the work as a means of enforcing, against the work's
++users, your or third parties' legal rights to forbid circumvention of
++technological measures.
++
++  4. Conveying Verbatim Copies.
++
++  You may convey verbatim copies of the Program's source code as you
++receive it, in any medium, provided that you conspicuously and
++appropriately publish on each copy an appropriate copyright notice;
++keep intact all notices stating that this License and any
++non-permissive terms added in accord with section 7 apply to the code;
++keep intact all notices of the absence of any warranty; and give all
++recipients a copy of this License along with the Program.
++
++  You may charge any price or no price for each copy that you convey,
++and you may offer support or warranty protection for a fee.
++
++  5. Conveying Modified Source Versions.
++
++  You may convey a work based on the Program, or the modifications to
++produce it from the Program, in the form of source code under the
++terms of section 4, provided that you also meet all of these conditions:
++
++    a) The work must carry prominent notices stating that you modified
++    it, and giving a relevant date.
++
++    b) The work must carry prominent notices stating that it is
++    released under this License and any conditions added under section
++    7.  This requirement modifies the requirement in section 4 to
++    "keep intact all notices".
++
++    c) You must license the entire work, as a whole, under this
++    License to anyone who comes into possession of a copy.  This
++    License will therefore apply, along with any applicable section 7
++    additional terms, to the whole of the work, and all its parts,
++    regardless of how they are packaged.  This License gives no
++    permission to license the work in any other way, but it does not
++    invalidate such permission if you have separately received it.
++
++    d) If the work has interactive user interfaces, each must display
++    Appropriate Legal Notices; however, if the Program has interactive
++    interfaces that do not display Appropriate Legal Notices, your
++    work need not make them do so.
++
++  A compilation of a covered work with other separate and independent
++works, which are not by their nature extensions of the covered work,
++and which are not combined with it such as to form a larger program,
++in or on a volume of a storage or distribution medium, is called an
++"aggregate" if the compilation and its resulting copyright are not
++used to limit the access or legal rights of the compilation's users
++beyond what the individual works permit.  Inclusion of a covered work
++in an aggregate does not cause this License to apply to the other
++parts of the aggregate.
++
++  6. Conveying Non-Source Forms.
++
++  You may convey a covered work in object code form under the terms
++of sections 4 and 5, provided that you also convey the
++machine-readable Corresponding Source under the terms of this License,
++in one of these ways:
++
++    a) Convey the object code in, or embodied in, a physical product
++    (including a physical distribution medium), accompanied by the
++    Corresponding Source fixed on a durable physical medium
++    customarily used for software interchange.
++
++    b) Convey the object code in, or embodied in, a physical product
++    (including a physical distribution medium), accompanied by a
++    written offer, valid for at least three years and valid for as
++    long as you offer spare parts or customer support for that product
++    model, to give anyone who possesses the object code either (1) a
++    copy of the Corresponding Source for all the software in the
++    product that is covered by this License, on a durable physical
++    medium customarily used for software interchange, for a price no
++    more than your reasonable cost of physically performing this
++    conveying of source, or (2) access to copy the
++    Corresponding Source from a network server at no charge.
++
++    c) Convey individual copies of the object code with a copy of the
++    written offer to provide the Corresponding Source.  This
++    alternative is allowed only occasionally and noncommercially, and
++    only if you received the object code with such an offer, in accord
++    with subsection 6b.
++
++    d) Convey the object code by offering access from a designated
++    place (gratis or for a charge), and offer equivalent access to the
++    Corresponding Source in the same way through the same place at no
++    further charge.  You need not require recipients to copy the
++    Corresponding Source along with the object code.  If the place to
++    copy the object code is a network server, the Corresponding Source
++    may be on a different server (operated by you or a third party)
++    that supports equivalent copying facilities, provided you maintain
++    clear directions next to the object code saying where to find the
++    Corresponding Source.  Regardless of what server hosts the
++    Corresponding Source, you remain obligated to ensure that it is
++    available for as long as needed to satisfy these requirements.
++
++    e) Convey the object code using peer-to-peer transmission, provided
++    you inform other peers where the object code and Corresponding
++    Source of the work are being offered to the general public at no
++    charge under subsection 6d.
++
++  A separable portion of the object code, whose source code is excluded
++from the Corresponding Source as a System Library, need not be
++included in conveying the object code work.
++
++  A "User Product" is either (1) a "consumer product", which means any
++tangible personal property which is normally used for personal, family,
++or household purposes, or (2) anything designed or sold for incorporation
++into a dwelling.  In determining whether a product is a consumer product,
++doubtful cases shall be resolved in favor of coverage.  For a particular
++product received by a particular user, "normally used" refers to a
++typical or common use of that class of product, regardless of the status
++of the particular user or of the way in which the particular user
++actually uses, or expects or is expected to use, the product.  A product
++is a consumer product regardless of whether the product has substantial
++commercial, industrial or non-consumer uses, unless such uses represent
++the only significant mode of use of the product.
++
++  "Installation Information" for a User Product means any methods,
++procedures, authorization keys, or other information required to install
++and execute modified versions of a covered work in that User Product from
++a modified version of its Corresponding Source.  The information must
++suffice to ensure that the continued functioning of the modified object
++code is in no case prevented or interfered with solely because
++modification has been made.
++
++  If you convey an object code work under this section in, or with, or
++specifically for use in, a User Product, and the conveying occurs as
++part of a transaction in which the right of possession and use of the
++User Product is transferred to the recipient in perpetuity or for a
++fixed term (regardless of how the transaction is characterized), the
++Corresponding Source conveyed under this section must be accompanied
++by the Installation Information.  But this requirement does not apply
++if neither you nor any third party retains the ability to install
++modified object code on the User Product (for example, the work has
++been installed in ROM).
++
++  The requirement to provide Installation Information does not include a
++requirement to continue to provide support service, warranty, or updates
++for a work that has been modified or installed by the recipient, or for
++the User Product in which it has been modified or installed.  Access to a
++network may be denied when the modification itself materially and
++adversely affects the operation of the network or violates the rules and
++protocols for communication across the network.
++
++  Corresponding Source conveyed, and Installation Information provided,
++in accord with this section must be in a format that is publicly
++documented (and with an implementation available to the public in
++source code form), and must require no special password or key for
++unpacking, reading or copying.
++
++  7. Additional Terms.
++
++  "Additional permissions" are terms that supplement the terms of this
++License by making exceptions from one or more of its conditions.
++Additional permissions that are applicable to the entire Program shall
++be treated as though they were included in this License, to the extent
++that they are valid under applicable law.  If additional permissions
++apply only to part of the Program, that part may be used separately
++under those permissions, but the entire Program remains governed by
++this License without regard to the additional permissions.
++
++  When you convey a copy of a covered work, you may at your option
++remove any additional permissions from that copy, or from any part of
++it.  (Additional permissions may be written to require their own
++removal in certain cases when you modify the work.)  You may place
++additional permissions on material, added by you to a covered work,
++for which you have or can give appropriate copyright permission.
++
++  Notwithstanding any other provision of this License, for material you
++add to a covered work, you may (if authorized by the copyright holders of
++that material) supplement the terms of this License with terms:
++
++    a) Disclaiming warranty or limiting liability differently from the
++    terms of sections 15 and 16 of this License; or
++
++    b) Requiring preservation of specified reasonable legal notices or
++    author attributions in that material or in the Appropriate Legal
++    Notices displayed by works containing it; or
++
++    c) Prohibiting misrepresentation of the origin of that material, or
++    requiring that modified versions of such material be marked in
++    reasonable ways as different from the original version; or
++
++    d) Limiting the use for publicity purposes of names of licensors or
++    authors of the material; or
++
++    e) Declining to grant rights under trademark law for use of some
++    trade names, trademarks, or service marks; or
++
++    f) Requiring indemnification of licensors and authors of that
++    material by anyone who conveys the material (or modified versions of
++    it) with contractual assumptions of liability to the recipient, for
++    any liability that these contractual assumptions directly impose on
++    those licensors and authors.
++
++  All other non-permissive additional terms are considered "further
++restrictions" within the meaning of section 10.  If the Program as you
++received it, or any part of it, contains a notice stating that it is
++governed by this License along with a term that is a further
++restriction, you may remove that term.  If a license document contains
++a further restriction but permits relicensing or conveying under this
++License, you may add to a covered work material governed by the terms
++of that license document, provided that the further restriction does
++not survive such relicensing or conveying.
++
++  If you add terms to a covered work in accord with this section, you
++must place, in the relevant source files, a statement of the
++additional terms that apply to those files, or a notice indicating
++where to find the applicable terms.
++
++  Additional terms, permissive or non-permissive, may be stated in the
++form of a separately written license, or stated as exceptions;
++the above requirements apply either way.
++
++  8. Termination.
++
++  You may not propagate or modify a covered work except as expressly
++provided under this License.  Any attempt otherwise to propagate or
++modify it is void, and will automatically terminate your rights under
++this License (including any patent licenses granted under the third
++paragraph of section 11).
++
++  However, if you cease all violation of this License, then your
++license from a particular copyright holder is reinstated (a)
++provisionally, unless and until the copyright holder explicitly and
++finally terminates your license, and (b) permanently, if the copyright
++holder fails to notify you of the violation by some reasonable means
++prior to 60 days after the cessation.
++
++  Moreover, your license from a particular copyright holder is
++reinstated permanently if the copyright holder notifies you of the
++violation by some reasonable means, this is the first time you have
++received notice of violation of this License (for any work) from that
++copyright holder, and you cure the violation prior to 30 days after
++your receipt of the notice.
++
++  Termination of your rights under this section does not terminate the
++licenses of parties who have received copies or rights from you under
++this License.  If your rights have been terminated and not permanently
++reinstated, you do not qualify to receive new licenses for the same
++material under section 10.
++
++  9. Acceptance Not Required for Having Copies.
++
++  You are not required to accept this License in order to receive or
++run a copy of the Program.  Ancillary propagation of a covered work
++occurring solely as a consequence of using peer-to-peer transmission
++to receive a copy likewise does not require acceptance.  However,
++nothing other than this License grants you permission to propagate or
++modify any covered work.  These actions infringe copyright if you do
++not accept this License.  Therefore, by modifying or propagating a
++covered work, you indicate your acceptance of this License to do so.
++
++  10. Automatic Licensing of Downstream Recipients.
++
++  Each time you convey a covered work, the recipient automatically
++receives a license from the original licensors, to run, modify and
++propagate that work, subject to this License.  You are not responsible
++for enforcing compliance by third parties with this License.
++
++  An "entity transaction" is a transaction transferring control of an
++organization, or substantially all assets of one, or subdividing an
++organization, or merging organizations.  If propagation of a covered
++work results from an entity transaction, each party to that
++transaction who receives a copy of the work also receives whatever
++licenses to the work the party's predecessor in interest had or could
++give under the previous paragraph, plus a right to possession of the
++Corresponding Source of the work from the predecessor in interest, if
++the predecessor has it or can get it with reasonable efforts.
++
++  You may not impose any further restrictions on the exercise of the
++rights granted or affirmed under this License.  For example, you may
++not impose a license fee, royalty, or other charge for exercise of
++rights granted under this License, and you may not initiate litigation
++(including a cross-claim or counterclaim in a lawsuit) alleging that
++any patent claim is infringed by making, using, selling, offering for
++sale, or importing the Program or any portion of it.
++
++  11. Patents.
++
++  A "contributor" is a copyright holder who authorizes use under this
++License of the Program or a work on which the Program is based.  The
++work thus licensed is called the contributor's "contributor version".
++
++  A contributor's "essential patent claims" are all patent claims
++owned or controlled by the contributor, whether already acquired or
++hereafter acquired, that would be infringed by some manner, permitted
++by this License, of making, using, or selling its contributor version,
++but do not include claims that would be infringed only as a
++consequence of further modification of the contributor version.  For
++purposes of this definition, "control" includes the right to grant
++patent sublicenses in a manner consistent with the requirements of
++this License.
++
++  Each contributor grants you a non-exclusive, worldwide, royalty-free
++patent license under the contributor's essential patent claims, to
++make, use, sell, offer for sale, import and otherwise run, modify and
++propagate the contents of its contributor version.
++
++  In the following three paragraphs, a "patent license" is any express
++agreement or commitment, however denominated, not to enforce a patent
++(such as an express permission to practice a patent or covenant not to
++sue for patent infringement).  To "grant" such a patent license to a
++party means to make such an agreement or commitment not to enforce a
++patent against the party.
++
++  If you convey a covered work, knowingly relying on a patent license,
++and the Corresponding Source of the work is not available for anyone
++to copy, free of charge and under the terms of this License, through a
++publicly available network server or other readily accessible means,
++then you must either (1) cause the Corresponding Source to be so
++available, or (2) arrange to deprive yourself of the benefit of the
++patent license for this particular work, or (3) arrange, in a manner
++consistent with the requirements of this License, to extend the patent
++license to downstream recipients.  "Knowingly relying" means you have
++actual knowledge that, but for the patent license, your conveying the
++covered work in a country, or your recipient's use of the covered work
++in a country, would infringe one or more identifiable patents in that
++country that you have reason to believe are valid.
++
++  If, pursuant to or in connection with a single transaction or
++arrangement, you convey, or propagate by procuring conveyance of, a
++covered work, and grant a patent license to some of the parties
++receiving the covered work authorizing them to use, propagate, modify
++or convey a specific copy of the covered work, then the patent license
++you grant is automatically extended to all recipients of the covered
++work and works based on it.
++
++  A patent license is "discriminatory" if it does not include within
++the scope of its coverage, prohibits the exercise of, or is
++conditioned on the non-exercise of one or more of the rights that are
++specifically granted under this License.  You may not convey a covered
++work if you are a party to an arrangement with a third party that is
++in the business of distributing software, under which you make payment
++to the third party based on the extent of your activity of conveying
++the work, and under which the third party grants, to any of the
++parties who would receive the covered work from you, a discriminatory
++patent license (a) in connection with copies of the covered work
++conveyed by you (or copies made from those copies), or (b) primarily
++for and in connection with specific products or compilations that
++contain the covered work, unless you entered into that arrangement,
++or that patent license was granted, prior to 28 March 2007.
++
++  Nothing in this License shall be construed as excluding or limiting
++any implied license or other defenses to infringement that may
++otherwise be available to you under applicable patent law.
++
++  12. No Surrender of Others' Freedom.
++
++  If conditions are imposed on you (whether by court order, agreement or
++otherwise) that contradict the conditions of this License, they do not
++excuse you from the conditions of this License.  If you cannot convey a
++covered work so as to satisfy simultaneously your obligations under this
++License and any other pertinent obligations, then as a consequence you may
++not convey it at all.  For example, if you agree to terms that obligate you
++to collect a royalty for further conveying from those to whom you convey
++the Program, the only way you could satisfy both those terms and this
++License would be to refrain entirely from conveying the Program.
++
++  13. Use with the GNU Affero General Public License.
++
++  Notwithstanding any other provision of this License, you have
++permission to link or combine any covered work with a work licensed
++under version 3 of the GNU Affero General Public License into a single
++combined work, and to convey the resulting work.  The terms of this
++License will continue to apply to the part which is the covered work,
++but the special requirements of the GNU Affero General Public License,
++section 13, concerning interaction through a network will apply to the
++combination as such.
++
++  14. Revised Versions of this License.
++
++  The Free Software Foundation may publish revised and/or new versions of
++the GNU General Public License from time to time.  Such new versions will
++be similar in spirit to the present version, but may differ in detail to
++address new problems or concerns.
++
++  Each version is given a distinguishing version number.  If the
++Program specifies that a certain numbered version of the GNU General
++Public License "or any later version" applies to it, you have the
++option of following the terms and conditions either of that numbered
++version or of any later version published by the Free Software
++Foundation.  If the Program does not specify a version number of the
++GNU General Public License, you may choose any version ever published
++by the Free Software Foundation.
++
++  If the Program specifies that a proxy can decide which future
++versions of the GNU General Public License can be used, that proxy's
++public statement of acceptance of a version permanently authorizes you
++to choose that version for the Program.
++
++  Later license versions may give you additional or different
++permissions.  However, no additional obligations are imposed on any
++author or copyright holder as a result of your choosing to follow a
++later version.
++
++  15. Disclaimer of Warranty.
++
++  THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY
++APPLICABLE LAW.  EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT
++HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY
++OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,
++THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
++PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM
++IS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF
++ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
++
++  16. Limitation of Liability.
++
++  IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
++WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS
++THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY
++GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE
++USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF
++DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD
++PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS),
++EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF
++SUCH DAMAGES.
++
++  17. Interpretation of Sections 15 and 16.
++
++  If the disclaimer of warranty and limitation of liability provided
++above cannot be given local legal effect according to their terms,
++reviewing courts shall apply local law that most closely approximates
++an absolute waiver of all civil liability in connection with the
++Program, unless a warranty or assumption of liability accompanies a
++copy of the Program in return for a fee.
++
++                     END OF TERMS AND CONDITIONS
++
++            How to Apply These Terms to Your New Programs
++
++  If you develop a new program, and you want it to be of the greatest
++possible use to the public, the best way to achieve this is to make it
++free software which everyone can redistribute and change under these terms.
++
++  To do so, attach the following notices to the program.  It is safest
++to attach them to the start of each source file to most effectively
++state the exclusion of warranty; and each file should have at least
++the "copyright" line and a pointer to where the full notice is found.
++
++    <one line to give the program's name and a brief idea of what it does.>
++    Copyright (C) <year>  <name of author>
++
++    This program is free software: you can redistribute it and/or modify
++    it under the terms of the GNU General Public License as published by
++    the Free Software Foundation, either version 3 of the License, or
++    (at your option) any later version.
++
++    This program is distributed in the hope that it will be useful,
++    but WITHOUT ANY WARRANTY; without even the implied warranty of
++    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++    GNU General Public License for more details.
++
++    You should have received a copy of the GNU General Public License
++    along with this program.  If not, see <https://www.gnu.org/licenses/>.
++
++Also add information on how to contact you by electronic and paper mail.
++
++  If the program does terminal interaction, make it output a short
++notice like this when it starts in an interactive mode:
++
++    <program>  Copyright (C) <year>  <name of author>
++    This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
++    This is free software, and you are welcome to redistribute it
++    under certain conditions; type `show c' for details.
++
++The hypothetical commands `show w' and `show c' should show the appropriate
++parts of the General Public License.  Of course, your program's commands
++might be different; for a GUI interface, you would use an "about box".
++
++  You should also get your employer (if you work as a programmer) or school,
++if any, to sign a "copyright disclaimer" for the program, if necessary.
++For more information on this, and how to apply and follow the GNU GPL, see
++<https://www.gnu.org/licenses/>.
++
++  The GNU General Public License does not permit incorporating your program
++into proprietary programs.  If your program is a subroutine library, you
++may consider it more useful to permit linking proprietary applications with
++the library.  If this is what you want to do, use the GNU Lesser General
++Public License instead of this License.  But first, please read
++<https://www.gnu.org/licenses/why-not-lgpl.html>.
+--- /dev/null
++++ b/cfg/deploy/yolov7-tiny.yaml
+@@ -0,0 +1,112 @@
++# parameters
++nc: 80  # number of classes
++depth_multiple: 1.0  # model depth multiple
++width_multiple: 1.0  # layer channel multiple
++
++# anchors
++anchors:
++  - [10,13, 16,30, 33,23]  # P3/8
++  - [30,61, 62,45, 59,119]  # P4/16
++  - [116,90, 156,198, 373,326]  # P5/32
++
++# yolov7-tiny backbone
++backbone:
++  # [from, number, module, args] c2, k=1, s=1, p=None, g=1, act=True
++  [[-1, 1, Conv, [32, 3, 2, None, 1, nn.LeakyReLU(0.1)]],  # 0-P1/2  
++  
++   [-1, 1, Conv, [64, 3, 2, None, 1, nn.LeakyReLU(0.1)]],  # 1-P2/4    
++   
++   [-1, 1, Conv, [32, 1, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-2, 1, Conv, [32, 1, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-1, 1, Conv, [32, 3, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-1, 1, Conv, [32, 3, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [[-1, -2, -3, -4], 1, Concat, [1]],
++   [-1, 1, Conv, [64, 1, 1, None, 1, nn.LeakyReLU(0.1)]],  # 7
++   
++   [-1, 1, MP, []],  # 8-P3/8
++   [-1, 1, Conv, [64, 1, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-2, 1, Conv, [64, 1, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-1, 1, Conv, [64, 3, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-1, 1, Conv, [64, 3, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [[-1, -2, -3, -4], 1, Concat, [1]],
++   [-1, 1, Conv, [128, 1, 1, None, 1, nn.LeakyReLU(0.1)]],  # 14
++   
++   [-1, 1, MP, []],  # 15-P4/16
++   [-1, 1, Conv, [128, 1, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-2, 1, Conv, [128, 1, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-1, 1, Conv, [128, 3, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-1, 1, Conv, [128, 3, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [[-1, -2, -3, -4], 1, Concat, [1]],
++   [-1, 1, Conv, [256, 1, 1, None, 1, nn.LeakyReLU(0.1)]],  # 21
++   
++   [-1, 1, MP, []],  # 22-P5/32
++   [-1, 1, Conv, [256, 1, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-2, 1, Conv, [256, 1, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-1, 1, Conv, [256, 3, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-1, 1, Conv, [256, 3, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [[-1, -2, -3, -4], 1, Concat, [1]],
++   [-1, 1, Conv, [512, 1, 1, None, 1, nn.LeakyReLU(0.1)]],  # 28
++  ]
++
++# yolov7-tiny head
++head:
++  [[-1, 1, Conv, [256, 1, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-2, 1, Conv, [256, 1, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-1, 1, SP, [5]],
++   [-2, 1, SP, [9]],
++   [-3, 1, SP, [13]],
++   [[-1, -2, -3, -4], 1, Concat, [1]],
++   [-1, 1, Conv, [256, 1, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [[-1, -7], 1, Concat, [1]],
++   [-1, 1, Conv, [256, 1, 1, None, 1, nn.LeakyReLU(0.1)]],  # 37
++  
++   [-1, 1, Conv, [128, 1, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-1, 1, nn.Upsample, [None, 2, 'nearest']],
++   [21, 1, Conv, [128, 1, 1, None, 1, nn.LeakyReLU(0.1)]], # route backbone P4
++   [[-1, -2], 1, Concat, [1]],
++   
++   [-1, 1, Conv, [64, 1, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-2, 1, Conv, [64, 1, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-1, 1, Conv, [64, 3, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-1, 1, Conv, [64, 3, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [[-1, -2, -3, -4], 1, Concat, [1]],
++   [-1, 1, Conv, [128, 1, 1, None, 1, nn.LeakyReLU(0.1)]],  # 47
++  
++   [-1, 1, Conv, [64, 1, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-1, 1, nn.Upsample, [None, 2, 'nearest']],
++   [14, 1, Conv, [64, 1, 1, None, 1, nn.LeakyReLU(0.1)]], # route backbone P3
++   [[-1, -2], 1, Concat, [1]],
++   
++   [-1, 1, Conv, [32, 1, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-2, 1, Conv, [32, 1, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-1, 1, Conv, [32, 3, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-1, 1, Conv, [32, 3, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [[-1, -2, -3, -4], 1, Concat, [1]],
++   [-1, 1, Conv, [64, 1, 1, None, 1, nn.LeakyReLU(0.1)]],  # 57
++   
++   [-1, 1, Conv, [128, 3, 2, None, 1, nn.LeakyReLU(0.1)]],
++   [[-1, 47], 1, Concat, [1]],
++   
++   [-1, 1, Conv, [64, 1, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-2, 1, Conv, [64, 1, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-1, 1, Conv, [64, 3, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-1, 1, Conv, [64, 3, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [[-1, -2, -3, -4], 1, Concat, [1]],
++   [-1, 1, Conv, [128, 1, 1, None, 1, nn.LeakyReLU(0.1)]],  # 65
++   
++   [-1, 1, Conv, [256, 3, 2, None, 1, nn.LeakyReLU(0.1)]],
++   [[-1, 37], 1, Concat, [1]],
++   
++   [-1, 1, Conv, [128, 1, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-2, 1, Conv, [128, 1, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-1, 1, Conv, [128, 3, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-1, 1, Conv, [128, 3, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [[-1, -2, -3, -4], 1, Concat, [1]],
++   [-1, 1, Conv, [256, 1, 1, None, 1, nn.LeakyReLU(0.1)]],  # 73
++      
++   [57, 1, Conv, [128, 3, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [65, 1, Conv, [256, 3, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [73, 1, Conv, [512, 3, 1, None, 1, nn.LeakyReLU(0.1)]],
++
++   [[74,75,76], 1, Detect, [nc, anchors]],   # Detect(P3, P4, P5)
++  ]
+--- /dev/null
++++ b/cfg/training/yolov7-tiny.yaml
+@@ -0,0 +1,112 @@
++# parameters
++nc: 80  # number of classes
++depth_multiple: 1.0  # model depth multiple
++width_multiple: 1.0  # layer channel multiple
++
++# anchors
++anchors:
++  - [10,13, 16,30, 33,23]  # P3/8
++  - [30,61, 62,45, 59,119]  # P4/16
++  - [116,90, 156,198, 373,326]  # P5/32
++
++# yolov7-tiny backbone
++backbone:
++  # [from, number, module, args] c2, k=1, s=1, p=None, g=1, act=True
++  [[-1, 1, Conv, [32, 3, 2, None, 1, nn.LeakyReLU(0.1)]],  # 0-P1/2  
++  
++   [-1, 1, Conv, [64, 3, 2, None, 1, nn.LeakyReLU(0.1)]],  # 1-P2/4    
++   
++   [-1, 1, Conv, [32, 1, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-2, 1, Conv, [32, 1, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-1, 1, Conv, [32, 3, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-1, 1, Conv, [32, 3, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [[-1, -2, -3, -4], 1, Concat, [1]],
++   [-1, 1, Conv, [64, 1, 1, None, 1, nn.LeakyReLU(0.1)]],  # 7
++   
++   [-1, 1, MP, []],  # 8-P3/8
++   [-1, 1, Conv, [64, 1, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-2, 1, Conv, [64, 1, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-1, 1, Conv, [64, 3, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-1, 1, Conv, [64, 3, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [[-1, -2, -3, -4], 1, Concat, [1]],
++   [-1, 1, Conv, [128, 1, 1, None, 1, nn.LeakyReLU(0.1)]],  # 14
++   
++   [-1, 1, MP, []],  # 15-P4/16
++   [-1, 1, Conv, [128, 1, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-2, 1, Conv, [128, 1, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-1, 1, Conv, [128, 3, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-1, 1, Conv, [128, 3, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [[-1, -2, -3, -4], 1, Concat, [1]],
++   [-1, 1, Conv, [256, 1, 1, None, 1, nn.LeakyReLU(0.1)]],  # 21
++   
++   [-1, 1, MP, []],  # 22-P5/32
++   [-1, 1, Conv, [256, 1, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-2, 1, Conv, [256, 1, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-1, 1, Conv, [256, 3, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-1, 1, Conv, [256, 3, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [[-1, -2, -3, -4], 1, Concat, [1]],
++   [-1, 1, Conv, [512, 1, 1, None, 1, nn.LeakyReLU(0.1)]],  # 28
++  ]
++
++# yolov7-tiny head
++head:
++  [[-1, 1, Conv, [256, 1, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-2, 1, Conv, [256, 1, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-1, 1, SP, [5]],
++   [-2, 1, SP, [9]],
++   [-3, 1, SP, [13]],
++   [[-1, -2, -3, -4], 1, Concat, [1]],
++   [-1, 1, Conv, [256, 1, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [[-1, -7], 1, Concat, [1]],
++   [-1, 1, Conv, [256, 1, 1, None, 1, nn.LeakyReLU(0.1)]],  # 37
++  
++   [-1, 1, Conv, [128, 1, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-1, 1, nn.Upsample, [None, 2, 'nearest']],
++   [21, 1, Conv, [128, 1, 1, None, 1, nn.LeakyReLU(0.1)]], # route backbone P4
++   [[-1, -2], 1, Concat, [1]],
++   
++   [-1, 1, Conv, [64, 1, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-2, 1, Conv, [64, 1, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-1, 1, Conv, [64, 3, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-1, 1, Conv, [64, 3, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [[-1, -2, -3, -4], 1, Concat, [1]],
++   [-1, 1, Conv, [128, 1, 1, None, 1, nn.LeakyReLU(0.1)]],  # 47
++  
++   [-1, 1, Conv, [64, 1, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-1, 1, nn.Upsample, [None, 2, 'nearest']],
++   [14, 1, Conv, [64, 1, 1, None, 1, nn.LeakyReLU(0.1)]], # route backbone P3
++   [[-1, -2], 1, Concat, [1]],
++   
++   [-1, 1, Conv, [32, 1, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-2, 1, Conv, [32, 1, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-1, 1, Conv, [32, 3, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-1, 1, Conv, [32, 3, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [[-1, -2, -3, -4], 1, Concat, [1]],
++   [-1, 1, Conv, [64, 1, 1, None, 1, nn.LeakyReLU(0.1)]],  # 57
++   
++   [-1, 1, Conv, [128, 3, 2, None, 1, nn.LeakyReLU(0.1)]],
++   [[-1, 47], 1, Concat, [1]],
++   
++   [-1, 1, Conv, [64, 1, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-2, 1, Conv, [64, 1, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-1, 1, Conv, [64, 3, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-1, 1, Conv, [64, 3, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [[-1, -2, -3, -4], 1, Concat, [1]],
++   [-1, 1, Conv, [128, 1, 1, None, 1, nn.LeakyReLU(0.1)]],  # 65
++   
++   [-1, 1, Conv, [256, 3, 2, None, 1, nn.LeakyReLU(0.1)]],
++   [[-1, 37], 1, Concat, [1]],
++   
++   [-1, 1, Conv, [128, 1, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-2, 1, Conv, [128, 1, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-1, 1, Conv, [128, 3, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [-1, 1, Conv, [128, 3, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [[-1, -2, -3, -4], 1, Concat, [1]],
++   [-1, 1, Conv, [256, 1, 1, None, 1, nn.LeakyReLU(0.1)]],  # 73
++      
++   [57, 1, Conv, [128, 3, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [65, 1, Conv, [256, 3, 1, None, 1, nn.LeakyReLU(0.1)]],
++   [73, 1, Conv, [512, 3, 1, None, 1, nn.LeakyReLU(0.1)]],
++
++   [[74,75,76], 1, IDetect, [nc, anchors]],   # Detect(P3, P4, P5)
++  ]
+--- /dev/null
++++ b/cfg/training/yolov7.yaml
+@@ -0,0 +1,140 @@
++# parameters
++nc: 80  # number of classes
++depth_multiple: 1.0  # model depth multiple
++width_multiple: 1.0  # layer channel multiple
++
++# anchors
++anchors:
++  - [12,16, 19,36, 40,28]  # P3/8
++  - [36,75, 76,55, 72,146]  # P4/16
++  - [142,110, 192,243, 459,401]  # P5/32
++
++# yolov7 backbone
++backbone:
++  # [from, number, module, args]
++  [[-1, 1, Conv, [32, 3, 1]],  # 0
++  
++   [-1, 1, Conv, [64, 3, 2]],  # 1-P1/2      
++   [-1, 1, Conv, [64, 3, 1]],
++   
++   [-1, 1, Conv, [128, 3, 2]],  # 3-P2/4  
++   [-1, 1, Conv, [64, 1, 1]],
++   [-2, 1, Conv, [64, 1, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [[-1, -3, -5, -6], 1, Concat, [1]],
++   [-1, 1, Conv, [256, 1, 1]],  # 11
++         
++   [-1, 1, MP, []],
++   [-1, 1, Conv, [128, 1, 1]],
++   [-3, 1, Conv, [128, 1, 1]],
++   [-1, 1, Conv, [128, 3, 2]],
++   [[-1, -3], 1, Concat, [1]],  # 16-P3/8  
++   [-1, 1, Conv, [128, 1, 1]],
++   [-2, 1, Conv, [128, 1, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [[-1, -3, -5, -6], 1, Concat, [1]],
++   [-1, 1, Conv, [512, 1, 1]],  # 24
++         
++   [-1, 1, MP, []],
++   [-1, 1, Conv, [256, 1, 1]],
++   [-3, 1, Conv, [256, 1, 1]],
++   [-1, 1, Conv, [256, 3, 2]],
++   [[-1, -3], 1, Concat, [1]],  # 29-P4/16  
++   [-1, 1, Conv, [256, 1, 1]],
++   [-2, 1, Conv, [256, 1, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [[-1, -3, -5, -6], 1, Concat, [1]],
++   [-1, 1, Conv, [1024, 1, 1]],  # 37
++         
++   [-1, 1, MP, []],
++   [-1, 1, Conv, [512, 1, 1]],
++   [-3, 1, Conv, [512, 1, 1]],
++   [-1, 1, Conv, [512, 3, 2]],
++   [[-1, -3], 1, Concat, [1]],  # 42-P5/32  
++   [-1, 1, Conv, [256, 1, 1]],
++   [-2, 1, Conv, [256, 1, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [[-1, -3, -5, -6], 1, Concat, [1]],
++   [-1, 1, Conv, [1024, 1, 1]],  # 50
++  ]
++
++# yolov7 head
++head:
++  [[-1, 1, SPPCSPC, [512]], # 51
++  
++   [-1, 1, Conv, [256, 1, 1]],
++   [-1, 1, nn.Upsample, [None, 2, 'nearest']],
++   [37, 1, Conv, [256, 1, 1]], # route backbone P4
++   [[-1, -2], 1, Concat, [1]],
++   
++   [-1, 1, Conv, [256, 1, 1]],
++   [-2, 1, Conv, [256, 1, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [[-1, -2, -3, -4, -5, -6], 1, Concat, [1]],
++   [-1, 1, Conv, [256, 1, 1]], # 63
++   
++   [-1, 1, Conv, [128, 1, 1]],
++   [-1, 1, nn.Upsample, [None, 2, 'nearest']],
++   [24, 1, Conv, [128, 1, 1]], # route backbone P3
++   [[-1, -2], 1, Concat, [1]],
++   
++   [-1, 1, Conv, [128, 1, 1]],
++   [-2, 1, Conv, [128, 1, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [[-1, -2, -3, -4, -5, -6], 1, Concat, [1]],
++   [-1, 1, Conv, [128, 1, 1]], # 75
++      
++   [-1, 1, MP, []],
++   [-1, 1, Conv, [128, 1, 1]],
++   [-3, 1, Conv, [128, 1, 1]],
++   [-1, 1, Conv, [128, 3, 2]],
++   [[-1, -3, 63], 1, Concat, [1]],
++   
++   [-1, 1, Conv, [256, 1, 1]],
++   [-2, 1, Conv, [256, 1, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [[-1, -2, -3, -4, -5, -6], 1, Concat, [1]],
++   [-1, 1, Conv, [256, 1, 1]], # 88
++      
++   [-1, 1, MP, []],
++   [-1, 1, Conv, [256, 1, 1]],
++   [-3, 1, Conv, [256, 1, 1]],
++   [-1, 1, Conv, [256, 3, 2]],
++   [[-1, -3, 51], 1, Concat, [1]],
++   
++   [-1, 1, Conv, [512, 1, 1]],
++   [-2, 1, Conv, [512, 1, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [[-1, -2, -3, -4, -5, -6], 1, Concat, [1]],
++   [-1, 1, Conv, [512, 1, 1]], # 101
++   
++   [75, 1, RepConv, [256, 3, 1]],
++   [88, 1, RepConv, [512, 3, 1]],
++   [101, 1, RepConv, [1024, 3, 1]],
++
++   [[102,103,104], 1, IDetect, [nc, anchors]],   # Detect(P3, P4, P5)
++  ]
+--- /dev/null
++++ b/cfg/training/yolov7d6.yaml
+@@ -0,0 +1,207 @@
++# parameters
++nc: 80  # number of classes
++depth_multiple: 1.0  # model depth multiple
++width_multiple: 1.0  # layer channel multiple
++
++# anchors
++anchors:
++  - [ 19,27,  44,40,  38,94 ]  # P3/8
++  - [ 96,68,  86,152,  180,137 ]  # P4/16
++  - [ 140,301,  303,264,  238,542 ]  # P5/32
++  - [ 436,615,  739,380,  925,792 ]  # P6/64
++
++# yolov7 backbone
++backbone:
++  # [from, number, module, args],
++  [[-1, 1, ReOrg, []],  # 0
++   [-1, 1, Conv, [96, 3, 1]],  # 1-P1/2
++   
++   [-1, 1, DownC, [192]],  # 2-P2/4  
++   [-1, 1, Conv, [64, 1, 1]],
++   [-2, 1, Conv, [64, 1, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [[-1, -3, -5, -7, -9, -10], 1, Concat, [1]],
++   [-1, 1, Conv, [192, 1, 1]],  # 14
++         
++   [-1, 1, DownC, [384]],  # 15-P3/8  
++   [-1, 1, Conv, [128, 1, 1]],
++   [-2, 1, Conv, [128, 1, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [[-1, -3, -5, -7, -9, -10], 1, Concat, [1]],
++   [-1, 1, Conv, [384, 1, 1]],  # 27
++         
++   [-1, 1, DownC, [768]],  # 28-P4/16  
++   [-1, 1, Conv, [256, 1, 1]],
++   [-2, 1, Conv, [256, 1, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [[-1, -3, -5, -7, -9, -10], 1, Concat, [1]],
++   [-1, 1, Conv, [768, 1, 1]],  # 40
++         
++   [-1, 1, DownC, [1152]],  # 41-P5/32  
++   [-1, 1, Conv, [384, 1, 1]],
++   [-2, 1, Conv, [384, 1, 1]],
++   [-1, 1, Conv, [384, 3, 1]],
++   [-1, 1, Conv, [384, 3, 1]],
++   [-1, 1, Conv, [384, 3, 1]],
++   [-1, 1, Conv, [384, 3, 1]],
++   [-1, 1, Conv, [384, 3, 1]],
++   [-1, 1, Conv, [384, 3, 1]],
++   [-1, 1, Conv, [384, 3, 1]],
++   [-1, 1, Conv, [384, 3, 1]],
++   [[-1, -3, -5, -7, -9, -10], 1, Concat, [1]],
++   [-1, 1, Conv, [1152, 1, 1]],  # 53
++         
++   [-1, 1, DownC, [1536]],  # 54-P6/64  
++   [-1, 1, Conv, [512, 1, 1]],
++   [-2, 1, Conv, [512, 1, 1]],
++   [-1, 1, Conv, [512, 3, 1]],
++   [-1, 1, Conv, [512, 3, 1]],
++   [-1, 1, Conv, [512, 3, 1]],
++   [-1, 1, Conv, [512, 3, 1]],
++   [-1, 1, Conv, [512, 3, 1]],
++   [-1, 1, Conv, [512, 3, 1]],
++   [-1, 1, Conv, [512, 3, 1]],
++   [-1, 1, Conv, [512, 3, 1]],
++   [[-1, -3, -5, -7, -9, -10], 1, Concat, [1]],
++   [-1, 1, Conv, [1536, 1, 1]],  # 66
++  ]
++
++# yolov7 head
++head:
++  [[-1, 1, SPPCSPC, [768]], # 67
++  
++   [-1, 1, Conv, [576, 1, 1]],
++   [-1, 1, nn.Upsample, [None, 2, 'nearest']],
++   [53, 1, Conv, [576, 1, 1]], # route backbone P5
++   [[-1, -2], 1, Concat, [1]],
++   
++   [-1, 1, Conv, [384, 1, 1]],
++   [-2, 1, Conv, [384, 1, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [[-1, -2, -3, -4, -5, -6, -7, -8, -9, -10], 1, Concat, [1]],
++   [-1, 1, Conv, [576, 1, 1]], # 83
++  
++   [-1, 1, Conv, [384, 1, 1]],
++   [-1, 1, nn.Upsample, [None, 2, 'nearest']],
++   [40, 1, Conv, [384, 1, 1]], # route backbone P4
++   [[-1, -2], 1, Concat, [1]],
++   
++   [-1, 1, Conv, [256, 1, 1]],
++   [-2, 1, Conv, [256, 1, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [[-1, -2, -3, -4, -5, -6, -7, -8, -9, -10], 1, Concat, [1]],
++   [-1, 1, Conv, [384, 1, 1]], # 99
++   
++   [-1, 1, Conv, [192, 1, 1]],
++   [-1, 1, nn.Upsample, [None, 2, 'nearest']],
++   [27, 1, Conv, [192, 1, 1]], # route backbone P3
++   [[-1, -2], 1, Concat, [1]],
++   
++   [-1, 1, Conv, [128, 1, 1]],
++   [-2, 1, Conv, [128, 1, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [[-1, -2, -3, -4, -5, -6, -7, -8, -9, -10], 1, Concat, [1]],
++   [-1, 1, Conv, [192, 1, 1]], # 115
++      
++   [-1, 1, DownC, [384]],
++   [[-1, 99], 1, Concat, [1]],
++   
++   [-1, 1, Conv, [256, 1, 1]],
++   [-2, 1, Conv, [256, 1, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [[-1, -2, -3, -4, -5, -6, -7, -8, -9, -10], 1, Concat, [1]],
++   [-1, 1, Conv, [384, 1, 1]], # 129
++      
++   [-1, 1, DownC, [576]],
++   [[-1, 83], 1, Concat, [1]],
++   
++   [-1, 1, Conv, [384, 1, 1]],
++   [-2, 1, Conv, [384, 1, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [[-1, -2, -3, -4, -5, -6, -7, -8, -9, -10], 1, Concat, [1]],
++   [-1, 1, Conv, [576, 1, 1]], # 143
++      
++   [-1, 1, DownC, [768]],
++   [[-1, 67], 1, Concat, [1]],
++   
++   [-1, 1, Conv, [512, 1, 1]],
++   [-2, 1, Conv, [512, 1, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [[-1, -2, -3, -4, -5, -6, -7, -8, -9, -10], 1, Concat, [1]],
++   [-1, 1, Conv, [768, 1, 1]], # 157
++   
++   [115, 1, Conv, [384, 3, 1]],
++   [129, 1, Conv, [768, 3, 1]],
++   [143, 1, Conv, [1152, 3, 1]],
++   [157, 1, Conv, [1536, 3, 1]],
++   
++   [115, 1, Conv, [384, 3, 1]],
++   [99, 1, Conv, [768, 3, 1]],
++   [83, 1, Conv, [1152, 3, 1]],
++   [67, 1, Conv, [1536, 3, 1]],
++
++   [[158,159,160,161,162,163,164,165], 1, IAuxDetect, [nc, anchors]],   # Detect(P3, P4, P5, P6)
++  ]
+--- /dev/null
++++ b/cfg/training/yolov7e6.yaml
+@@ -0,0 +1,185 @@
++# parameters
++nc: 80  # number of classes
++depth_multiple: 1.0  # model depth multiple
++width_multiple: 1.0  # layer channel multiple
++
++# anchors
++anchors:
++  - [ 19,27,  44,40,  38,94 ]  # P3/8
++  - [ 96,68,  86,152,  180,137 ]  # P4/16
++  - [ 140,301,  303,264,  238,542 ]  # P5/32
++  - [ 436,615,  739,380,  925,792 ]  # P6/64
++
++# yolov7 backbone
++backbone:
++  # [from, number, module, args],
++  [[-1, 1, ReOrg, []],  # 0
++   [-1, 1, Conv, [80, 3, 1]],  # 1-P1/2
++   
++   [-1, 1, DownC, [160]],  # 2-P2/4  
++   [-1, 1, Conv, [64, 1, 1]],
++   [-2, 1, Conv, [64, 1, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [[-1, -3, -5, -7, -8], 1, Concat, [1]],
++   [-1, 1, Conv, [160, 1, 1]],  # 12
++         
++   [-1, 1, DownC, [320]],  # 13-P3/8  
++   [-1, 1, Conv, [128, 1, 1]],
++   [-2, 1, Conv, [128, 1, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [[-1, -3, -5, -7, -8], 1, Concat, [1]],
++   [-1, 1, Conv, [320, 1, 1]],  # 23
++         
++   [-1, 1, DownC, [640]],  # 24-P4/16  
++   [-1, 1, Conv, [256, 1, 1]],
++   [-2, 1, Conv, [256, 1, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [[-1, -3, -5, -7, -8], 1, Concat, [1]],
++   [-1, 1, Conv, [640, 1, 1]],  # 34
++         
++   [-1, 1, DownC, [960]],  # 35-P5/32  
++   [-1, 1, Conv, [384, 1, 1]],
++   [-2, 1, Conv, [384, 1, 1]],
++   [-1, 1, Conv, [384, 3, 1]],
++   [-1, 1, Conv, [384, 3, 1]],
++   [-1, 1, Conv, [384, 3, 1]],
++   [-1, 1, Conv, [384, 3, 1]],
++   [-1, 1, Conv, [384, 3, 1]],
++   [-1, 1, Conv, [384, 3, 1]],
++   [[-1, -3, -5, -7, -8], 1, Concat, [1]],
++   [-1, 1, Conv, [960, 1, 1]],  # 45
++         
++   [-1, 1, DownC, [1280]],  # 46-P6/64  
++   [-1, 1, Conv, [512, 1, 1]],
++   [-2, 1, Conv, [512, 1, 1]],
++   [-1, 1, Conv, [512, 3, 1]],
++   [-1, 1, Conv, [512, 3, 1]],
++   [-1, 1, Conv, [512, 3, 1]],
++   [-1, 1, Conv, [512, 3, 1]],
++   [-1, 1, Conv, [512, 3, 1]],
++   [-1, 1, Conv, [512, 3, 1]],
++   [[-1, -3, -5, -7, -8], 1, Concat, [1]],
++   [-1, 1, Conv, [1280, 1, 1]],  # 56
++  ]
++
++# yolov7 head
++head:
++  [[-1, 1, SPPCSPC, [640]], # 57
++  
++   [-1, 1, Conv, [480, 1, 1]],
++   [-1, 1, nn.Upsample, [None, 2, 'nearest']],
++   [45, 1, Conv, [480, 1, 1]], # route backbone P5
++   [[-1, -2], 1, Concat, [1]],
++   
++   [-1, 1, Conv, [384, 1, 1]],
++   [-2, 1, Conv, [384, 1, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [[-1, -2, -3, -4, -5, -6, -7, -8], 1, Concat, [1]],
++   [-1, 1, Conv, [480, 1, 1]], # 71
++  
++   [-1, 1, Conv, [320, 1, 1]],
++   [-1, 1, nn.Upsample, [None, 2, 'nearest']],
++   [34, 1, Conv, [320, 1, 1]], # route backbone P4
++   [[-1, -2], 1, Concat, [1]],
++   
++   [-1, 1, Conv, [256, 1, 1]],
++   [-2, 1, Conv, [256, 1, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [[-1, -2, -3, -4, -5, -6, -7, -8], 1, Concat, [1]],
++   [-1, 1, Conv, [320, 1, 1]], # 85
++   
++   [-1, 1, Conv, [160, 1, 1]],
++   [-1, 1, nn.Upsample, [None, 2, 'nearest']],
++   [23, 1, Conv, [160, 1, 1]], # route backbone P3
++   [[-1, -2], 1, Concat, [1]],
++   
++   [-1, 1, Conv, [128, 1, 1]],
++   [-2, 1, Conv, [128, 1, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [[-1, -2, -3, -4, -5, -6, -7, -8], 1, Concat, [1]],
++   [-1, 1, Conv, [160, 1, 1]], # 99
++      
++   [-1, 1, DownC, [320]],
++   [[-1, 85], 1, Concat, [1]],
++   
++   [-1, 1, Conv, [256, 1, 1]],
++   [-2, 1, Conv, [256, 1, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [[-1, -2, -3, -4, -5, -6, -7, -8], 1, Concat, [1]],
++   [-1, 1, Conv, [320, 1, 1]], # 111
++      
++   [-1, 1, DownC, [480]],
++   [[-1, 71], 1, Concat, [1]],
++   
++   [-1, 1, Conv, [384, 1, 1]],
++   [-2, 1, Conv, [384, 1, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [[-1, -2, -3, -4, -5, -6, -7, -8], 1, Concat, [1]],
++   [-1, 1, Conv, [480, 1, 1]], # 123
++      
++   [-1, 1, DownC, [640]],
++   [[-1, 57], 1, Concat, [1]],
++   
++   [-1, 1, Conv, [512, 1, 1]],
++   [-2, 1, Conv, [512, 1, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [[-1, -2, -3, -4, -5, -6, -7, -8], 1, Concat, [1]],
++   [-1, 1, Conv, [640, 1, 1]], # 135
++   
++   [99, 1, Conv, [320, 3, 1]],
++   [111, 1, Conv, [640, 3, 1]],
++   [123, 1, Conv, [960, 3, 1]],
++   [135, 1, Conv, [1280, 3, 1]],
++   
++   [99, 1, Conv, [320, 3, 1]],
++   [85, 1, Conv, [640, 3, 1]],
++   [71, 1, Conv, [960, 3, 1]],
++   [57, 1, Conv, [1280, 3, 1]],
++
++   [[136,137,138,139,140,141,142,143], 1, IAuxDetect, [nc, anchors]],   # Detect(P3, P4, P5, P6)
++  ]
+--- /dev/null
++++ b/cfg/training/yolov7e6e.yaml
+@@ -0,0 +1,306 @@
++# parameters
++nc: 80  # number of classes
++depth_multiple: 1.0  # model depth multiple
++width_multiple: 1.0  # layer channel multiple
++
++# anchors
++anchors:
++  - [ 19,27,  44,40,  38,94 ]  # P3/8
++  - [ 96,68,  86,152,  180,137 ]  # P4/16
++  - [ 140,301,  303,264,  238,542 ]  # P5/32
++  - [ 436,615,  739,380,  925,792 ]  # P6/64
++
++# yolov7 backbone
++backbone:
++  # [from, number, module, args],
++  [[-1, 1, ReOrg, []],  # 0
++   [-1, 1, Conv, [80, 3, 1]],  # 1-P1/2
++   
++   [-1, 1, DownC, [160]],  # 2-P2/4  
++   [-1, 1, Conv, [64, 1, 1]],
++   [-2, 1, Conv, [64, 1, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [[-1, -3, -5, -7, -8], 1, Concat, [1]],
++   [-1, 1, Conv, [160, 1, 1]],  # 12
++   [-11, 1, Conv, [64, 1, 1]],
++   [-12, 1, Conv, [64, 1, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [[-1, -3, -5, -7, -8], 1, Concat, [1]],
++   [-1, 1, Conv, [160, 1, 1]],  # 22
++   [[-1, -11], 1, Shortcut, [1]],  # 23
++         
++   [-1, 1, DownC, [320]],  # 24-P3/8  
++   [-1, 1, Conv, [128, 1, 1]],
++   [-2, 1, Conv, [128, 1, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [[-1, -3, -5, -7, -8], 1, Concat, [1]],
++   [-1, 1, Conv, [320, 1, 1]],  # 34
++   [-11, 1, Conv, [128, 1, 1]],
++   [-12, 1, Conv, [128, 1, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [[-1, -3, -5, -7, -8], 1, Concat, [1]],
++   [-1, 1, Conv, [320, 1, 1]],  # 44
++   [[-1, -11], 1, Shortcut, [1]],  # 45
++         
++   [-1, 1, DownC, [640]],  # 46-P4/16  
++   [-1, 1, Conv, [256, 1, 1]],
++   [-2, 1, Conv, [256, 1, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [[-1, -3, -5, -7, -8], 1, Concat, [1]],
++   [-1, 1, Conv, [640, 1, 1]],  # 56
++   [-11, 1, Conv, [256, 1, 1]],
++   [-12, 1, Conv, [256, 1, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [[-1, -3, -5, -7, -8], 1, Concat, [1]],
++   [-1, 1, Conv, [640, 1, 1]],  # 66
++   [[-1, -11], 1, Shortcut, [1]],  # 67
++         
++   [-1, 1, DownC, [960]],  # 68-P5/32  
++   [-1, 1, Conv, [384, 1, 1]],
++   [-2, 1, Conv, [384, 1, 1]],
++   [-1, 1, Conv, [384, 3, 1]],
++   [-1, 1, Conv, [384, 3, 1]],
++   [-1, 1, Conv, [384, 3, 1]],
++   [-1, 1, Conv, [384, 3, 1]],
++   [-1, 1, Conv, [384, 3, 1]],
++   [-1, 1, Conv, [384, 3, 1]],
++   [[-1, -3, -5, -7, -8], 1, Concat, [1]],
++   [-1, 1, Conv, [960, 1, 1]],  # 78
++   [-11, 1, Conv, [384, 1, 1]],
++   [-12, 1, Conv, [384, 1, 1]],
++   [-1, 1, Conv, [384, 3, 1]],
++   [-1, 1, Conv, [384, 3, 1]],
++   [-1, 1, Conv, [384, 3, 1]],
++   [-1, 1, Conv, [384, 3, 1]],
++   [-1, 1, Conv, [384, 3, 1]],
++   [-1, 1, Conv, [384, 3, 1]],
++   [[-1, -3, -5, -7, -8], 1, Concat, [1]],
++   [-1, 1, Conv, [960, 1, 1]],  # 88
++   [[-1, -11], 1, Shortcut, [1]],  # 89
++         
++   [-1, 1, DownC, [1280]],  # 90-P6/64  
++   [-1, 1, Conv, [512, 1, 1]],
++   [-2, 1, Conv, [512, 1, 1]],
++   [-1, 1, Conv, [512, 3, 1]],
++   [-1, 1, Conv, [512, 3, 1]],
++   [-1, 1, Conv, [512, 3, 1]],
++   [-1, 1, Conv, [512, 3, 1]],
++   [-1, 1, Conv, [512, 3, 1]],
++   [-1, 1, Conv, [512, 3, 1]],
++   [[-1, -3, -5, -7, -8], 1, Concat, [1]],
++   [-1, 1, Conv, [1280, 1, 1]],  # 100 
++   [-11, 1, Conv, [512, 1, 1]],
++   [-12, 1, Conv, [512, 1, 1]],
++   [-1, 1, Conv, [512, 3, 1]],
++   [-1, 1, Conv, [512, 3, 1]],
++   [-1, 1, Conv, [512, 3, 1]],
++   [-1, 1, Conv, [512, 3, 1]],
++   [-1, 1, Conv, [512, 3, 1]],
++   [-1, 1, Conv, [512, 3, 1]],
++   [[-1, -3, -5, -7, -8], 1, Concat, [1]],
++   [-1, 1, Conv, [1280, 1, 1]],  # 110
++   [[-1, -11], 1, Shortcut, [1]],  # 111 
++  ]
++
++# yolov7 head
++head:
++  [[-1, 1, SPPCSPC, [640]], # 112
++  
++   [-1, 1, Conv, [480, 1, 1]],
++   [-1, 1, nn.Upsample, [None, 2, 'nearest']],
++   [89, 1, Conv, [480, 1, 1]], # route backbone P5
++   [[-1, -2], 1, Concat, [1]],
++   
++   [-1, 1, Conv, [384, 1, 1]],
++   [-2, 1, Conv, [384, 1, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [[-1, -2, -3, -4, -5, -6, -7, -8], 1, Concat, [1]],
++   [-1, 1, Conv, [480, 1, 1]], # 126
++   [-11, 1, Conv, [384, 1, 1]],
++   [-12, 1, Conv, [384, 1, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [[-1, -2, -3, -4, -5, -6, -7, -8], 1, Concat, [1]],
++   [-1, 1, Conv, [480, 1, 1]], # 136
++   [[-1, -11], 1, Shortcut, [1]],  # 137
++  
++   [-1, 1, Conv, [320, 1, 1]],
++   [-1, 1, nn.Upsample, [None, 2, 'nearest']],
++   [67, 1, Conv, [320, 1, 1]], # route backbone P4
++   [[-1, -2], 1, Concat, [1]],
++   
++   [-1, 1, Conv, [256, 1, 1]],
++   [-2, 1, Conv, [256, 1, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [[-1, -2, -3, -4, -5, -6, -7, -8], 1, Concat, [1]],
++   [-1, 1, Conv, [320, 1, 1]], # 151
++   [-11, 1, Conv, [256, 1, 1]],
++   [-12, 1, Conv, [256, 1, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [[-1, -2, -3, -4, -5, -6, -7, -8], 1, Concat, [1]],
++   [-1, 1, Conv, [320, 1, 1]], # 161
++   [[-1, -11], 1, Shortcut, [1]],  # 162
++   
++   [-1, 1, Conv, [160, 1, 1]],
++   [-1, 1, nn.Upsample, [None, 2, 'nearest']],
++   [45, 1, Conv, [160, 1, 1]], # route backbone P3
++   [[-1, -2], 1, Concat, [1]],
++   
++   [-1, 1, Conv, [128, 1, 1]],
++   [-2, 1, Conv, [128, 1, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [[-1, -2, -3, -4, -5, -6, -7, -8], 1, Concat, [1]],
++   [-1, 1, Conv, [160, 1, 1]], # 176
++   [-11, 1, Conv, [128, 1, 1]],
++   [-12, 1, Conv, [128, 1, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [[-1, -2, -3, -4, -5, -6, -7, -8], 1, Concat, [1]],
++   [-1, 1, Conv, [160, 1, 1]], # 186
++   [[-1, -11], 1, Shortcut, [1]],  # 187
++      
++   [-1, 1, DownC, [320]],
++   [[-1, 162], 1, Concat, [1]],
++   
++   [-1, 1, Conv, [256, 1, 1]],
++   [-2, 1, Conv, [256, 1, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [[-1, -2, -3, -4, -5, -6, -7, -8], 1, Concat, [1]],
++   [-1, 1, Conv, [320, 1, 1]], # 199
++   [-11, 1, Conv, [256, 1, 1]],
++   [-12, 1, Conv, [256, 1, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [[-1, -2, -3, -4, -5, -6, -7, -8], 1, Concat, [1]],
++   [-1, 1, Conv, [320, 1, 1]], # 209
++   [[-1, -11], 1, Shortcut, [1]],  # 210
++      
++   [-1, 1, DownC, [480]],
++   [[-1, 137], 1, Concat, [1]],
++   
++   [-1, 1, Conv, [384, 1, 1]],
++   [-2, 1, Conv, [384, 1, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [[-1, -2, -3, -4, -5, -6, -7, -8], 1, Concat, [1]],
++   [-1, 1, Conv, [480, 1, 1]], # 222
++   [-11, 1, Conv, [384, 1, 1]],
++   [-12, 1, Conv, [384, 1, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [[-1, -2, -3, -4, -5, -6, -7, -8], 1, Concat, [1]],
++   [-1, 1, Conv, [480, 1, 1]], # 232
++   [[-1, -11], 1, Shortcut, [1]],  # 233
++      
++   [-1, 1, DownC, [640]],
++   [[-1, 112], 1, Concat, [1]],
++   
++   [-1, 1, Conv, [512, 1, 1]],
++   [-2, 1, Conv, [512, 1, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [[-1, -2, -3, -4, -5, -6, -7, -8], 1, Concat, [1]],
++   [-1, 1, Conv, [640, 1, 1]], # 245
++   [-11, 1, Conv, [512, 1, 1]],
++   [-12, 1, Conv, [512, 1, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [[-1, -2, -3, -4, -5, -6, -7, -8], 1, Concat, [1]],
++   [-1, 1, Conv, [640, 1, 1]], # 255
++   [[-1, -11], 1, Shortcut, [1]],  # 256
++   
++   [187, 1, Conv, [320, 3, 1]],
++   [210, 1, Conv, [640, 3, 1]],
++   [233, 1, Conv, [960, 3, 1]],
++   [256, 1, Conv, [1280, 3, 1]],
++   
++   [186, 1, Conv, [320, 3, 1]],
++   [161, 1, Conv, [640, 3, 1]],
++   [136, 1, Conv, [960, 3, 1]],
++   [112, 1, Conv, [1280, 3, 1]],
++
++   [[257,258,259,260,261,262,263,264], 1, IAuxDetect, [nc, anchors]],   # Detect(P3, P4, P5, P6)
++  ]
+--- /dev/null
++++ b/cfg/training/yolov7w6.yaml
+@@ -0,0 +1,163 @@
++# parameters
++nc: 80  # number of classes
++depth_multiple: 1.0  # model depth multiple
++width_multiple: 1.0  # layer channel multiple
++
++# anchors
++anchors:
++  - [ 19,27,  44,40,  38,94 ]  # P3/8
++  - [ 96,68,  86,152,  180,137 ]  # P4/16
++  - [ 140,301,  303,264,  238,542 ]  # P5/32
++  - [ 436,615,  739,380,  925,792 ]  # P6/64
++
++# yolov7 backbone
++backbone:
++  # [from, number, module, args]
++  [[-1, 1, ReOrg, []],  # 0
++   [-1, 1, Conv, [64, 3, 1]],  # 1-P1/2
++   
++   [-1, 1, Conv, [128, 3, 2]],  # 2-P2/4
++   [-1, 1, Conv, [64, 1, 1]],
++   [-2, 1, Conv, [64, 1, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [[-1, -3, -5, -6], 1, Concat, [1]],
++   [-1, 1, Conv, [128, 1, 1]],  # 10
++         
++   [-1, 1, Conv, [256, 3, 2]],  # 11-P3/8
++   [-1, 1, Conv, [128, 1, 1]],
++   [-2, 1, Conv, [128, 1, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [[-1, -3, -5, -6], 1, Concat, [1]],
++   [-1, 1, Conv, [256, 1, 1]],  # 19
++         
++   [-1, 1, Conv, [512, 3, 2]],  # 20-P4/16
++   [-1, 1, Conv, [256, 1, 1]],
++   [-2, 1, Conv, [256, 1, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [[-1, -3, -5, -6], 1, Concat, [1]],
++   [-1, 1, Conv, [512, 1, 1]],  # 28
++         
++   [-1, 1, Conv, [768, 3, 2]],  # 29-P5/32
++   [-1, 1, Conv, [384, 1, 1]],
++   [-2, 1, Conv, [384, 1, 1]],
++   [-1, 1, Conv, [384, 3, 1]],
++   [-1, 1, Conv, [384, 3, 1]],
++   [-1, 1, Conv, [384, 3, 1]],
++   [-1, 1, Conv, [384, 3, 1]],
++   [[-1, -3, -5, -6], 1, Concat, [1]],
++   [-1, 1, Conv, [768, 1, 1]],  # 37
++         
++   [-1, 1, Conv, [1024, 3, 2]],  # 38-P6/64
++   [-1, 1, Conv, [512, 1, 1]],
++   [-2, 1, Conv, [512, 1, 1]],
++   [-1, 1, Conv, [512, 3, 1]],
++   [-1, 1, Conv, [512, 3, 1]],
++   [-1, 1, Conv, [512, 3, 1]],
++   [-1, 1, Conv, [512, 3, 1]],
++   [[-1, -3, -5, -6], 1, Concat, [1]],
++   [-1, 1, Conv, [1024, 1, 1]],  # 46
++  ]
++
++# yolov7 head
++head:
++  [[-1, 1, SPPCSPC, [512]], # 47
++  
++   [-1, 1, Conv, [384, 1, 1]],
++   [-1, 1, nn.Upsample, [None, 2, 'nearest']],
++   [37, 1, Conv, [384, 1, 1]], # route backbone P5
++   [[-1, -2], 1, Concat, [1]],
++   
++   [-1, 1, Conv, [384, 1, 1]],
++   [-2, 1, Conv, [384, 1, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [[-1, -2, -3, -4, -5, -6], 1, Concat, [1]],
++   [-1, 1, Conv, [384, 1, 1]], # 59
++  
++   [-1, 1, Conv, [256, 1, 1]],
++   [-1, 1, nn.Upsample, [None, 2, 'nearest']],
++   [28, 1, Conv, [256, 1, 1]], # route backbone P4
++   [[-1, -2], 1, Concat, [1]],
++   
++   [-1, 1, Conv, [256, 1, 1]],
++   [-2, 1, Conv, [256, 1, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [[-1, -2, -3, -4, -5, -6], 1, Concat, [1]],
++   [-1, 1, Conv, [256, 1, 1]], # 71
++   
++   [-1, 1, Conv, [128, 1, 1]],
++   [-1, 1, nn.Upsample, [None, 2, 'nearest']],
++   [19, 1, Conv, [128, 1, 1]], # route backbone P3
++   [[-1, -2], 1, Concat, [1]],
++   
++   [-1, 1, Conv, [128, 1, 1]],
++   [-2, 1, Conv, [128, 1, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [[-1, -2, -3, -4, -5, -6], 1, Concat, [1]],
++   [-1, 1, Conv, [128, 1, 1]], # 83
++      
++   [-1, 1, Conv, [256, 3, 2]],
++   [[-1, 71], 1, Concat, [1]],  # cat
++   
++   [-1, 1, Conv, [256, 1, 1]],
++   [-2, 1, Conv, [256, 1, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [[-1, -2, -3, -4, -5, -6], 1, Concat, [1]],
++   [-1, 1, Conv, [256, 1, 1]], # 93
++      
++   [-1, 1, Conv, [384, 3, 2]],
++   [[-1, 59], 1, Concat, [1]],  # cat
++   
++   [-1, 1, Conv, [384, 1, 1]],
++   [-2, 1, Conv, [384, 1, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [-1, 1, Conv, [192, 3, 1]],
++   [[-1, -2, -3, -4, -5, -6], 1, Concat, [1]],
++   [-1, 1, Conv, [384, 1, 1]], # 103
++      
++   [-1, 1, Conv, [512, 3, 2]],
++   [[-1, 47], 1, Concat, [1]],  # cat
++   
++   [-1, 1, Conv, [512, 1, 1]],
++   [-2, 1, Conv, [512, 1, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [[-1, -2, -3, -4, -5, -6], 1, Concat, [1]],
++   [-1, 1, Conv, [512, 1, 1]], # 113
++   
++   [83, 1, Conv, [256, 3, 1]],
++   [93, 1, Conv, [512, 3, 1]],
++   [103, 1, Conv, [768, 3, 1]],
++   [113, 1, Conv, [1024, 3, 1]],
++   
++   [83, 1, Conv, [320, 3, 1]],
++   [71, 1, Conv, [640, 3, 1]],
++   [59, 1, Conv, [960, 3, 1]],
++   [47, 1, Conv, [1280, 3, 1]],
++
++   [[114,115,116,117,118,119,120,121], 1, IAuxDetect, [nc, anchors]],   # Detect(P3, P4, P5, P6)
++  ]
+--- /dev/null
++++ b/cfg/training/yolov7x.yaml
+@@ -0,0 +1,156 @@
++# parameters
++nc: 80  # number of classes
++depth_multiple: 1.0  # model depth multiple
++width_multiple: 1.0  # layer channel multiple
++
++# anchors
++anchors:
++  - [12,16, 19,36, 40,28]  # P3/8
++  - [36,75, 76,55, 72,146]  # P4/16
++  - [142,110, 192,243, 459,401]  # P5/32
++
++# yolov7 backbone
++backbone:
++  # [from, number, module, args]
++  [[-1, 1, Conv, [40, 3, 1]],  # 0
++  
++   [-1, 1, Conv, [80, 3, 2]],  # 1-P1/2      
++   [-1, 1, Conv, [80, 3, 1]],
++   
++   [-1, 1, Conv, [160, 3, 2]],  # 3-P2/4  
++   [-1, 1, Conv, [64, 1, 1]],
++   [-2, 1, Conv, [64, 1, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [-1, 1, Conv, [64, 3, 1]],
++   [[-1, -3, -5, -7, -8], 1, Concat, [1]],
++   [-1, 1, Conv, [320, 1, 1]],  # 13
++         
++   [-1, 1, MP, []],
++   [-1, 1, Conv, [160, 1, 1]],
++   [-3, 1, Conv, [160, 1, 1]],
++   [-1, 1, Conv, [160, 3, 2]],
++   [[-1, -3], 1, Concat, [1]],  # 18-P3/8  
++   [-1, 1, Conv, [128, 1, 1]],
++   [-2, 1, Conv, [128, 1, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [[-1, -3, -5, -7, -8], 1, Concat, [1]],
++   [-1, 1, Conv, [640, 1, 1]],  # 28
++         
++   [-1, 1, MP, []],
++   [-1, 1, Conv, [320, 1, 1]],
++   [-3, 1, Conv, [320, 1, 1]],
++   [-1, 1, Conv, [320, 3, 2]],
++   [[-1, -3], 1, Concat, [1]],  # 33-P4/16  
++   [-1, 1, Conv, [256, 1, 1]],
++   [-2, 1, Conv, [256, 1, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [[-1, -3, -5, -7, -8], 1, Concat, [1]],
++   [-1, 1, Conv, [1280, 1, 1]],  # 43
++         
++   [-1, 1, MP, []],
++   [-1, 1, Conv, [640, 1, 1]],
++   [-3, 1, Conv, [640, 1, 1]],
++   [-1, 1, Conv, [640, 3, 2]],
++   [[-1, -3], 1, Concat, [1]],  # 48-P5/32  
++   [-1, 1, Conv, [256, 1, 1]],
++   [-2, 1, Conv, [256, 1, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [[-1, -3, -5, -7, -8], 1, Concat, [1]],
++   [-1, 1, Conv, [1280, 1, 1]],  # 58
++  ]
++
++# yolov7 head
++head:
++  [[-1, 1, SPPCSPC, [640]], # 59
++  
++   [-1, 1, Conv, [320, 1, 1]],
++   [-1, 1, nn.Upsample, [None, 2, 'nearest']],
++   [43, 1, Conv, [320, 1, 1]], # route backbone P4
++   [[-1, -2], 1, Concat, [1]],
++   
++   [-1, 1, Conv, [256, 1, 1]],
++   [-2, 1, Conv, [256, 1, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [[-1, -3, -5, -7, -8], 1, Concat, [1]],
++   [-1, 1, Conv, [320, 1, 1]], # 73
++   
++   [-1, 1, Conv, [160, 1, 1]],
++   [-1, 1, nn.Upsample, [None, 2, 'nearest']],
++   [28, 1, Conv, [160, 1, 1]], # route backbone P3
++   [[-1, -2], 1, Concat, [1]],
++   
++   [-1, 1, Conv, [128, 1, 1]],
++   [-2, 1, Conv, [128, 1, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [-1, 1, Conv, [128, 3, 1]],
++   [[-1, -3, -5, -7, -8], 1, Concat, [1]],
++   [-1, 1, Conv, [160, 1, 1]], # 87
++      
++   [-1, 1, MP, []],
++   [-1, 1, Conv, [160, 1, 1]],
++   [-3, 1, Conv, [160, 1, 1]],
++   [-1, 1, Conv, [160, 3, 2]],
++   [[-1, -3, 73], 1, Concat, [1]],
++   
++   [-1, 1, Conv, [256, 1, 1]],
++   [-2, 1, Conv, [256, 1, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [-1, 1, Conv, [256, 3, 1]],
++   [[-1, -3, -5, -7, -8], 1, Concat, [1]],
++   [-1, 1, Conv, [320, 1, 1]], # 102
++      
++   [-1, 1, MP, []],
++   [-1, 1, Conv, [320, 1, 1]],
++   [-3, 1, Conv, [320, 1, 1]],
++   [-1, 1, Conv, [320, 3, 2]],
++   [[-1, -3, 59], 1, Concat, [1]],
++   
++   [-1, 1, Conv, [512, 1, 1]],
++   [-2, 1, Conv, [512, 1, 1]],
++   [-1, 1, Conv, [512, 3, 1]],
++   [-1, 1, Conv, [512, 3, 1]],
++   [-1, 1, Conv, [512, 3, 1]],
++   [-1, 1, Conv, [512, 3, 1]],
++   [-1, 1, Conv, [512, 3, 1]],
++   [-1, 1, Conv, [512, 3, 1]],
++   [[-1, -3, -5, -7, -8], 1, Concat, [1]],
++   [-1, 1, Conv, [640, 1, 1]], # 117
++   
++   [87, 1, Conv, [320, 3, 1]],
++   [102, 1, Conv, [640, 3, 1]],
++   [117, 1, Conv, [1280, 3, 1]],
++
++   [[118,119,120], 1, IDetect, [nc, anchors]],   # Detect(P3, P4, P5)
++  ]
+--- /dev/null
++++ b/data/hyp.scratch.tiny.yaml
+@@ -0,0 +1,29 @@
++lr0: 0.01  # initial learning rate (SGD=1E-2, Adam=1E-3)
++lrf: 0.01  # final OneCycleLR learning rate (lr0 * lrf)
++momentum: 0.937  # SGD momentum/Adam beta1
++weight_decay: 0.0005  # optimizer weight decay 5e-4
++warmup_epochs: 3.0  # warmup epochs (fractions ok)
++warmup_momentum: 0.8  # warmup initial momentum
++warmup_bias_lr: 0.1  # warmup initial bias lr
++box: 0.05  # box loss gain
++cls: 0.5  # cls loss gain
++cls_pw: 1.0  # cls BCELoss positive_weight
++obj: 1.0  # obj loss gain (scale with pixels)
++obj_pw: 1.0  # obj BCELoss positive_weight
++iou_t: 0.20  # IoU training threshold
++anchor_t: 4.0  # anchor-multiple threshold
++fl_gamma: 0.0  # focal loss gamma (efficientDet default gamma=1.5)
++hsv_h: 0.015  # image HSV-Hue augmentation (fraction)
++hsv_s: 0.7  # image HSV-Saturation augmentation (fraction)
++hsv_v: 0.4  # image HSV-Value augmentation (fraction)
++degrees: 0.0  # image rotation (+/- deg)
++translate: 0.1  # image translation (+/- fraction)
++scale: 0.5  # image scale (+/- gain)
++shear: 0.0  # image shear (+/- deg)
++perspective: 0.0  # image perspective (+/- fraction), range 0-0.001
++flipud: 0.0  # image flip up-down (probability)
++fliplr: 0.5  # image flip left-right (probability)
++mosaic: 1.0  # image mosaic (probability)
++mixup: 0.05  # image mixup (probability)
++copy_paste: 0.0  # image copy paste (probability)
++paste_in: 0.05  # image copy paste (probability)
+--- /dev/null
++++ b/requirements.txt
+@@ -0,0 +1,39 @@
++# Usage: pip install -r requirements.txt
++
++# Base ----------------------------------------
++matplotlib>=3.2.2
++numpy>=1.18.5
++opencv-python>=4.1.1
++Pillow>=7.1.2
++PyYAML>=5.3.1
++requests>=2.23.0
++scipy>=1.4.1
++torch>=1.7.0,!=1.12.0
++torchvision>=0.8.1,!=0.13.0
++tqdm>=4.41.0
++protobuf<4.21.3
++
++# Logging -------------------------------------
++tensorboard>=2.4.1
++# wandb
++
++# Plotting ------------------------------------
++pandas>=1.1.4
++seaborn>=0.11.0
++
++# Export --------------------------------------
++# coremltools>=4.1  # CoreML export
++# onnx>=1.9.0  # ONNX export
++# onnx-simplifier>=0.3.6  # ONNX simplifier
++# scikit-learn==0.19.2  # CoreML quantization
++# tensorflow>=2.4.1  # TFLite export
++# tensorflowjs>=3.9.0  # TF.js export
++# openvino-dev  # OpenVINO export
++
++# Extras --------------------------------------
++ipython  # interactive notebook
++psutil  # system utilization
++thop  # FLOPs computation
++# albumentations>=1.0.3
++# pycocotools>=2.0  # COCO mAP
++# roboflow
+--- /dev/null
++++ b/test.py
+@@ -0,0 +1,347 @@
++import argparse
++import json
++import os
++from pathlib import Path
++from threading import Thread
++
++import numpy as np
++import torch
++import yaml
++from tqdm import tqdm
++
++from models.experimental import attempt_load
++from utils.datasets import create_dataloader
++from utils.general import coco80_to_coco91_class, check_dataset, check_file, check_img_size, check_requirements, \
++    box_iou, non_max_suppression, scale_coords, xyxy2xywh, xywh2xyxy, set_logging, increment_path, colorstr
++from utils.metrics import ap_per_class, ConfusionMatrix
++from utils.plots import plot_images, output_to_target, plot_study_txt
++from utils.torch_utils import select_device, time_synchronized, TracedModel
++
++
++def test(data,
++         weights=None,
++         batch_size=32,
++         imgsz=640,
++         conf_thres=0.001,
++         iou_thres=0.6,  # for NMS
++         save_json=False,
++         single_cls=False,
++         augment=False,
++         verbose=False,
++         model=None,
++         dataloader=None,
++         save_dir=Path(''),  # for saving images
++         save_txt=False,  # for auto-labelling
++         save_hybrid=False,  # for hybrid auto-labelling
++         save_conf=False,  # save auto-label confidences
++         plots=True,
++         wandb_logger=None,
++         compute_loss=None,
++         half_precision=True,
++         trace=False,
++         is_coco=False):
++    # Initialize/load model and set device
++    training = model is not None
++    if training:  # called by train.py
++        device = next(model.parameters()).device  # get model device
++
++    else:  # called directly
++        set_logging()
++        device = select_device(opt.device, batch_size=batch_size)
++
++        # Directories
++        save_dir = Path(increment_path(Path(opt.project) / opt.name, exist_ok=opt.exist_ok))  # increment run
++        (save_dir / 'labels' if save_txt else save_dir).mkdir(parents=True, exist_ok=True)  # make dir
++
++        # Load model
++        model = attempt_load(weights, map_location=device)  # load FP32 model
++        gs = max(int(model.stride.max()), 32)  # grid size (max stride)
++        imgsz = check_img_size(imgsz, s=gs)  # check img_size
++        
++        if trace:
++            model = TracedModel(model, device, opt.img_size)
++
++    # Half
++    half = device.type != 'cpu' and half_precision  # half precision only supported on CUDA
++    if half:
++        model.half()
++
++    # Configure
++    model.eval()
++    if isinstance(data, str):
++        is_coco = data.endswith('coco.yaml')
++        with open(data) as f:
++            data = yaml.load(f, Loader=yaml.SafeLoader)
++    check_dataset(data)  # check
++    nc = 1 if single_cls else int(data['nc'])  # number of classes
++    iouv = torch.linspace(0.5, 0.95, 10).to(device)  # iou vector for mAP@0.5:0.95
++    niou = iouv.numel()
++
++    # Logging
++    log_imgs = 0
++    if wandb_logger and wandb_logger.wandb:
++        log_imgs = min(wandb_logger.log_imgs, 100)
++    # Dataloader
++    if not training:
++        if device.type != 'cpu':
++            model(torch.zeros(1, 3, imgsz, imgsz).to(device).type_as(next(model.parameters())))  # run once
++        task = opt.task if opt.task in ('train', 'val', 'test') else 'val'  # path to train/val/test images
++        dataloader = create_dataloader(data[task], imgsz, batch_size, gs, opt, pad=0.5, rect=True,
++                                       prefix=colorstr(f'{task}: '))[0]
++
++    seen = 0
++    confusion_matrix = ConfusionMatrix(nc=nc)
++    names = {k: v for k, v in enumerate(model.names if hasattr(model, 'names') else model.module.names)}
++    coco91class = coco80_to_coco91_class()
++    s = ('%20s' + '%12s' * 6) % ('Class', 'Images', 'Labels', 'P', 'R', 'mAP@.5', 'mAP@.5:.95')
++    p, r, f1, mp, mr, map50, map, t0, t1 = 0., 0., 0., 0., 0., 0., 0., 0., 0.
++    loss = torch.zeros(3, device=device)
++    jdict, stats, ap, ap_class, wandb_images = [], [], [], [], []
++    for batch_i, (img, targets, paths, shapes) in enumerate(tqdm(dataloader, desc=s)):
++        img = img.to(device, non_blocking=True)
++        img = img.half() if half else img.float()  # uint8 to fp16/32
++        img /= 255.0  # 0 - 255 to 0.0 - 1.0
++        targets = targets.to(device)
++        nb, _, height, width = img.shape  # batch size, channels, height, width
++
++        with torch.no_grad():
++            # Run model
++            t = time_synchronized()
++            out, train_out = model(img, augment=augment)  # inference and training outputs
++            t0 += time_synchronized() - t
++
++            # Compute loss
++            if compute_loss:
++                loss += compute_loss([x.float() for x in train_out], targets)[1][:3]  # box, obj, cls
++
++            # Run NMS
++            targets[:, 2:] *= torch.Tensor([width, height, width, height]).to(device)  # to pixels
++            lb = [targets[targets[:, 0] == i, 1:] for i in range(nb)] if save_hybrid else []  # for autolabelling
++            t = time_synchronized()
++            out = non_max_suppression(out, conf_thres=conf_thres, iou_thres=iou_thres, labels=lb, multi_label=True)
++            t1 += time_synchronized() - t
++
++        # Statistics per image
++        for si, pred in enumerate(out):
++            labels = targets[targets[:, 0] == si, 1:]
++            nl = len(labels)
++            tcls = labels[:, 0].tolist() if nl else []  # target class
++            path = Path(paths[si])
++            seen += 1
++
++            if len(pred) == 0:
++                if nl:
++                    stats.append((torch.zeros(0, niou, dtype=torch.bool), torch.Tensor(), torch.Tensor(), tcls))
++                continue
++
++            # Predictions
++            predn = pred.clone()
++            scale_coords(img[si].shape[1:], predn[:, :4], shapes[si][0], shapes[si][1])  # native-space pred
++
++            # Append to text file
++            if save_txt:
++                gn = torch.tensor(shapes[si][0])[[1, 0, 1, 0]]  # normalization gain whwh
++                for *xyxy, conf, cls in predn.tolist():
++                    xywh = (xyxy2xywh(torch.tensor(xyxy).view(1, 4)) / gn).view(-1).tolist()  # normalized xywh
++                    line = (cls, *xywh, conf) if save_conf else (cls, *xywh)  # label format
++                    with open(save_dir / 'labels' / (path.stem + '.txt'), 'a') as f:
++                        f.write(('%g ' * len(line)).rstrip() % line + '\n')
++
++            # W&B logging - Media Panel Plots
++            if len(wandb_images) < log_imgs and wandb_logger.current_epoch > 0:  # Check for test operation
++                if wandb_logger.current_epoch % wandb_logger.bbox_interval == 0:
++                    box_data = [{"position": {"minX": xyxy[0], "minY": xyxy[1], "maxX": xyxy[2], "maxY": xyxy[3]},
++                                 "class_id": int(cls),
++                                 "box_caption": "%s %.3f" % (names[cls], conf),
++                                 "scores": {"class_score": conf},
++                                 "domain": "pixel"} for *xyxy, conf, cls in pred.tolist()]
++                    boxes = {"predictions": {"box_data": box_data, "class_labels": names}}  # inference-space
++                    wandb_images.append(wandb_logger.wandb.Image(img[si], boxes=boxes, caption=path.name))
++            wandb_logger.log_training_progress(predn, path, names) if wandb_logger and wandb_logger.wandb_run else None
++
++            # Append to pycocotools JSON dictionary
++            if save_json:
++                # [{"image_id": 42, "category_id": 18, "bbox": [258.15, 41.29, 348.26, 243.78], "score": 0.236}, ...
++                image_id = int(path.stem) if path.stem.isnumeric() else path.stem
++                box = xyxy2xywh(predn[:, :4])  # xywh
++                box[:, :2] -= box[:, 2:] / 2  # xy center to top-left corner
++                for p, b in zip(pred.tolist(), box.tolist()):
++                    jdict.append({'image_id': image_id,
++                                  'category_id': coco91class[int(p[5])] if is_coco else int(p[5]),
++                                  'bbox': [round(x, 3) for x in b],
++                                  'score': round(p[4], 5)})
++
++            # Assign all predictions as incorrect
++            correct = torch.zeros(pred.shape[0], niou, dtype=torch.bool, device=device)
++            if nl:
++                detected = []  # target indices
++                tcls_tensor = labels[:, 0]
++
++                # target boxes
++                tbox = xywh2xyxy(labels[:, 1:5])
++                scale_coords(img[si].shape[1:], tbox, shapes[si][0], shapes[si][1])  # native-space labels
++                if plots:
++                    confusion_matrix.process_batch(predn, torch.cat((labels[:, 0:1], tbox), 1))
++
++                # Per target class
++                for cls in torch.unique(tcls_tensor):
++                    ti = (cls == tcls_tensor).nonzero(as_tuple=False).view(-1)  # prediction indices
++                    pi = (cls == pred[:, 5]).nonzero(as_tuple=False).view(-1)  # target indices
++
++                    # Search for detections
++                    if pi.shape[0]:
++                        # Prediction to target ious
++                        ious, i = box_iou(predn[pi, :4], tbox[ti]).max(1)  # best ious, indices
++
++                        # Append detections
++                        detected_set = set()
++                        for j in (ious > iouv[0]).nonzero(as_tuple=False):
++                            d = ti[i[j]]  # detected target
++                            if d.item() not in detected_set:
++                                detected_set.add(d.item())
++                                detected.append(d)
++                                correct[pi[j]] = ious[j] > iouv  # iou_thres is 1xn
++                                if len(detected) == nl:  # all targets already located in image
++                                    break
++
++            # Append statistics (correct, conf, pcls, tcls)
++            stats.append((correct.cpu(), pred[:, 4].cpu(), pred[:, 5].cpu(), tcls))
++
++        # Plot images
++        if plots and batch_i < 3:
++            f = save_dir / f'test_batch{batch_i}_labels.jpg'  # labels
++            Thread(target=plot_images, args=(img, targets, paths, f, names), daemon=True).start()
++            f = save_dir / f'test_batch{batch_i}_pred.jpg'  # predictions
++            Thread(target=plot_images, args=(img, output_to_target(out), paths, f, names), daemon=True).start()
++
++    # Compute statistics
++    stats = [np.concatenate(x, 0) for x in zip(*stats)]  # to numpy
++    if len(stats) and stats[0].any():
++        p, r, ap, f1, ap_class = ap_per_class(*stats, plot=plots, save_dir=save_dir, names=names)
++        ap50, ap = ap[:, 0], ap.mean(1)  # AP@0.5, AP@0.5:0.95
++        mp, mr, map50, map = p.mean(), r.mean(), ap50.mean(), ap.mean()
++        nt = np.bincount(stats[3].astype(np.int64), minlength=nc)  # number of targets per class
++    else:
++        nt = torch.zeros(1)
++
++    # Print results
++    pf = '%20s' + '%12i' * 2 + '%12.3g' * 4  # print format
++    print(pf % ('all', seen, nt.sum(), mp, mr, map50, map))
++
++    # Print results per class
++    if (verbose or (nc < 50 and not training)) and nc > 1 and len(stats):
++        for i, c in enumerate(ap_class):
++            print(pf % (names[c], seen, nt[c], p[i], r[i], ap50[i], ap[i]))
++
++    # Print speeds
++    t = tuple(x / seen * 1E3 for x in (t0, t1, t0 + t1)) + (imgsz, imgsz, batch_size)  # tuple
++    if not training:
++        print('Speed: %.1f/%.1f/%.1f ms inference/NMS/total per %gx%g image at batch-size %g' % t)
++
++    # Plots
++    if plots:
++        confusion_matrix.plot(save_dir=save_dir, names=list(names.values()))
++        if wandb_logger and wandb_logger.wandb:
++            val_batches = [wandb_logger.wandb.Image(str(f), caption=f.name) for f in sorted(save_dir.glob('test*.jpg'))]
++            wandb_logger.log({"Validation": val_batches})
++    if wandb_images:
++        wandb_logger.log({"Bounding Box Debugger/Images": wandb_images})
++
++    # Save JSON
++    if save_json and len(jdict):
++        w = Path(weights[0] if isinstance(weights, list) else weights).stem if weights is not None else ''  # weights
++        anno_json = '../coco/annotations/instances_val2017.json'  # annotations json
++        pred_json = str(save_dir / f"{w}_predictions.json")  # predictions json
++        print('\nEvaluating pycocotools mAP... saving %s...' % pred_json)
++        with open(pred_json, 'w') as f:
++            json.dump(jdict, f)
++
++        try:  # https://github.com/cocodataset/cocoapi/blob/master/PythonAPI/pycocoEvalDemo.ipynb
++            from pycocotools.coco import COCO
++            from pycocotools.cocoeval import COCOeval
++
++            anno = COCO(anno_json)  # init annotations api
++            pred = anno.loadRes(pred_json)  # init predictions api
++            eval = COCOeval(anno, pred, 'bbox')
++            if is_coco:
++                eval.params.imgIds = [int(Path(x).stem) for x in dataloader.dataset.img_files]  # image IDs to evaluate
++            eval.evaluate()
++            eval.accumulate()
++            eval.summarize()
++            map, map50 = eval.stats[:2]  # update results (mAP@0.5:0.95, mAP@0.5)
++        except Exception as e:
++            print(f'pycocotools unable to run: {e}')
++
++    # Return results
++    model.float()  # for training
++    if not training:
++        s = f"\n{len(list(save_dir.glob('labels/*.txt')))} labels saved to {save_dir / 'labels'}" if save_txt else ''
++        print(f"Results saved to {save_dir}{s}")
++    maps = np.zeros(nc) + map
++    for i, c in enumerate(ap_class):
++        maps[c] = ap[i]
++    return (mp, mr, map50, map, *(loss.cpu() / len(dataloader)).tolist()), maps, t
++
++
++if __name__ == '__main__':
++    parser = argparse.ArgumentParser(prog='test.py')
++    parser.add_argument('--weights', nargs='+', type=str, default='yolov7.pt', help='model.pt path(s)')
++    parser.add_argument('--data', type=str, default='data/coco.yaml', help='*.data path')
++    parser.add_argument('--batch-size', type=int, default=32, help='size of each image batch')
++    parser.add_argument('--img-size', type=int, default=640, help='inference size (pixels)')
++    parser.add_argument('--conf-thres', type=float, default=0.001, help='object confidence threshold')
++    parser.add_argument('--iou-thres', type=float, default=0.65, help='IOU threshold for NMS')
++    parser.add_argument('--task', default='val', help='train, val, test, speed or study')
++    parser.add_argument('--device', default='', help='cuda device, i.e. 0 or 0,1,2,3 or cpu')
++    parser.add_argument('--single-cls', action='store_true', help='treat as single-class dataset')
++    parser.add_argument('--augment', action='store_true', help='augmented inference')
++    parser.add_argument('--verbose', action='store_true', help='report mAP by class')
++    parser.add_argument('--save-txt', action='store_true', help='save results to *.txt')
++    parser.add_argument('--save-hybrid', action='store_true', help='save label+prediction hybrid results to *.txt')
++    parser.add_argument('--save-conf', action='store_true', help='save confidences in --save-txt labels')
++    parser.add_argument('--save-json', action='store_true', help='save a cocoapi-compatible JSON results file')
++    parser.add_argument('--project', default='runs/test', help='save to project/name')
++    parser.add_argument('--name', default='exp', help='save to project/name')
++    parser.add_argument('--exist-ok', action='store_true', help='existing project/name ok, do not increment')
++    parser.add_argument('--no-trace', action='store_true', help='don`t trace model')
++    opt = parser.parse_args()
++    opt.save_json |= opt.data.endswith('coco.yaml')
++    opt.data = check_file(opt.data)  # check file
++    print(opt)
++    #check_requirements()
++
++    if opt.task in ('train', 'val', 'test'):  # run normally
++        test(opt.data,
++             opt.weights,
++             opt.batch_size,
++             opt.img_size,
++             opt.conf_thres,
++             opt.iou_thres,
++             opt.save_json,
++             opt.single_cls,
++             opt.augment,
++             opt.verbose,
++             save_txt=opt.save_txt | opt.save_hybrid,
++             save_hybrid=opt.save_hybrid,
++             save_conf=opt.save_conf,
++             trace=not opt.no_trace,
++             )
++
++    elif opt.task == 'speed':  # speed benchmarks
++        for w in opt.weights:
++            test(opt.data, w, opt.batch_size, opt.img_size, 0.25, 0.45, save_json=False, plots=False)
++
++    elif opt.task == 'study':  # run over a range of settings and save/plot
++        # python test.py --task study --data coco.yaml --iou 0.65 --weights yolov7.pt
++        x = list(range(256, 1536 + 128, 128))  # x axis (image sizes)
++        for w in opt.weights:
++            f = f'study_{Path(opt.data).stem}_{Path(w).stem}.txt'  # filename to save to
++            y = []  # y axis
++            for i in x:  # img-size
++                print(f'\nRunning {f} point {i}...')
++                r, _, t = test(opt.data, w, opt.batch_size, i, opt.conf_thres, opt.iou_thres, opt.save_json,
++                               plots=False)
++                y.append(r + t)  # results and times
++            np.savetxt(f, y, fmt='%10.4g')  # save
++        os.system('zip -r study.zip study_*.txt')
++        plot_study_txt(x=x)  # plot
+--- /dev/null
++++ b/train.py
+@@ -0,0 +1,691 @@
++import argparse
++import logging
++import math
++import os
++import random
++import time
++from copy import deepcopy
++from pathlib import Path
++from threading import Thread
++
++import numpy as np
++import torch.distributed as dist
++import torch.nn as nn
++import torch.nn.functional as F
++import torch.optim as optim
++import torch.optim.lr_scheduler as lr_scheduler
++import torch.utils.data
++import yaml
++from torch.cuda import amp
++from torch.nn.parallel import DistributedDataParallel as DDP
++from torch.utils.tensorboard import SummaryWriter
++from tqdm import tqdm
++
++import test  # import test.py to get mAP after each epoch
++from models.experimental import attempt_load
++from models.yolo import Model
++from utils.autoanchor import check_anchors
++from utils.datasets import create_dataloader
++from utils.general import labels_to_class_weights, increment_path, labels_to_image_weights, init_seeds, \
++    fitness, strip_optimizer, get_latest_run, check_dataset, check_file, check_git_status, check_img_size, \
++    check_requirements, print_mutation, set_logging, one_cycle, colorstr
++from utils.google_utils import attempt_download
++from utils.loss import ComputeLoss, ComputeLossOTA
++from utils.plots import plot_images, plot_labels, plot_results, plot_evolution
++from utils.torch_utils import ModelEMA, select_device, intersect_dicts, torch_distributed_zero_first, is_parallel
++from utils.wandb_logging.wandb_utils import WandbLogger, check_wandb_resume
++
++logger = logging.getLogger(__name__)
++
++
++def train(hyp, opt, device, tb_writer=None):
++    logger.info(colorstr('hyperparameters: ') + ', '.join(f'{k}={v}' for k, v in hyp.items()))
++    save_dir, epochs, batch_size, total_batch_size, weights, rank = \
++        Path(opt.save_dir), opt.epochs, opt.batch_size, opt.total_batch_size, opt.weights, opt.global_rank
++
++    # Directories
++    wdir = save_dir / 'weights'
++    wdir.mkdir(parents=True, exist_ok=True)  # make dir
++    last = wdir / 'last.pt'
++    best = wdir / 'best.pt'
++    results_file = save_dir / 'results.txt'
++
++    # Save run settings
++    with open(save_dir / 'hyp.yaml', 'w') as f:
++        yaml.dump(hyp, f, sort_keys=False)
++    with open(save_dir / 'opt.yaml', 'w') as f:
++        yaml.dump(vars(opt), f, sort_keys=False)
++
++    # Configure
++    plots = not opt.evolve  # create plots
++    cuda = device.type != 'cpu'
++    init_seeds(2 + rank)
++    with open(opt.data) as f:
++        data_dict = yaml.load(f, Loader=yaml.SafeLoader)  # data dict
++    is_coco = opt.data.endswith('coco.yaml')
++
++    # Logging- Doing this before checking the dataset. Might update data_dict
++    loggers = {'wandb': None}  # loggers dict
++    if rank in [-1, 0]:
++        opt.hyp = hyp  # add hyperparameters
++        run_id = torch.load(weights).get('wandb_id') if weights.endswith('.pt') and os.path.isfile(weights) else None
++        wandb_logger = WandbLogger(opt, Path(opt.save_dir).stem, run_id, data_dict)
++        loggers['wandb'] = wandb_logger.wandb
++        data_dict = wandb_logger.data_dict
++        if wandb_logger.wandb:
++            weights, epochs, hyp = opt.weights, opt.epochs, opt.hyp  # WandbLogger might update weights, epochs if resuming
++
++    nc = 1 if opt.single_cls else int(data_dict['nc'])  # number of classes
++    names = ['item'] if opt.single_cls and len(data_dict['names']) != 1 else data_dict['names']  # class names
++    assert len(names) == nc, '%g names found for nc=%g dataset in %s' % (len(names), nc, opt.data)  # check
++
++    # Model
++    pretrained = weights.endswith('.pt')
++    if pretrained:
++        with torch_distributed_zero_first(rank):
++            attempt_download(weights)  # download if not found locally
++        ckpt = torch.load(weights, map_location=device)  # load checkpoint
++        model = Model(opt.cfg or ckpt['model'].yaml, ch=3, nc=nc, anchors=hyp.get('anchors')).to(device)  # create
++        exclude = ['anchor'] if (opt.cfg or hyp.get('anchors')) and not opt.resume else []  # exclude keys
++        state_dict = ckpt['model'].float().state_dict()  # to FP32
++        state_dict = intersect_dicts(state_dict, model.state_dict(), exclude=exclude)  # intersect
++        model.load_state_dict(state_dict, strict=False)  # load
++        logger.info('Transferred %g/%g items from %s' % (len(state_dict), len(model.state_dict()), weights))  # report
++    else:
++        model = Model(opt.cfg, ch=3, nc=nc, anchors=hyp.get('anchors')).to(device)  # create
++    with torch_distributed_zero_first(rank):
++        check_dataset(data_dict)  # check
++    train_path = data_dict['train']
++    test_path = data_dict['val']
++
++    # Freeze
++    freeze = []  # parameter names to freeze (full or partial)
++    for k, v in model.named_parameters():
++        v.requires_grad = True  # train all layers
++        if any(x in k for x in freeze):
++            print('freezing %s' % k)
++            v.requires_grad = False
++
++    # Optimizer
++    nbs = 64  # nominal batch size
++    accumulate = max(round(nbs / total_batch_size), 1)  # accumulate loss before optimizing
++    hyp['weight_decay'] *= total_batch_size * accumulate / nbs  # scale weight_decay
++    logger.info(f"Scaled weight_decay = {hyp['weight_decay']}")
++
++    pg0, pg1, pg2 = [], [], []  # optimizer parameter groups
++    for k, v in model.named_modules():
++        if hasattr(v, 'bias') and isinstance(v.bias, nn.Parameter):
++            pg2.append(v.bias)  # biases
++        if isinstance(v, nn.BatchNorm2d):
++            pg0.append(v.weight)  # no decay
++        elif hasattr(v, 'weight') and isinstance(v.weight, nn.Parameter):
++            pg1.append(v.weight)  # apply decay
++        if hasattr(v, 'im'):
++            if hasattr(v.im, 'implicit'):           
++                pg0.append(v.im.implicit)
++            else:
++                for iv in v.im:
++                    pg0.append(iv.implicit)
++        if hasattr(v, 'imc'):
++            if hasattr(v.imc, 'implicit'):           
++                pg0.append(v.imc.implicit)
++            else:
++                for iv in v.imc:
++                    pg0.append(iv.implicit)
++        if hasattr(v, 'imb'):
++            if hasattr(v.imb, 'implicit'):           
++                pg0.append(v.imb.implicit)
++            else:
++                for iv in v.imb:
++                    pg0.append(iv.implicit)
++        if hasattr(v, 'imo'):
++            if hasattr(v.imo, 'implicit'):           
++                pg0.append(v.imo.implicit)
++            else:
++                for iv in v.imo:
++                    pg0.append(iv.implicit)
++        if hasattr(v, 'ia'):
++            if hasattr(v.ia, 'implicit'):           
++                pg0.append(v.ia.implicit)
++            else:
++                for iv in v.ia:
++                    pg0.append(iv.implicit)
++        if hasattr(v, 'attn'):
++            if hasattr(v.attn, 'logit_scale'):   
++                pg0.append(v.attn.logit_scale)
++            if hasattr(v.attn, 'q_bias'):   
++                pg0.append(v.attn.q_bias)
++            if hasattr(v.attn, 'v_bias'):  
++                pg0.append(v.attn.v_bias)
++            if hasattr(v.attn, 'relative_position_bias_table'):  
++                pg0.append(v.attn.relative_position_bias_table)
++        if hasattr(v, 'rbr_dense'):
++            if hasattr(v.rbr_dense, 'weight_rbr_origin'):  
++                pg0.append(v.rbr_dense.weight_rbr_origin)
++            if hasattr(v.rbr_dense, 'weight_rbr_avg_conv'): 
++                pg0.append(v.rbr_dense.weight_rbr_avg_conv)
++            if hasattr(v.rbr_dense, 'weight_rbr_pfir_conv'):  
++                pg0.append(v.rbr_dense.weight_rbr_pfir_conv)
++            if hasattr(v.rbr_dense, 'weight_rbr_1x1_kxk_idconv1'): 
++                pg0.append(v.rbr_dense.weight_rbr_1x1_kxk_idconv1)
++            if hasattr(v.rbr_dense, 'weight_rbr_1x1_kxk_conv2'):   
++                pg0.append(v.rbr_dense.weight_rbr_1x1_kxk_conv2)
++            if hasattr(v.rbr_dense, 'weight_rbr_gconv_dw'):   
++                pg0.append(v.rbr_dense.weight_rbr_gconv_dw)
++            if hasattr(v.rbr_dense, 'weight_rbr_gconv_pw'):   
++                pg0.append(v.rbr_dense.weight_rbr_gconv_pw)
++            if hasattr(v.rbr_dense, 'vector'):   
++                pg0.append(v.rbr_dense.vector)
++
++    if opt.adam:
++        optimizer = optim.Adam(pg0, lr=hyp['lr0'], betas=(hyp['momentum'], 0.999))  # adjust beta1 to momentum
++    else:
++        optimizer = optim.SGD(pg0, lr=hyp['lr0'], momentum=hyp['momentum'], nesterov=True)
++
++    optimizer.add_param_group({'params': pg1, 'weight_decay': hyp['weight_decay']})  # add pg1 with weight_decay
++    optimizer.add_param_group({'params': pg2})  # add pg2 (biases)
++    logger.info('Optimizer groups: %g .bias, %g conv.weight, %g other' % (len(pg2), len(pg1), len(pg0)))
++    del pg0, pg1, pg2
++
++    # Scheduler https://arxiv.org/pdf/1812.01187.pdf
++    # https://pytorch.org/docs/stable/_modules/torch/optim/lr_scheduler.html#OneCycleLR
++    if opt.linear_lr:
++        lf = lambda x: (1 - x / (epochs - 1)) * (1.0 - hyp['lrf']) + hyp['lrf']  # linear
++    else:
++        lf = one_cycle(1, hyp['lrf'], epochs)  # cosine 1->hyp['lrf']
++    scheduler = lr_scheduler.LambdaLR(optimizer, lr_lambda=lf)
++    # plot_lr_scheduler(optimizer, scheduler, epochs)
++
++    # EMA
++    ema = ModelEMA(model) if rank in [-1, 0] else None
++
++    # Resume
++    start_epoch, best_fitness = 0, 0.0
++    if pretrained:
++        # Optimizer
++        if ckpt['optimizer'] is not None:
++            optimizer.load_state_dict(ckpt['optimizer'])
++            best_fitness = ckpt['best_fitness']
++
++        # EMA
++        if ema and ckpt.get('ema'):
++            ema.ema.load_state_dict(ckpt['ema'].float().state_dict())
++            ema.updates = ckpt['updates']
++
++        # Results
++        if ckpt.get('training_results') is not None:
++            results_file.write_text(ckpt['training_results'])  # write results.txt
++
++        # Epochs
++        start_epoch = ckpt['epoch'] + 1
++        if opt.resume:
++            assert start_epoch > 0, '%s training to %g epochs is finished, nothing to resume.' % (weights, epochs)
++        if epochs < start_epoch:
++            logger.info('%s has been trained for %g epochs. Fine-tuning for %g additional epochs.' %
++                        (weights, ckpt['epoch'], epochs))
++            epochs += ckpt['epoch']  # finetune additional epochs
++
++        del ckpt, state_dict
++
++    # Image sizes
++    gs = max(int(model.stride.max()), 32)  # grid size (max stride)
++    nl = model.model[-1].nl  # number of detection layers (used for scaling hyp['obj'])
++    imgsz, imgsz_test = [check_img_size(x, gs) for x in opt.img_size]  # verify imgsz are gs-multiples
++
++    # DP mode
++    if cuda and rank == -1 and torch.cuda.device_count() > 1:
++        model = torch.nn.DataParallel(model)
++
++    # SyncBatchNorm
++    if opt.sync_bn and cuda and rank != -1:
++        model = torch.nn.SyncBatchNorm.convert_sync_batchnorm(model).to(device)
++        logger.info('Using SyncBatchNorm()')
++
++    # Trainloader
++    dataloader, dataset = create_dataloader(train_path, imgsz, batch_size, gs, opt,
++                                            hyp=hyp, augment=True, cache=opt.cache_images, rect=opt.rect, rank=rank,
++                                            world_size=opt.world_size, workers=opt.workers,
++                                            image_weights=opt.image_weights, quad=opt.quad, prefix=colorstr('train: '))
++    mlc = np.concatenate(dataset.labels, 0)[:, 0].max()  # max label class
++    nb = len(dataloader)  # number of batches
++    assert mlc < nc, 'Label class %g exceeds nc=%g in %s. Possible class labels are 0-%g' % (mlc, nc, opt.data, nc - 1)
++
++    # Process 0
++    if rank in [-1, 0]:
++        testloader = create_dataloader(test_path, imgsz_test, batch_size * 2, gs, opt,  # testloader
++                                       hyp=hyp, cache=opt.cache_images and not opt.notest, rect=True, rank=-1,
++                                       world_size=opt.world_size, workers=opt.workers,
++                                       pad=0.5, prefix=colorstr('val: '))[0]
++
++        if not opt.resume:
++            labels = np.concatenate(dataset.labels, 0)
++            c = torch.tensor(labels[:, 0])  # classes
++            # cf = torch.bincount(c.long(), minlength=nc) + 1.  # frequency
++            # model._initialize_biases(cf.to(device))
++            if plots:
++                #plot_labels(labels, names, save_dir, loggers)
++                if tb_writer:
++                    tb_writer.add_histogram('classes', c, 0)
++
++            # Anchors
++            if not opt.noautoanchor:
++                check_anchors(dataset, model=model, thr=hyp['anchor_t'], imgsz=imgsz)
++            model.half().float()  # pre-reduce anchor precision
++
++    # DDP mode
++    if cuda and rank != -1:
++        model = DDP(model, device_ids=[opt.local_rank], output_device=opt.local_rank,
++                    # nn.MultiheadAttention incompatibility with DDP https://github.com/pytorch/pytorch/issues/26698
++                    find_unused_parameters=any(isinstance(layer, nn.MultiheadAttention) for layer in model.modules()))
++
++    # Model parameters
++    hyp['box'] *= 3. / nl  # scale to layers
++    hyp['cls'] *= nc / 80. * 3. / nl  # scale to classes and layers
++    hyp['obj'] *= (imgsz / 640) ** 2 * 3. / nl  # scale to image size and layers
++    hyp['label_smoothing'] = opt.label_smoothing
++    model.nc = nc  # attach number of classes to model
++    model.hyp = hyp  # attach hyperparameters to model
++    model.gr = 1.0  # iou loss ratio (obj_loss = 1.0 or iou)
++    model.class_weights = labels_to_class_weights(dataset.labels, nc).to(device) * nc  # attach class weights
++    model.names = names
++
++    # Start training
++    t0 = time.time()
++    nw = max(round(hyp['warmup_epochs'] * nb), 1000)  # number of warmup iterations, max(3 epochs, 1k iterations)
++    # nw = min(nw, (epochs - start_epoch) / 2 * nb)  # limit warmup to < 1/2 of training
++    maps = np.zeros(nc)  # mAP per class
++    results = (0, 0, 0, 0, 0, 0, 0)  # P, R, mAP@.5, mAP@.5-.95, val_loss(box, obj, cls)
++    scheduler.last_epoch = start_epoch - 1  # do not move
++    scaler = amp.GradScaler(enabled=cuda)
++    compute_loss_ota = ComputeLossOTA(model)  # init loss class
++    compute_loss = ComputeLoss(model)  # init loss class
++    logger.info(f'Image sizes {imgsz} train, {imgsz_test} test\n'
++                f'Using {dataloader.num_workers} dataloader workers\n'
++                f'Logging results to {save_dir}\n'
++                f'Starting training for {epochs} epochs...')
++    torch.save(model, wdir / 'init.pt')
++    for epoch in range(start_epoch, epochs):  # epoch ------------------------------------------------------------------
++        model.train()
++
++        # Update image weights (optional)
++        if opt.image_weights:
++            # Generate indices
++            if rank in [-1, 0]:
++                cw = model.class_weights.cpu().numpy() * (1 - maps) ** 2 / nc  # class weights
++                iw = labels_to_image_weights(dataset.labels, nc=nc, class_weights=cw)  # image weights
++                dataset.indices = random.choices(range(dataset.n), weights=iw, k=dataset.n)  # rand weighted idx
++            # Broadcast if DDP
++            if rank != -1:
++                indices = (torch.tensor(dataset.indices) if rank == 0 else torch.zeros(dataset.n)).int()
++                dist.broadcast(indices, 0)
++                if rank != 0:
++                    dataset.indices = indices.cpu().numpy()
++
++        # Update mosaic border
++        # b = int(random.uniform(0.25 * imgsz, 0.75 * imgsz + gs) // gs * gs)
++        # dataset.mosaic_border = [b - imgsz, -b]  # height, width borders
++
++        mloss = torch.zeros(4, device=device)  # mean losses
++        if rank != -1:
++            dataloader.sampler.set_epoch(epoch)
++        pbar = enumerate(dataloader)
++        logger.info(('\n' + '%10s' * 8) % ('Epoch', 'gpu_mem', 'box', 'obj', 'cls', 'total', 'labels', 'img_size'))
++        if rank in [-1, 0]:
++            pbar = tqdm(pbar, total=nb)  # progress bar
++        optimizer.zero_grad()
++        for i, (imgs, targets, paths, _) in pbar:  # batch -------------------------------------------------------------
++            ni = i + nb * epoch  # number integrated batches (since train start)
++            imgs = imgs.to(device, non_blocking=True).float() / 255.0  # uint8 to float32, 0-255 to 0.0-1.0
++
++            # Warmup
++            if ni <= nw:
++                xi = [0, nw]  # x interp
++                # model.gr = np.interp(ni, xi, [0.0, 1.0])  # iou loss ratio (obj_loss = 1.0 or iou)
++                accumulate = max(1, np.interp(ni, xi, [1, nbs / total_batch_size]).round())
++                for j, x in enumerate(optimizer.param_groups):
++                    # bias lr falls from 0.1 to lr0, all other lrs rise from 0.0 to lr0
++                    x['lr'] = np.interp(ni, xi, [hyp['warmup_bias_lr'] if j == 2 else 0.0, x['initial_lr'] * lf(epoch)])
++                    if 'momentum' in x:
++                        x['momentum'] = np.interp(ni, xi, [hyp['warmup_momentum'], hyp['momentum']])
++
++            # Multi-scale
++            if opt.multi_scale:
++                sz = random.randrange(imgsz * 0.5, imgsz * 1.5 + gs) // gs * gs  # size
++                sf = sz / max(imgs.shape[2:])  # scale factor
++                if sf != 1:
++                    ns = [math.ceil(x * sf / gs) * gs for x in imgs.shape[2:]]  # new shape (stretched to gs-multiple)
++                    imgs = F.interpolate(imgs, size=ns, mode='bilinear', align_corners=False)
++
++            # Forward
++            with amp.autocast(enabled=cuda):
++                pred = model(imgs)  # forward
++                loss, loss_items = compute_loss_ota(pred, targets.to(device), imgs)  # loss scaled by batch_size
++                if rank != -1:
++                    loss *= opt.world_size  # gradient averaged between devices in DDP mode
++                if opt.quad:
++                    loss *= 4.
++
++            # Backward
++            scaler.scale(loss).backward()
++
++            # Optimize
++            if ni % accumulate == 0:
++                scaler.step(optimizer)  # optimizer.step
++                scaler.update()
++                optimizer.zero_grad()
++                if ema:
++                    ema.update(model)
++
++            # Print
++            if rank in [-1, 0]:
++                mloss = (mloss * i + loss_items) / (i + 1)  # update mean losses
++                mem = '%.3gG' % (torch.cuda.memory_reserved() / 1E9 if torch.cuda.is_available() else 0)  # (GB)
++                s = ('%10s' * 2 + '%10.4g' * 6) % (
++                    '%g/%g' % (epoch, epochs - 1), mem, *mloss, targets.shape[0], imgs.shape[-1])
++                pbar.set_description(s)
++
++                # Plot
++                if plots and ni < 10:
++                    f = save_dir / f'train_batch{ni}.jpg'  # filename
++                    Thread(target=plot_images, args=(imgs, targets, paths, f), daemon=True).start()
++                    # if tb_writer:
++                    #     tb_writer.add_image(f, result, dataformats='HWC', global_step=epoch)
++                    #     tb_writer.add_graph(torch.jit.trace(model, imgs, strict=False), [])  # add model graph
++                elif plots and ni == 10 and wandb_logger.wandb:
++                    wandb_logger.log({"Mosaics": [wandb_logger.wandb.Image(str(x), caption=x.name) for x in
++                                                  save_dir.glob('train*.jpg') if x.exists()]})
++
++            # end batch ------------------------------------------------------------------------------------------------
++        # end epoch ----------------------------------------------------------------------------------------------------
++
++        # Scheduler
++        lr = [x['lr'] for x in optimizer.param_groups]  # for tensorboard
++        scheduler.step()
++
++        # DDP process 0 or single-GPU
++        if rank in [-1, 0]:
++            # mAP
++            ema.update_attr(model, include=['yaml', 'nc', 'hyp', 'gr', 'names', 'stride', 'class_weights'])
++            final_epoch = epoch + 1 == epochs
++            if not opt.notest or final_epoch:  # Calculate mAP
++                wandb_logger.current_epoch = epoch + 1
++                results, maps, times = test.test(data_dict,
++                                                 batch_size=batch_size * 2,
++                                                 imgsz=imgsz_test,
++                                                 model=ema.ema,
++                                                 single_cls=opt.single_cls,
++                                                 dataloader=testloader,
++                                                 save_dir=save_dir,
++                                                 verbose=nc < 50 and final_epoch,
++                                                 plots=plots and final_epoch,
++                                                 wandb_logger=wandb_logger,
++                                                 compute_loss=compute_loss,
++                                                 is_coco=is_coco)
++
++            # Write
++            with open(results_file, 'a') as f:
++                f.write(s + '%10.4g' * 7 % results + '\n')  # append metrics, val_loss
++            if len(opt.name) and opt.bucket:
++                os.system('gsutil cp %s gs://%s/results/results%s.txt' % (results_file, opt.bucket, opt.name))
++
++            # Log
++            tags = ['train/box_loss', 'train/obj_loss', 'train/cls_loss',  # train loss
++                    'metrics/precision', 'metrics/recall', 'metrics/mAP_0.5', 'metrics/mAP_0.5:0.95',
++                    'val/box_loss', 'val/obj_loss', 'val/cls_loss',  # val loss
++                    'x/lr0', 'x/lr1', 'x/lr2']  # params
++            for x, tag in zip(list(mloss[:-1]) + list(results) + lr, tags):
++                if tb_writer:
++                    tb_writer.add_scalar(tag, x, epoch)  # tensorboard
++                if wandb_logger.wandb:
++                    wandb_logger.log({tag: x})  # W&B
++
++            # Update best mAP
++            fi = fitness(np.array(results).reshape(1, -1))  # weighted combination of [P, R, mAP@.5, mAP@.5-.95]
++            if fi > best_fitness:
++                best_fitness = fi
++            wandb_logger.end_epoch(best_result=best_fitness == fi)
++
++            # Save model
++            if (not opt.nosave) or (final_epoch and not opt.evolve):  # if save
++                ckpt = {'epoch': epoch,
++                        'best_fitness': best_fitness,
++                        'training_results': results_file.read_text(),
++                        'model': deepcopy(model.module if is_parallel(model) else model).half(),
++                        'ema': deepcopy(ema.ema).half(),
++                        'updates': ema.updates,
++                        'optimizer': optimizer.state_dict(),
++                        'wandb_id': wandb_logger.wandb_run.id if wandb_logger.wandb else None}
++
++                # Save last, best and delete
++                torch.save(ckpt, last)
++                if best_fitness == fi:
++                    torch.save(ckpt, best)
++                if (best_fitness == fi) and (epoch >= 200):
++                    torch.save(ckpt, wdir / 'best_{:03d}.pt'.format(epoch))
++                if epoch == 0:
++                    torch.save(ckpt, wdir / 'epoch_{:03d}.pt'.format(epoch))
++                elif ((epoch+1) % 25) == 0:
++                    torch.save(ckpt, wdir / 'epoch_{:03d}.pt'.format(epoch))
++                elif epoch >= (epochs-5):
++                    torch.save(ckpt, wdir / 'epoch_{:03d}.pt'.format(epoch))
++                if wandb_logger.wandb:
++                    if ((epoch + 1) % opt.save_period == 0 and not final_epoch) and opt.save_period != -1:
++                        wandb_logger.log_model(
++                            last.parent, opt, epoch, fi, best_model=best_fitness == fi)
++                del ckpt
++
++        # end epoch ----------------------------------------------------------------------------------------------------
++    # end training
++    if rank in [-1, 0]:
++        # Plots
++        if plots:
++            plot_results(save_dir=save_dir)  # save as results.png
++            if wandb_logger.wandb:
++                files = ['results.png', 'confusion_matrix.png', *[f'{x}_curve.png' for x in ('F1', 'PR', 'P', 'R')]]
++                wandb_logger.log({"Results": [wandb_logger.wandb.Image(str(save_dir / f), caption=f) for f in files
++                                              if (save_dir / f).exists()]})
++        # Test best.pt
++        logger.info('%g epochs completed in %.3f hours.\n' % (epoch - start_epoch + 1, (time.time() - t0) / 3600))
++        if opt.data.endswith('coco.yaml') and nc == 80:  # if COCO
++            for m in (last, best) if best.exists() else (last):  # speed, mAP tests
++                results, _, _ = test.test(opt.data,
++                                          batch_size=batch_size * 2,
++                                          imgsz=imgsz_test,
++                                          conf_thres=0.001,
++                                          iou_thres=0.7,
++                                          model=attempt_load(m, device).half(),
++                                          single_cls=opt.single_cls,
++                                          dataloader=testloader,
++                                          save_dir=save_dir,
++                                          save_json=True,
++                                          plots=False,
++                                          is_coco=is_coco)
++
++        # Strip optimizers
++        final = best if best.exists() else last  # final model
++        for f in last, best:
++            if f.exists():
++                strip_optimizer(f)  # strip optimizers
++        if opt.bucket:
++            os.system(f'gsutil cp {final} gs://{opt.bucket}/weights')  # upload
++        if wandb_logger.wandb and not opt.evolve:  # Log the stripped model
++            wandb_logger.wandb.log_artifact(str(final), type='model',
++                                            name='run_' + wandb_logger.wandb_run.id + '_model',
++                                            aliases=['last', 'best', 'stripped'])
++        wandb_logger.finish_run()
++    else:
++        dist.destroy_process_group()
++    torch.cuda.empty_cache()
++    return results
++
++
++if __name__ == '__main__':
++    parser = argparse.ArgumentParser()
++    parser.add_argument('--weights', type=str, default='yolo7.pt', help='initial weights path')
++    parser.add_argument('--cfg', type=str, default='', help='model.yaml path')
++    parser.add_argument('--data', type=str, default='data/coco.yaml', help='data.yaml path')
++    parser.add_argument('--hyp', type=str, default='data/hyp.scratch.p5.yaml', help='hyperparameters path')
++    parser.add_argument('--epochs', type=int, default=300)
++    parser.add_argument('--batch-size', type=int, default=16, help='total batch size for all GPUs')
++    parser.add_argument('--img-size', nargs='+', type=int, default=[640, 640], help='[train, test] image sizes')
++    parser.add_argument('--rect', action='store_true', help='rectangular training')
++    parser.add_argument('--resume', nargs='?', const=True, default=False, help='resume most recent training')
++    parser.add_argument('--nosave', action='store_true', help='only save final checkpoint')
++    parser.add_argument('--notest', action='store_true', help='only test final epoch')
++    parser.add_argument('--noautoanchor', action='store_true', help='disable autoanchor check')
++    parser.add_argument('--evolve', action='store_true', help='evolve hyperparameters')
++    parser.add_argument('--bucket', type=str, default='', help='gsutil bucket')
++    parser.add_argument('--cache-images', action='store_true', help='cache images for faster training')
++    parser.add_argument('--image-weights', action='store_true', help='use weighted image selection for training')
++    parser.add_argument('--device', default='', help='cuda device, i.e. 0 or 0,1,2,3 or cpu')
++    parser.add_argument('--multi-scale', action='store_true', help='vary img-size +/- 50%%')
++    parser.add_argument('--single-cls', action='store_true', help='train multi-class data as single-class')
++    parser.add_argument('--adam', action='store_true', help='use torch.optim.Adam() optimizer')
++    parser.add_argument('--sync-bn', action='store_true', help='use SyncBatchNorm, only available in DDP mode')
++    parser.add_argument('--local_rank', type=int, default=-1, help='DDP parameter, do not modify')
++    parser.add_argument('--workers', type=int, default=8, help='maximum number of dataloader workers')
++    parser.add_argument('--project', default='runs/train', help='save to project/name')
++    parser.add_argument('--entity', default=None, help='W&B entity')
++    parser.add_argument('--name', default='exp', help='save to project/name')
++    parser.add_argument('--exist-ok', action='store_true', help='existing project/name ok, do not increment')
++    parser.add_argument('--quad', action='store_true', help='quad dataloader')
++    parser.add_argument('--linear-lr', action='store_true', help='linear LR')
++    parser.add_argument('--label-smoothing', type=float, default=0.0, help='Label smoothing epsilon')
++    parser.add_argument('--upload_dataset', action='store_true', help='Upload dataset as W&B artifact table')
++    parser.add_argument('--bbox_interval', type=int, default=-1, help='Set bounding-box image logging interval for W&B')
++    parser.add_argument('--save_period', type=int, default=-1, help='Log model after every "save_period" epoch')
++    parser.add_argument('--artifact_alias', type=str, default="latest", help='version of dataset artifact to be used')
++    opt = parser.parse_args()
++
++    # Set DDP variables
++    opt.world_size = int(os.environ['WORLD_SIZE']) if 'WORLD_SIZE' in os.environ else 1
++    opt.global_rank = int(os.environ['RANK']) if 'RANK' in os.environ else -1
++    set_logging(opt.global_rank)
++    #if opt.global_rank in [-1, 0]:
++    #    check_git_status()
++    #    check_requirements()
++
++    # Resume
++    wandb_run = check_wandb_resume(opt)
++    if opt.resume and not wandb_run:  # resume an interrupted run
++        ckpt = opt.resume if isinstance(opt.resume, str) else get_latest_run()  # specified or most recent path
++        assert os.path.isfile(ckpt), 'ERROR: --resume checkpoint does not exist'
++        apriori = opt.global_rank, opt.local_rank
++        with open(Path(ckpt).parent.parent / 'opt.yaml') as f:
++            opt = argparse.Namespace(**yaml.load(f, Loader=yaml.SafeLoader))  # replace
++        opt.cfg, opt.weights, opt.resume, opt.batch_size, opt.global_rank, opt.local_rank = '', ckpt, True, opt.total_batch_size, *apriori  # reinstate
++        logger.info('Resuming training from %s' % ckpt)
++    else:
++        # opt.hyp = opt.hyp or ('hyp.finetune.yaml' if opt.weights else 'hyp.scratch.yaml')
++        opt.data, opt.cfg, opt.hyp = check_file(opt.data), check_file(opt.cfg), check_file(opt.hyp)  # check files
++        assert len(opt.cfg) or len(opt.weights), 'either --cfg or --weights must be specified'
++        opt.img_size.extend([opt.img_size[-1]] * (2 - len(opt.img_size)))  # extend to 2 sizes (train, test)
++        opt.name = 'evolve' if opt.evolve else opt.name
++        opt.save_dir = increment_path(Path(opt.project) / opt.name, exist_ok=opt.exist_ok | opt.evolve)  # increment run
++
++    # DDP mode
++    opt.total_batch_size = opt.batch_size
++    device = select_device(opt.device, batch_size=opt.batch_size)
++    if opt.local_rank != -1:
++        assert torch.cuda.device_count() > opt.local_rank
++        torch.cuda.set_device(opt.local_rank)
++        device = torch.device('cuda', opt.local_rank)
++        dist.init_process_group(backend='nccl', init_method='env://')  # distributed backend
++        assert opt.batch_size % opt.world_size == 0, '--batch-size must be multiple of CUDA device count'
++        opt.batch_size = opt.total_batch_size // opt.world_size
++
++    # Hyperparameters
++    with open(opt.hyp) as f:
++        hyp = yaml.load(f, Loader=yaml.SafeLoader)  # load hyps
++
++    # Train
++    logger.info(opt)
++    if not opt.evolve:
++        tb_writer = None  # init loggers
++        if opt.global_rank in [-1, 0]:
++            prefix = colorstr('tensorboard: ')
++            logger.info(f"{prefix}Start with 'tensorboard --logdir {opt.project}', view at http://localhost:6006/")
++            tb_writer = SummaryWriter(opt.save_dir)  # Tensorboard
++        train(hyp, opt, device, tb_writer)
++
++    # Evolve hyperparameters (optional)
++    else:
++        # Hyperparameter evolution metadata (mutation scale 0-1, lower_limit, upper_limit)
++        meta = {'lr0': (1, 1e-5, 1e-1),  # initial learning rate (SGD=1E-2, Adam=1E-3)
++                'lrf': (1, 0.01, 1.0),  # final OneCycleLR learning rate (lr0 * lrf)
++                'momentum': (0.3, 0.6, 0.98),  # SGD momentum/Adam beta1
++                'weight_decay': (1, 0.0, 0.001),  # optimizer weight decay
++                'warmup_epochs': (1, 0.0, 5.0),  # warmup epochs (fractions ok)
++                'warmup_momentum': (1, 0.0, 0.95),  # warmup initial momentum
++                'warmup_bias_lr': (1, 0.0, 0.2),  # warmup initial bias lr
++                'box': (1, 0.02, 0.2),  # box loss gain
++                'cls': (1, 0.2, 4.0),  # cls loss gain
++                'cls_pw': (1, 0.5, 2.0),  # cls BCELoss positive_weight
++                'obj': (1, 0.2, 4.0),  # obj loss gain (scale with pixels)
++                'obj_pw': (1, 0.5, 2.0),  # obj BCELoss positive_weight
++                'iou_t': (0, 0.1, 0.7),  # IoU training threshold
++                'anchor_t': (1, 2.0, 8.0),  # anchor-multiple threshold
++                'anchors': (2, 2.0, 10.0),  # anchors per output grid (0 to ignore)
++                'fl_gamma': (0, 0.0, 2.0),  # focal loss gamma (efficientDet default gamma=1.5)
++                'hsv_h': (1, 0.0, 0.1),  # image HSV-Hue augmentation (fraction)
++                'hsv_s': (1, 0.0, 0.9),  # image HSV-Saturation augmentation (fraction)
++                'hsv_v': (1, 0.0, 0.9),  # image HSV-Value augmentation (fraction)
++                'degrees': (1, 0.0, 45.0),  # image rotation (+/- deg)
++                'translate': (1, 0.0, 0.9),  # image translation (+/- fraction)
++                'scale': (1, 0.0, 0.9),  # image scale (+/- gain)
++                'shear': (1, 0.0, 10.0),  # image shear (+/- deg)
++                'perspective': (0, 0.0, 0.001),  # image perspective (+/- fraction), range 0-0.001
++                'flipud': (1, 0.0, 1.0),  # image flip up-down (probability)
++                'fliplr': (0, 0.0, 1.0),  # image flip left-right (probability)
++                'mosaic': (1, 0.0, 1.0),  # image mixup (probability)
++                'mixup': (1, 0.0, 1.0)}  # image mixup (probability)
++
++        assert opt.local_rank == -1, 'DDP mode not implemented for --evolve'
++        opt.notest, opt.nosave = True, True  # only test/save final epoch
++        # ei = [isinstance(x, (int, float)) for x in hyp.values()]  # evolvable indices
++        yaml_file = Path(opt.save_dir) / 'hyp_evolved.yaml'  # save best result here
++        if opt.bucket:
++            os.system('gsutil cp gs://%s/evolve.txt .' % opt.bucket)  # download evolve.txt if exists
++
++        for _ in range(300):  # generations to evolve
++            if Path('evolve.txt').exists():  # if evolve.txt exists: select best hyps and mutate
++                # Select parent(s)
++                parent = 'single'  # parent selection method: 'single' or 'weighted'
++                x = np.loadtxt('evolve.txt', ndmin=2)
++                n = min(5, len(x))  # number of previous results to consider
++                x = x[np.argsort(-fitness(x))][:n]  # top n mutations
++                w = fitness(x) - fitness(x).min()  # weights
++                if parent == 'single' or len(x) == 1:
++                    # x = x[random.randint(0, n - 1)]  # random selection
++                    x = x[random.choices(range(n), weights=w)[0]]  # weighted selection
++                elif parent == 'weighted':
++                    x = (x * w.reshape(n, 1)).sum(0) / w.sum()  # weighted combination
++
++                # Mutate
++                mp, s = 0.8, 0.2  # mutation probability, sigma
++                npr = np.random
++                npr.seed(int(time.time()))
++                g = np.array([x[0] for x in meta.values()])  # gains 0-1
++                ng = len(meta)
++                v = np.ones(ng)
++                while all(v == 1):  # mutate until a change occurs (prevent duplicates)
++                    v = (g * (npr.random(ng) < mp) * npr.randn(ng) * npr.random() * s + 1).clip(0.3, 3.0)
++                for i, k in enumerate(hyp.keys()):  # plt.hist(v.ravel(), 300)
++                    hyp[k] = float(x[i + 7] * v[i])  # mutate
++
++            # Constrain to limits
++            for k, v in meta.items():
++                hyp[k] = max(hyp[k], v[1])  # lower limit
++                hyp[k] = min(hyp[k], v[2])  # upper limit
++                hyp[k] = round(hyp[k], 5)  # significant digits
++
++            # Train mutation
++            results = train(hyp.copy(), opt, device)
++
++            # Write mutation results
++            print_mutation(hyp.copy(), results, yaml_file, opt.bucket)
++
++        # Plot results
++        plot_evolution(yaml_file)
++        print(f'Hyperparameter evolution complete. Best results saved as: {yaml_file}\n'
++              f'Command to train a new model with these hyperparameters: $ python train.py --hyp {yaml_file}')
+--- a/utils/loss.py
++++ b/utils/loss.py
+@@ -712,7 +712,7 @@
+ 
+             pair_wise_iou_loss = -torch.log(pair_wise_iou + 1e-8)
+ 
+-            top_k, _ = torch.topk(pair_wise_iou, min(20, pair_wise_iou.shape[1]), dim=1)
++            top_k, _ = torch.topk(pair_wise_iou, min(10, pair_wise_iou.shape[1]), dim=1)
+             dynamic_ks = torch.clamp(top_k.sum(1).int(), min=1)
+ 
+             gt_cls_per_image = (

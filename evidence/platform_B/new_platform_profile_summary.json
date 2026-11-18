@@ -1,0 +1,86 @@
+{
+  "DPU_hardware_ms": {
+    "mean": 42.19568889999999,
+    "median": 42.19455333333333,
+    "std": 0.0077083302419506386,
+    "p95": 42.208422999999996
+  },
+  "DPU_controller_ms": {
+    "mean": 42.327899759999994,
+    "median": 42.328936499998804,
+    "std": 0.01486657646137946,
+    "p95": 42.34973245000049
+  },
+  "CPU_subgraphs_ms": {
+    "mean": 0.5826277699999949,
+    "median": 0.5788435000031456,
+    "std": 0.012538799647317835,
+    "p95": 0.6025610000024884
+  },
+  "individual_subgraphs": [
+    {
+      "order": 0,
+      "device": "DPU",
+      "name": "subgraph_TinyRaw__TinyRaw_Concat_layers__Concat_13__input_63",
+      "operators": {
+        "const-fix": 116,
+        "upload": 1,
+        "conv2d-fix": 58,
+        "concat-fix": 14,
+        "pool-fix": 6,
+        "upsample-fix": 2,
+        "download": 3
+      },
+      "mean": 42.327899759999994,
+      "median": 42.328936499998804,
+      "std": 0.01486657646137946,
+      "p95": 42.34973245000049
+    },
+    {
+      "order": 1,
+      "device": "CPU",
+      "name": "subgraph_TinyRaw__TinyRaw_Conv2d_head__ModuleList_2__7873_fix_",
+      "operators": {
+        "fix2float": 1
+      },
+      "mean": 0.07626947999978206,
+      "median": 0.07581000000023153,
+      "std": 0.0021434434464457745,
+      "p95": 0.07882450000034068
+    },
+    {
+      "order": 2,
+      "device": "CPU",
+      "name": "subgraph_TinyRaw__TinyRaw_Conv2d_head__ModuleList_1__7854_fix_",
+      "operators": {
+        "fix2float": 1
+      },
+      "mean": 0.1216353399999992,
+      "median": 0.12033049999971013,
+      "std": 0.006657580478515212,
+      "p95": 0.1216530500030899
+    },
+    {
+      "order": 3,
+      "device": "CPU",
+      "name": "subgraph_TinyRaw__TinyRaw_Conv2d_head__ModuleList_0__7835_fix_",
+      "operators": {
+        "fix2float": 1
+      },
+      "mean": 0.3847229500002136,
+      "median": 0.3826369999999635,
+      "std": 0.0104248385377626,
+      "p95": 0.39357300000020246
+    }
+  ],
+  "profile_graph_runner_ms": 46.026763250029035,
+  "profile_pipeline_ms": 459.1650469099477,
+  "normal_pipeline_ms": 460.1391088199489,
+  "DPU_hardware_percent_GraphRunner": 91.67642024007277,
+  "CPU_percent_GraphRunner": 1.2658456273255916,
+  "DPU_hardware_percent_pipeline": 9.189656134317099,
+  "CPU_percent_pipeline": 0.12688852819283974,
+  "profile_vs_normal_percent": -0.2116885722883266,
+  "max_execution_overlap_ms": -0.014329999999063148,
+  "measured_frames": 100
+}

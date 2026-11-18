@@ -1,0 +1,62 @@
+{
+  "executed": {
+    "DPU": 57,
+    "CPU": 70
+  },
+  "order_transitions": 113,
+  "tensor_boundaries": 134,
+  "logical_boundary_bytes": 70865920,
+  "all_cpu_dpu_zero_copy": true,
+  "max_execution_overlap_ms": -0.015550000000530417,
+  "vart_cpu_wall_ms": 2927.382893999999,
+  "vart_dpu_controller_ms": 43.52656179999741,
+  "dpu_hw_counter_ms": 36.66022200000002,
+  "native_cpu_ops_ms": {
+    "fix2float": 42.326800000000006,
+    "sigmoid": 2393.1875,
+    "float2fix": 485.6021
+  },
+  "native_tags_ms": {
+    "DPU_RUNNER_COPY_INPUT": 0.6348,
+    "XRT_RUN": 41.1393,
+    "DPU_RUNNER": 49.900099999999995,
+    "DPU_RUNNER_COPY_OUTPUT": 0.10269999999999999,
+    "COPY_TENSOR_BUFFER": 29.8122,
+    "CPU_UPDATE_INPUT": 8.5008,
+    "CPU_UPDATE_OUTPUT": 7.9765,
+    "CPU_SYNC_FOR_READ": 2.7176,
+    "CPU_OP_EXEC": 2921.1164,
+    "CPU_SYNC_FOR_WRITE": 4.2721
+  },
+  "vaitrace_functions": {
+    "vart::TensorBuffer::copy_tensor_buffer": {
+      "calls_per_frame": 87,
+      "mean_total_ms": 35.33470000002126
+    },
+    "xir::XrtCu::run": {
+      "calls_per_frame": 57,
+      "mean_total_ms": 42.09549999993669
+    },
+    "vart::TensorBuffer::copy_from_host": {
+      "calls_per_frame": 6,
+      "mean_total_ms": 2.8144000000338565
+    }
+  },
+  "dpu_dpu_linker_copies": 80,
+  "dpu_dpu_logical_copy_bytes": 41811968,
+  "latency_ms": {
+    "normal": {
+      "graph_runner": 3017.913972400015,
+      "total_buffers": 3159.4038960999796
+    },
+    "vaitrace": {
+      "graph_runner": 3019.96856339997,
+      "total_buffers": 3154.0154484000136
+    },
+    "native_verbose": {
+      "graph_runner": 3203.716258099962,
+      "total_buffers": 3343.568503900019
+    }
+  },
+  "vart_control_residual_ms": 13.724407599952599
+}

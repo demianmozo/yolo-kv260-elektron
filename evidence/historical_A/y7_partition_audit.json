@@ -1,0 +1,46 @@
+{
+  "subgraphs": [
+    {
+      "name": "subgraph_TinyRaw__input_0",
+      "device": "USER",
+      "ops": {
+        "data-fix": 1
+      }
+    },
+    {
+      "name": "subgraph_TinyRaw__TinyRaw_Concat_layers__Concat_13__input_63",
+      "device": "DPU",
+      "ops": {
+        "const-fix": 116,
+        "conv2d-fix": 58,
+        "concat-fix": 14,
+        "upsample-fix": 2,
+        "pool-fix": 6,
+        "upload": 1,
+        "download": 3
+      }
+    },
+    {
+      "name": "subgraph_TinyRaw__TinyRaw_Conv2d_head__ModuleList_2__7873_fix_",
+      "device": "CPU",
+      "ops": {
+        "fix2float": 1
+      }
+    },
+    {
+      "name": "subgraph_TinyRaw__TinyRaw_Conv2d_head__ModuleList_1__7854_fix_",
+      "device": "CPU",
+      "ops": {
+        "fix2float": 1
+      }
+    },
+    {
+      "name": "subgraph_TinyRaw__TinyRaw_Conv2d_head__ModuleList_0__7835_fix_",
+      "device": "CPU",
+      "ops": {
+        "fix2float": 1
+      }
+    }
+  ],
+  "fingerprint": "0x101000056010407"
+}

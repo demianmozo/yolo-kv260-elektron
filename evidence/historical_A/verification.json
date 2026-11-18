@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "checks": [
+    "all frozen source/checkpoint/split hashes match manifest",
+    "y8: >=100 samples per pass, identical frozen XMODEL, stage sums/statistics independently verified",
+    "y7: >=100 samples per pass, identical frozen XMODEL, stage sums/statistics independently verified",
+    "VART execution order and frame coverage validated by analyze.py",
+    "power/energy units reconcile",
+    "accuracy retained by split; no cross-split accuracy delta calculated"
+  ],
+  "known_limits": [
+    "installed-bitstream post-route utilization unavailable; reference rebuild is separate",
+    "activation live peak not measured; register sizes and observed RAM/CMA reported separately",
+    "power is approximate VCC_SOM telemetry, not wall power",
+    "100 repeated inferences over 3 ecograms; not 100 independent images"
+  ]
+}

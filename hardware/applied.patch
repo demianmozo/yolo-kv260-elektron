@@ -1,0 +1,73 @@
+diff --git a/kv260/overlays/examples/benchmark/Makefile b/kv260/overlays/examples/benchmark/Makefile
+index 1fb0fc2..08699d1 100644
+--- a/kv260/overlays/examples/benchmark/Makefile
++++ b/kv260/overlays/examples/benchmark/Makefile
+@@ -31,15 +31,18 @@ VPP ?= v++
+ 
+ XOCC_OPTS = -t ${TARGET} --platform ${PLATFORM} --save-temps --config ${DIR_PRJ}/prj_conf/prj_config_1dpu 
+ 
++DPU_IP_ROOT ?= ../../dpu_ip
++export DPU_IP_ROOT
++
+ dpu_HDLSRCS=kernel_xml/dpu/kernel.xml\
+ 	     scripts/package_dpu_kernel.tcl\
+ 	     scripts/gen_dpu_xo.tcl\
+-	     ../../dpu_ip/Vitis/dpu/hdl/DPUCZDX8G.v\
+-	     ../../dpu_ip/Vitis/dpu/inc/arch_def.vh\
+-	     ../../dpu_ip/Vitis/dpu/xdc/*.xdc\
+-	     ../../dpu_ip/DPUCZDX8G_*/hdl/DPUCZDX8G_*_dpu.sv\
+-	     ../../dpu_ip/DPUCZDX8G_*/inc/function.vh\
+-             ../../dpu_ip/DPUCZDX8G_*/inc/arch_para.vh
++	     $(DPU_IP_ROOT)/Vitis/dpu/hdl/DPUCZDX8G.v\
++	     $(DPU_IP_ROOT)/Vitis/dpu/inc/arch_def.vh\
++	     $(DPU_IP_ROOT)/Vitis/dpu/xdc/*.xdc\
++	     $(DPU_IP_ROOT)/DPUCZDX8G_*/hdl/DPUCZDX8G_*_dpu.sv\
++	     $(DPU_IP_ROOT)/DPUCZDX8G_*/inc/function.vh\
++             $(DPU_IP_ROOT)/DPUCZDX8G_*/inc/arch_para.vh
+ 
+ dpu_TCL=scripts/gen_dpu_xo.tcl
+ DPU_KERN_NAME = DPUCZDX8G
+diff --git a/kv260/overlays/examples/benchmark/scripts/package_dpu_kernel.tcl b/kv260/overlays/examples/benchmark/scripts/package_dpu_kernel.tcl
+index 1772369..66102a8 100755
+--- a/kv260/overlays/examples/benchmark/scripts/package_dpu_kernel.tcl
++++ b/kv260/overlays/examples/benchmark/scripts/package_dpu_kernel.tcl
+@@ -15,7 +15,9 @@
+ # */
+ 
+ 
+-if { [info exists ::env(TRD_PATH)] } {
++if { [info exists ::env(DPU_IP_ROOT)] } {
++    set path_to_hdl [file normalize $env(DPU_IP_ROOT)]
++} elseif { [info exists ::env(TRD_PATH)] } {
+     set path_to_hdl "$env(TRD_PATH)/dpu_ip"
+ } else {
+     set path_to_hdl "../../dpu_ip"
+diff --git a/kv260/overlays/examples/benchmark/scripts/package_sfm_kernel.tcl b/kv260/overlays/examples/benchmark/scripts/package_sfm_kernel.tcl
+index 0839dd4..f45d602 100755
+--- a/kv260/overlays/examples/benchmark/scripts/package_sfm_kernel.tcl
++++ b/kv260/overlays/examples/benchmark/scripts/package_sfm_kernel.tcl
+@@ -14,7 +14,9 @@
+ # * limitations under the License.
+ # */
+ 
+-if { [info exists ::env(TRD_PATH)] } {
++if { [info exists ::env(DPU_IP_ROOT)] } {
++    set path_to_hdl [file normalize $env(DPU_IP_ROOT)]
++} elseif { [info exists ::env(TRD_PATH)] } {
+     set path_to_hdl "$env(TRD_PATH)/dpu_ip"
+ } else {
+     set path_to_hdl "../../dpu_ip"
+diff --git a/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/scripts/main.tcl b/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/scripts/main.tcl
+index dca55ab..863c059 100644
+--- a/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/scripts/main.tcl
++++ b/kv260/platforms/vivado/kv260_ispMipiRx_vcu_DP/scripts/main.tcl
+@@ -10,7 +10,8 @@ set device k26
+ set rev None
+ set output {xsa}
+ set xdc_list {./xdc/pin.xdc}
+-set ip_repo_path {./ip}
++# VCU is supplied by the Vivado 2022.2 catalog (upstream e216537).
++set ip_repo_path {}
+ set src_repo_path {./src}
+ set jobs 8
+ 

@@ -1,0 +1,40 @@
+{
+  "repositories": [
+    {
+      "directory": "kria-vitis-platforms",
+      "url": "https://github.com/Xilinx/kria-vitis-platforms.git",
+      "source_branch": "xlnx_rel_v2022.2",
+      "commit": "a3a83f179503792226adf83082aee7c05de620b4",
+      "checkout": "detached",
+      "role": "platform and benchmark sources, including bundled DPU"
+    },
+    {
+      "directory": "Vitis-AI",
+      "url": "https://github.com/Xilinx/Vitis-AI.git",
+      "source_branch": "3.0",
+      "commit": "091f75041ed941b74361c1068bbcd6528e61cbc6",
+      "checkout": "detached",
+      "role": "sparse checkout: official DPU release index and compatibility documentation"
+    },
+    {
+      "directory": "kria-apps-firmware",
+      "url": "https://github.com/Xilinx/kria-apps-firmware.git",
+      "source_branch": "xlnx_rel_v2022.2",
+      "commit": "1592956c9119ebf77222d3050a22c326a3adbfc2",
+      "checkout": "detached",
+      "role": "official firmware packaging and device-tree source; prebuilt binaries are references only"
+    }
+  ],
+  "source_hashes": {
+    "kv260/overlays/dpu_ip/DPUCZDX8G_v4_0_0/component.xml": "70e6c6c4923b872d907d9b007c0308393eda30bbc0a30e515843b630f329fb3d",
+    "kv260/overlays/examples/benchmark/dpu_conf.vh": "0d9b8fb247a333d9f0e315e272405465a1d798aab62b46e84a19cfd4c1302456",
+    "kv260/overlays/examples/benchmark/prj_conf/prj_config_1dpu": "91fe077ba5d0dc136335d37fdbb2c063003c5ee407b36c1a7d8c56e29c89e7b3"
+  },
+  "unused_submodule": {
+    "name": "Vitis_Libraries",
+    "commit": "a60e1df95fa43e715cc9223f470587456463be8b",
+    "initialized": false,
+    "reason": "benchmark all links only the RTL DPU kernel; no vision HLS dependency"
+  },
+  "build_executed": false
+}

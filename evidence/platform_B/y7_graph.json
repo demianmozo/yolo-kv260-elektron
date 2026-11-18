@@ -1,0 +1,1098 @@
+{
+  "subgraphs": [
+    {
+      "index": 0,
+      "name": "subgraph_TinyRaw__input_0",
+      "device": "USER",
+      "ops": [
+        {
+          "name": "TinyRaw__input_0",
+          "type": "data-fix"
+        }
+      ],
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "TinyRaw__input_0_fix",
+          "shape": [
+            1,
+            1024,
+            1024,
+            3
+          ],
+          "dtype": "xint8",
+          "bytes": 3145728
+        }
+      ],
+      "attrs": {
+        "workload": 0
+      }
+    },
+    {
+      "index": 1,
+      "name": "subgraph_TinyRaw__TinyRaw_Concat_layers__Concat_13__input_63",
+      "device": "DPU",
+      "ops": [
+        {
+          "name": "TinyRaw__head_2_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__head_2_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__head_1_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__head_1_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__head_0_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__head_0_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_76_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_76_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_75_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_75_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_74_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_74_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_73_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_73_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_71_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_71_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_70_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_70_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_69_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_69_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_68_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_68_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_66_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_66_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_65_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_65_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_63_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_63_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_62_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_62_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_61_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_61_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_60_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_60_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_58_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_58_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_57_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_57_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_55_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_55_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_54_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_54_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_53_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_53_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_52_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_52_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_50_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_50_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_48_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_48_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_47_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_47_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_45_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_45_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_44_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_44_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_43_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_43_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_42_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_42_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_40_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_40_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_38_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_38_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_37_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_37_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_35_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_35_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_30_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_30_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_29_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_29_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_28_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_28_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_26_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_26_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_25_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_25_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_24_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_24_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_23_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_23_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_21_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_21_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_19_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_19_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_18_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_18_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_17_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_17_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_16_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_16_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_14_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_14_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_12_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_12_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_11_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_11_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_10_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_10_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_9_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_9_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_7_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_7_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_5_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_5_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_4_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_4_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_3_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_3_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_2_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_2_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_1_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_1_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_0_conv_bias",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__layers_0_conv_weight",
+          "type": "const-fix"
+        },
+        {
+          "name": "TinyRaw__input_0_upload_0",
+          "type": "upload"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_0__Conv2d_conv__input_3",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_1__Conv2d_conv__input_9",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_3__Conv2d_conv__input_19",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_4__Conv2d_conv__input_25",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_5__Conv2d_conv__input_31",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_2__Conv2d_conv__input_15",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Concat_layers__Concat_6__input_35",
+          "type": "concat-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_7__Conv2d_conv__input_37",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_MP_layers__MP_8__MaxPool2d_m__input_41_fix",
+          "type": "pool-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_10__Conv2d_conv__input_47",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_11__Conv2d_conv__input_53",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_12__Conv2d_conv__input_59",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_9__Conv2d_conv__input_43",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Concat_layers__Concat_13__input_63",
+          "type": "concat-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_14__Conv2d_conv__input_65",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_50__Conv2d_conv__input_199",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_MP_layers__MP_15__MaxPool2d_m__input_69_fix",
+          "type": "pool-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_17__Conv2d_conv__input_75",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_18__Conv2d_conv__input_81",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_19__Conv2d_conv__input_87",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_16__Conv2d_conv__input_71",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Concat_layers__Concat_20__input_91",
+          "type": "concat-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_21__Conv2d_conv__input_93",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_40__Conv2d_conv__input_157",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_MP_layers__MP_22__MaxPool2d_m__input_97_fix",
+          "type": "pool-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_24__Conv2d_conv__input_103",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_25__Conv2d_conv__input_109",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_26__Conv2d_conv__input_115",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_23__Conv2d_conv__input_99",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Concat_layers__Concat_27__input_119",
+          "type": "concat-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_28__Conv2d_conv__input_121",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_30__Conv2d_conv__input_131",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_SP_layers__SP_33__MaxPool2d_m__6939_fix",
+          "type": "pool-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_SP_layers__SP_32__MaxPool2d_m__6925_fix",
+          "type": "pool-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_SP_layers__SP_31__MaxPool2d_m__6911_fix",
+          "type": "pool-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Concat_layers__Concat_34__input_135",
+          "type": "concat-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_35__Conv2d_conv__input_137",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_29__Conv2d_conv__input_127",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Concat_layers__Concat_36__input_141",
+          "type": "concat-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_37__Conv2d_conv__input_143",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_38__Conv2d_conv__input_149",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Upsample_layers__Upsample_39__7031",
+          "type": "upsample-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Concat_layers__Concat_41__input_161",
+          "type": "concat-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_43__Conv2d_conv__input_167",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_44__Conv2d_conv__input_173",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_45__Conv2d_conv__input_179",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_42__Conv2d_conv__input_163",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Concat_layers__Concat_46__input_183",
+          "type": "concat-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_47__Conv2d_conv__input_185",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_48__Conv2d_conv__input_191",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Upsample_layers__Upsample_49__7231",
+          "type": "upsample-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Concat_layers__Concat_51__input_203",
+          "type": "concat-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_53__Conv2d_conv__input_209",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_54__Conv2d_conv__input_215",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_55__Conv2d_conv__input_221",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_52__Conv2d_conv__input_205",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Concat_layers__Concat_56__input_225",
+          "type": "concat-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_57__Conv2d_conv__input_227",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_74__Conv2d_conv__input_299",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv2d_head__ModuleList_0__7835",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv2d_head__ModuleList_0__7835_download_0",
+          "type": "download"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_58__Conv2d_conv__input_233",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Concat_layers__Concat_59__input_237",
+          "type": "concat-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_61__Conv2d_conv__input_243",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_62__Conv2d_conv__input_249",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_63__Conv2d_conv__input_255",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_60__Conv2d_conv__input_239",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Concat_layers__Concat_64__input_259",
+          "type": "concat-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_65__Conv2d_conv__input_261",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_75__Conv2d_conv__input_303",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv2d_head__ModuleList_1__7854",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv2d_head__ModuleList_1__7854_download_0",
+          "type": "download"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_66__Conv2d_conv__input_267",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Concat_layers__Concat_67__input_271",
+          "type": "concat-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_69__Conv2d_conv__input_277",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_70__Conv2d_conv__input_283",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_71__Conv2d_conv__input_289",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_68__Conv2d_conv__input_273",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Concat_layers__Concat_72__input_293",
+          "type": "concat-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_73__Conv2d_conv__input_295",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv_layers__Conv_76__Conv2d_conv__input_309",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv2d_head__ModuleList_2__7873",
+          "type": "conv2d-fix"
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv2d_head__ModuleList_2__7873_download_0",
+          "type": "download"
+        }
+      ],
+      "inputs": [
+        {
+          "name": "TinyRaw__input_0_fix",
+          "shape": [
+            1,
+            1024,
+            1024,
+            3
+          ],
+          "dtype": "xint8",
+          "bytes": 3145728
+        }
+      ],
+      "outputs": [
+        {
+          "name": "TinyRaw__TinyRaw_Conv2d_head__ModuleList_0__7835_fix",
+          "shape": [
+            1,
+            128,
+            128,
+            18
+          ],
+          "dtype": "xint8",
+          "bytes": 294912
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv2d_head__ModuleList_2__7873_fix",
+          "shape": [
+            1,
+            32,
+            32,
+            18
+          ],
+          "dtype": "xint8",
+          "bytes": 18432
+        },
+        {
+          "name": "TinyRaw__TinyRaw_Conv2d_head__ModuleList_1__7854_fix",
+          "shape": [
+            1,
+            64,
+            64,
+            18
+          ],
+          "dtype": "xint8",
+          "bytes": 73728
+        }
+      ],
+      "attrs": {
+        "reg_id_to_size": {
+          "REG_0": 6266880,
+          "REG_1": 37617664,
+          "REG_2": 3148816,
+          "REG_3": 387072
+        },
+        "reg_id_to_context_type": {
+          "REG_0": "CONST",
+          "REG_1": "DATA",
+          "REG_2": "DATA",
+          "REG_3": "DATA"
+        },
+        "reg_id_to_hw_segment": {
+          "REG_0": "W0",
+          "REG_1": "D0",
+          "REG_2": "D0",
+          "REG_3": "D0"
+        },
+        "workload": 33464772608
+      }
+    },
+    {
+      "index": 2,
+      "name": "subgraph_TinyRaw__TinyRaw_Conv2d_head__ModuleList_2__7873_fix_",
+      "device": "CPU",
+      "ops": [
+        {
+          "name": "TinyRaw__TinyRaw_Conv2d_head__ModuleList_2__7873_fix_",
+          "type": "fix2float"
+        }
+      ],
+      "inputs": [
+        {
+          "name": "TinyRaw__TinyRaw_Conv2d_head__ModuleList_2__7873_fix",
+          "shape": [
+            1,
+            32,
+            32,
+            18
+          ],
+          "dtype": "xint8",
+          "bytes": 18432
+        }
+      ],
+      "outputs": [
+        {
+          "name": "TinyRaw__TinyRaw_Conv2d_head__ModuleList_2__7873_fix_",
+          "shape": [
+            1,
+            32,
+            32,
+            18
+          ],
+          "dtype": "float32",
+          "bytes": 73728
+        }
+      ],
+      "attrs": {
+        "workload": 0
+      }
+    },
+    {
+      "index": 3,
+      "name": "subgraph_TinyRaw__TinyRaw_Conv2d_head__ModuleList_1__7854_fix_",
+      "device": "CPU",
+      "ops": [
+        {
+          "name": "TinyRaw__TinyRaw_Conv2d_head__ModuleList_1__7854_fix_",
+          "type": "fix2float"
+        }
+      ],
+      "inputs": [
+        {
+          "name": "TinyRaw__TinyRaw_Conv2d_head__ModuleList_1__7854_fix",
+          "shape": [
+            1,
+            64,
+            64,
+            18
+          ],
+          "dtype": "xint8",
+          "bytes": 73728
+        }
+      ],
+      "outputs": [
+        {
+          "name": "TinyRaw__TinyRaw_Conv2d_head__ModuleList_1__7854_fix_",
+          "shape": [
+            1,
+            64,
+            64,
+            18
+          ],
+          "dtype": "float32",
+          "bytes": 294912
+        }
+      ],
+      "attrs": {
+        "workload": 0
+      }
+    },
+    {
+      "index": 4,
+      "name": "subgraph_TinyRaw__TinyRaw_Conv2d_head__ModuleList_0__7835_fix_",
+      "device": "CPU",
+      "ops": [
+        {
+          "name": "TinyRaw__TinyRaw_Conv2d_head__ModuleList_0__7835_fix_",
+          "type": "fix2float"
+        }
+      ],
+      "inputs": [
+        {
+          "name": "TinyRaw__TinyRaw_Conv2d_head__ModuleList_0__7835_fix",
+          "shape": [
+            1,
+            128,
+            128,
+            18
+          ],
+          "dtype": "xint8",
+          "bytes": 294912
+        }
+      ],
+      "outputs": [
+        {
+          "name": "TinyRaw__TinyRaw_Conv2d_head__ModuleList_0__7835_fix_",
+          "shape": [
+            1,
+            128,
+            128,
+            18
+          ],
+          "dtype": "float32",
+          "bytes": 1179648
+        }
+      ],
+      "attrs": {
+        "workload": 0
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": 0,
+      "destination": 1,
+      "source_device": "USER",
+      "destination_device": "DPU",
+      "tensor": {
+        "name": "TinyRaw__input_0_fix",
+        "shape": [
+          1,
+          1024,
+          1024,
+          3
+        ],
+        "dtype": "xint8",
+        "bytes": 3145728
+      }
+    },
+    {
+      "source": 1,
+      "destination": 2,
+      "source_device": "DPU",
+      "destination_device": "CPU",
+      "tensor": {
+        "name": "TinyRaw__TinyRaw_Conv2d_head__ModuleList_2__7873_fix",
+        "shape": [
+          1,
+          32,
+          32,
+          18
+        ],
+        "dtype": "xint8",
+        "bytes": 18432
+      }
+    },
+    {
+      "source": 1,
+      "destination": 3,
+      "source_device": "DPU",
+      "destination_device": "CPU",
+      "tensor": {
+        "name": "TinyRaw__TinyRaw_Conv2d_head__ModuleList_1__7854_fix",
+        "shape": [
+          1,
+          64,
+          64,
+          18
+        ],
+        "dtype": "xint8",
+        "bytes": 73728
+      }
+    },
+    {
+      "source": 1,
+      "destination": 4,
+      "source_device": "DPU",
+      "destination_device": "CPU",
+      "tensor": {
+        "name": "TinyRaw__TinyRaw_Conv2d_head__ModuleList_0__7835_fix",
+        "shape": [
+          1,
+          128,
+          128,
+          18
+        ],
+        "dtype": "xint8",
+        "bytes": 294912
+      }
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "platform_fingerprint": "0x101000016010407",
+  "xmodel": "yolov7tiny_custom.xmodel",
+  "input_fix_point": 6,
+  "results": [
+    {
+      "image": "P66",
+      "outputs": [
+        {
+          "scale": 0,
+          "shape": [
+            1,
+            18,
+            128,
+            128
+          ],
+          "max_abs": 0.0,
+          "RMSE": 0.0,
+          "different_values": 0
+        },
+        {
+          "scale": 1,
+          "shape": [
+            1,
+            18,
+            64,
+            64
+          ],
+          "max_abs": 0.0,
+          "RMSE": 0.0,
+          "different_values": 0
+        },
+        {
+          "scale": 2,
+          "shape": [
+            1,
+            18,
+            32,
+            32
+          ],
+          "max_abs": 0.0,
+          "RMSE": 0.0,
+          "different_values": 0
+        }
+      ]
+    },
+    {
+      "image": "P74",
+      "outputs": [
+        {
+          "scale": 0,
+          "shape": [
+            1,
+            18,
+            128,
+            128
+          ],
+          "max_abs": 0.0,
+          "RMSE": 0.0,
+          "different_values": 0
+        },
+        {
+          "scale": 1,
+          "shape": [
+            1,
+            18,
+            64,
+            64
+          ],
+          "max_abs": 0.0,
+          "RMSE": 0.0,
+          "different_values": 0
+        },
+        {
+          "scale": 2,
+          "shape": [
+            1,
+            18,
+            32,
+            32
+          ],
+          "max_abs": 0.0,
+          "RMSE": 0.0,
+          "different_values": 0
+        }
+      ]
+    },
+    {
+      "image": "P83",
+      "outputs": [
+        {
+          "scale": 0,
+          "shape": [
+            1,
+            18,
+            128,
+            128
+          ],
+          "max_abs": 0.0,
+          "RMSE": 0.0,
+          "different_values": 0
+        },
+        {
+          "scale": 1,
+          "shape": [
+            1,
+            18,
+            64,
+            64
+          ],
+          "max_abs": 0.0,
+          "RMSE": 0.0,
+          "different_values": 0
+        },
+        {
+          "scale": 2,
+          "shape": [
+            1,
+            18,
+            32,
+            32
+          ],
+          "max_abs": 0.0,
+          "RMSE": 0.0,
+          "different_values": 0
+        }
+      ]
+    }
+  ]
+}

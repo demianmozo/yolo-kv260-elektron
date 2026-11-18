@@ -1,0 +1,5 @@
+Error: 0
+Critical Warning: 0
+Warning: 580
+Advisory: 0
+HDPR-5 effective severity: Error

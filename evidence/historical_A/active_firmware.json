@@ -1,0 +1,11 @@
+{
+  "active_xclbin_UUID": "eedb44e9-3f77-0244-9ea9-23b953894638",
+  "source": "/sys/bus/platform/devices/axi:zyxclmm_drm/xclbinid",
+  "matches_installed_xclbin_UUID": true,
+  "installed_xclbin": "/lib/firmware/xilinx/kv260-benchmark-b4096/kv260-benchmark-b4096.xclbin",
+  "installed_xclbin_sha256": "fc3abb934eec544e49a17c484336cf177258f475522cefc994ec458b726f69ac",
+  "installed_bitstream_sha256": "7d12c877e0fde40a243d2350b1a2227f565788bf9e2dcae4439d07f213d40a3f",
+  "fpga_state": "operating",
+  "shell_name": "kv260_ispMipiRx_vcu_DP",
+  "report_matches_installed_bitstream": false
+}

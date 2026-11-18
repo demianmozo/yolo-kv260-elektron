@@ -1,0 +1,82 @@
+{
+  "model": "y7",
+  "profiled": true,
+  "checkpoint_scope": "frozen XMODEL",
+  "xmodel_sha256": "b8c34145e707e5c3dc6edcc74bca9d9bf18746b513828377b51da3275c77cbaf",
+  "warmup": 10,
+  "repeats": 100,
+  "statistics_ms": {
+    "preprocessing_ms": {
+      "mean": 211.80056760003936,
+      "median": 211.62874300080148,
+      "std": 0.8316237070027481,
+      "p95": 213.42433855061245
+    },
+    "input_quantize_copy_ms": {
+      "mean": 136.5275999900041,
+      "median": 136.5469354986999,
+      "std": 0.905988918450449,
+      "p95": 137.84980955042556
+    },
+    "graph_runner_ms": {
+      "mean": 46.026763250029035,
+      "median": 46.02091499964445,
+      "std": 0.040890857792587505,
+      "p95": 46.085078499982046
+    },
+    "output_copy_ms": {
+      "mean": 0.980844339937903,
+      "median": 0.9678559999883873,
+      "std": 0.02922100144072431,
+      "p95": 1.0358035005083366
+    },
+    "decode_ms": {
+      "mean": 57.00085160005983,
+      "median": 57.018894000975706,
+      "std": 0.18887357213800396,
+      "p95": 57.27045849944261
+    },
+    "nms_coordinates_ms": {
+      "mean": 6.828420129877486,
+      "median": 7.0707144996049465,
+      "std": 0.8807186043876292,
+      "p95": 7.780392999302421
+    },
+    "total_ms": {
+      "mean": 459.1650469099477,
+      "median": 459.2588039995462,
+      "std": 1.577035982397897,
+      "p95": 461.4697369993337
+    }
+  },
+  "measured_interval_s": [
+    8778.517406478,
+    8824.458780562
+  ],
+  "memory_before": {
+    "MemTotal_kB": 4023988,
+    "MemAvailable_kB": 3522020,
+    "CmaTotal_kB": 1572864,
+    "CmaFree_kB": 1510740,
+    "VmHWM_kB": 102764,
+    "VmRSS_kB": 100964
+  },
+  "memory_after": {
+    "MemTotal_kB": 4023988,
+    "MemAvailable_kB": 3490828,
+    "CmaTotal_kB": 1572864,
+    "CmaFree_kB": 1510728,
+    "VmHWM_kB": 154008,
+    "VmRSS_kB": 129592
+  },
+  "power_channels": [
+    {
+      "path": "/sys/class/hwmon/hwmon0/power1_input",
+      "chip": "ina260_u14",
+      "label": "unlabelled"
+    }
+  ],
+  "opencv": "4.5.2",
+  "numpy": "1.21.2",
+  "cpu_threads": 1
+}

@@ -1,0 +1,40 @@
+{
+  "host_opencv": "4.12.0",
+  "ARM_opencv": "4.5.2",
+  "input_fix_point": 6,
+  "results": [
+    {
+      "image": "project_Fish_ID_Training_Data_1_P_66_CH01.png",
+      "resize_different_values": 2,
+      "resize_max_abs": 0.003921568393707275,
+      "input_int8_different_values": 0,
+      "DPU_vs_same_input_simulation_max_abs": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "image": "project_Fish_ID_Training_Data_1_P_74_CH01.png",
+      "resize_different_values": 1,
+      "resize_max_abs": 0.003921568393707275,
+      "input_int8_different_values": 0,
+      "DPU_vs_same_input_simulation_max_abs": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "image": "project_Fish_ID_Training_Data_1_P_83_CH01.png",
+      "resize_different_values": 1,
+      "resize_max_abs": 0.003921568393707275,
+      "input_int8_different_values": 1,
+      "DPU_vs_same_input_simulation_max_abs": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

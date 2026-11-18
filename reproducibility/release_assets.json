@@ -1,0 +1,22 @@
+{
+  "platform_b_xmodel": {
+    "filename": "yolov7tiny_custom.xmodel",
+    "fingerprint": "0x101000016010407",
+    "sha256": "b8c34145e707e5c3dc6edcc74bca9d9bf18746b513828377b51da3275c77cbaf",
+    "campaign_records": [
+      "evidence/platform_B/protocol.json",
+      "evidence/platform_B/y7_normal.json",
+      "evidence/platform_B/y7_profiled.json"
+    ],
+    "status": "Bytes verified against the platform B campaign. Redistribution terms for the derived weights and compiled artifact remain unconfirmed. File withheld."
+  },
+  "fp32_checkpoint": {
+    "filename": "best.pt",
+    "sha256": "b58cf917f108e788c0cfcc403f266545dc69e59dbbfa1fa268ffaa833914a612",
+    "campaign_records": [
+      "evidence/historical_A/y7_training_verification.json",
+      "reproducibility/environment/artifact_hashes.json"
+    ],
+    "status": "Bytes verified against the reference YOLOv7-tiny EMA checkpoint used for INT8. Redistribution terms for weights derived from pretrained weights remain unconfirmed. File withheld."
+  }
+}

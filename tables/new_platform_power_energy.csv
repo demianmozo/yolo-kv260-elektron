@@ -1,0 +1,2 @@
+platform,fingerprint,scope,idle_before_W,idle_after_W,idle_W,inference_W,inference_std_W,duration_s,images,active_samples,idle_before_samples,idle_after_samples,total_energy_J_per_image,incremental_energy_J_per_image,method,source
+B,0x101000016010407,VCC_SOM INA260 U14; not full carrier or wall,5.002000000000001,4.99,4.996000000000001,5.720899933606229,1.118866413866444,46.03880990899961,100,92,30,30,2.6338342455170567,0.33373530246343563,trapezoidal; endpoint hold; idle arithmetic mean,results/new_platform/raw/y7_normal_power.csv

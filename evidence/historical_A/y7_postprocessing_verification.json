@@ -1,0 +1,6 @@
+{
+  "images_tested": 36,
+  "preprocessing_exact": true,
+  "decode_max_abs": 0.0003662109375,
+  "detection_max_abs": 6.103515625e-05
+}

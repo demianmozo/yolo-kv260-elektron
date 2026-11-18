@@ -1,0 +1,82 @@
+{
+  "model": "y7",
+  "profiled": false,
+  "checkpoint_scope": "frozen XMODEL",
+  "xmodel_sha256": "b8c34145e707e5c3dc6edcc74bca9d9bf18746b513828377b51da3275c77cbaf",
+  "warmup": 10,
+  "repeats": 100,
+  "statistics_ms": {
+    "preprocessing_ms": {
+      "mean": 212.2822191001069,
+      "median": 212.2134424998876,
+      "std": 0.7304243903325475,
+      "p95": 213.5437580497637
+    },
+    "input_quantize_copy_ms": {
+      "mean": 137.11877379992075,
+      "median": 136.824380500002,
+      "std": 1.0507339011732186,
+      "p95": 139.23687069900552
+    },
+    "graph_runner_ms": {
+      "mean": 45.90312551992611,
+      "median": 45.895441499851586,
+      "std": 0.064885866005699,
+      "p95": 45.96276804959416
+    },
+    "output_copy_ms": {
+      "mean": 0.9795861800557759,
+      "median": 0.9725809995870804,
+      "std": 0.029809654279882587,
+      "p95": 1.0385905493421888
+    },
+    "decode_ms": {
+      "mean": 57.05564386997139,
+      "median": 57.029096999031026,
+      "std": 0.2188834208337249,
+      "p95": 57.389443998727074
+    },
+    "nms_coordinates_ms": {
+      "mean": 6.799760349967983,
+      "median": 7.028853999145213,
+      "std": 0.8803780366639575,
+      "p95": 7.768619998569193
+    },
+    "total_ms": {
+      "mean": 460.1391088199489,
+      "median": 460.08410600006755,
+      "std": 1.4805666641065816,
+      "p95": 462.1731495503809
+    }
+  },
+  "measured_interval_s": [
+    8293.265681184,
+    8339.304491093
+  ],
+  "memory_before": {
+    "MemTotal_kB": 4023988,
+    "MemAvailable_kB": 3574180,
+    "CmaTotal_kB": 1572864,
+    "CmaFree_kB": 1510728,
+    "VmHWM_kB": 95584,
+    "VmRSS_kB": 89912
+  },
+  "memory_after": {
+    "MemTotal_kB": 4023988,
+    "MemAvailable_kB": 3537044,
+    "CmaTotal_kB": 1572864,
+    "CmaFree_kB": 1510728,
+    "VmHWM_kB": 139980,
+    "VmRSS_kB": 115836
+  },
+  "power_channels": [
+    {
+      "path": "/sys/class/hwmon/hwmon0/power1_input",
+      "chip": "ina260_u14",
+      "label": "unlabelled"
+    }
+  ],
+  "opencv": "4.5.2",
+  "numpy": "1.21.2",
+  "cpu_threads": 1
+}

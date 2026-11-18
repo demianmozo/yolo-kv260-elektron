@@ -1,0 +1,45 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.ssh/
+# Models, tensors, raw datasets and generated hardware stay outside Git
+/artifacts/
+/software/results/
+dataset/
+datasets/
+ecograms/
+labels/
+validation_tensors/
+*.pt
+*.pth
+*.xmodel
+*.npz
+*.npy
+*.bit
+*.bin
+*.xclbin
+*.xsa
+*.dcp
+*.dtbo
+.Xil/
+*.runs/
+*.cache/
+*.jou
+# Python and LaTeX products
+__pycache__/
+*.pyc
+.venv/
+*.aux
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+manuscript/main.pdf
+manuscript/main.log
+# Personal settings
+.DS_Store
+.vscode/

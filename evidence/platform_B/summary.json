@@ -1,0 +1,483 @@
+{
+  "platform": "B",
+  "fingerprint": "0x101000016010407",
+  "xclbin_UUID": "ce4cc848-0253-f625-51cf-00f1e355b5b5",
+  "UUID_source": "deployment/final_v41/logs/new_xclbin_info.txt; protocol records active UUID but separate board capture not retained",
+  "xmodel_sha256": "b8c34145e707e5c3dc6edcc74bca9d9bf18746b513828377b51da3275c77cbaf",
+  "firmware": [
+    {
+      "file": "kv260-elektron-b4096-v41.bit.bin",
+      "sha256": "4a19dae9edadbb3c2745f7e2b80dd76629158472757804e0462601f7084991f7",
+      "bytes": 7807932
+    },
+    {
+      "file": "kv260-elektron-b4096-v41.dtbo",
+      "sha256": "486395353df101da5dabd1bae5e5f08a9fbddec3ef424d070a78caa7a3a7d1d7",
+      "bytes": 3015
+    },
+    {
+      "file": "kv260-elektron-b4096-v41.xclbin",
+      "sha256": "bcadaba2b60024be819bc23d74f6b1bda875970159babede81e3d57634151877",
+      "bytes": 39470
+    },
+    {
+      "file": "shell.json",
+      "sha256": "2967ccbc1f75c8d4accd1b6fecc11b16a32a5d7992e56c6eebceb99a3410f777",
+      "bytes": 56
+    }
+  ],
+  "hardware_artifacts": [
+    {
+      "role": "project",
+      "path": "HARDWARE_ROOT/preparation_2022_2/kria-vitis-platforms/kv260/overlays/examples/benchmark/binary_container_1/link/vivado/vpl/prj/prj.xpr",
+      "sha256": "0b355bfc5f5a852ed1f998841be42a58627fe146c5a838221a63d83a9415a9d5",
+      "bytes": 47837
+    },
+    {
+      "role": "routed_checkpoint",
+      "path": "HARDWARE_ROOT/preparation_2022_2/kria-vitis-platforms/kv260/overlays/examples/benchmark/binary_container_1/link/vivado/vpl/prj/prj.runs/impl_1/kv260_ispMipiRx_vcu_DP_wrapper_routed.dcp",
+      "sha256": "5f9587a765421e4972ac5ec9e59727e0ab52c77c2cd95fbe5972c0102cc4f953",
+      "bytes": 130189418
+    },
+    {
+      "role": "bitstream",
+      "path": "HARDWARE_ROOT/preparation_2022_2/kria-vitis-platforms/kv260/overlays/examples/benchmark/binary_container_1/sd_card/kv260_ispMipiRx_vcu_DP_wrapper.bit",
+      "sha256": "a83c769f9e29f41388acf065f8ed31cbc5c7660cea52a45ea35d7496fc0cc93b",
+      "bytes": 7797826
+    },
+    {
+      "role": "xclbin",
+      "path": "HARDWARE_ROOT/preparation_2022_2/kria-vitis-platforms/kv260/overlays/examples/benchmark/binary_container_1/sd_card/dpu.xclbin",
+      "sha256": "bcadaba2b60024be819bc23d74f6b1bda875970159babede81e3d57634151877",
+      "bytes": 39470
+    },
+    {
+      "role": "arch_json",
+      "path": "HARDWARE_ROOT/preparation_2022_2/kria-vitis-platforms/kv260/overlays/examples/benchmark/binary_container_1/sd_card/arch.json",
+      "sha256": "4404a8c71b5738d1df15a53db508811ac4d8fbce38effe448f6c78bbc9c8ec74",
+      "bytes": 36
+    },
+    {
+      "role": "linked_xsa",
+      "path": "HARDWARE_ROOT/preparation_2022_2/kria-vitis-platforms/kv260/overlays/examples/benchmark/binary_container_1/dpu.xsa",
+      "sha256": "453d7848fa2b2b3ca04c86a983d118fc260509913545106e1f94a7835a54295d",
+      "bytes": 5857509
+    }
+  ],
+  "runtime": {
+    "DPU IP Spec": {
+      "git commit id": "7d32c41",
+      "git commit time": 2023022121,
+      "generation timestamp": "2023-02-21 21-30-00",
+      "IP version": "v4.1.0",
+      "regmap": "1to1 version",
+      "DPU Core Count": 1
+    },
+    "VAI Version": {
+      "libxir.so": "Xilinx xir Version: xir-9204ac72103092a7b253a0c23ec7471481656940 2022-12-27-00:46:16",
+      "libvart-runner.so": "Xilinx vart-runner Version: 3.0.0-2efa5fe1e56c2b2c8a7e71e9fc1636242dd50a9f  2022-12-27-00:47:05 ",
+      "libvitis_ai_library-dpu_task.so": "Xilinx vitis_ai_library dpu_task Version: 3.0.0-1cccff04dc341c4a6287226828f90aed56005f4f  2022-12-20 10:29:01 [UTC] ",
+      "target_factory": "target-factory.3.0.0 860ed0499ab009084e2df3004eeb9ae710c26351",
+      "libvaip-core.so": "Xilinx vaip Version: 1.0.0-a176db67b19f94b0a31f9d24ef80322efe4494ad  2022-12-27-01:24:22 "
+    },
+    "kernels": [
+      {
+        "fingerprint": "0x101000016010407",
+        "cu_handle": "0xaaaaeb65e450",
+        "cu_idx": 0,
+        "cu_mask": 1,
+        "cu_name": "DPUCZDX8G:DPUCZDX8G_1",
+        "device_id": 0,
+        "cu_addr": "0xa0010000",
+        "name": "DPU Core 0",
+        "DPU Arch": "DPUCZDX8G_ISA1_B4096_0101000016010407",
+        "IP Type": "DPU",
+        "DPU Frequency (MHz)": 300,
+        "XRT Frequency (MHz)": 300,
+        "Save Parallel": 2,
+        "Load Parallel": 2,
+        "Load minus mean": "disable",
+        "Load augmentation": "enable"
+      }
+    ]
+  },
+  "tools": {
+    "Vivado": "2022.2 build 3671981",
+    "Vitis_vpp": "2022.2 build 3671529"
+  },
+  "source_commits": [
+    {
+      "directory": "kria-vitis-platforms",
+      "url": "https://github.com/Xilinx/kria-vitis-platforms.git",
+      "source_branch": "xlnx_rel_v2022.2",
+      "commit": "a3a83f179503792226adf83082aee7c05de620b4",
+      "checkout": "detached",
+      "role": "platform and benchmark sources, including bundled DPU"
+    },
+    {
+      "directory": "Vitis-AI",
+      "url": "https://github.com/Xilinx/Vitis-AI.git",
+      "source_branch": "3.0",
+      "commit": "091f75041ed941b74361c1068bbcd6528e61cbc6",
+      "checkout": "detached",
+      "role": "sparse checkout: official DPU release index and compatibility documentation"
+    },
+    {
+      "directory": "kria-apps-firmware",
+      "url": "https://github.com/Xilinx/kria-apps-firmware.git",
+      "source_branch": "xlnx_rel_v2022.2",
+      "commit": "1592956c9119ebf77222d3050a22c326a3adbfc2",
+      "checkout": "detached",
+      "role": "official firmware packaging and device-tree source; prebuilt binaries are references only"
+    }
+  ],
+  "resources": {
+    "full_design": {
+      "LUT": 69610,
+      "FF": 129766,
+      "LUTRAM": 3056,
+      "SRL": 5098,
+      "RAMB36": 88,
+      "RAMB18": 13,
+      "BRAM_36k_equivalent": 94.5,
+      "URAM": 56,
+      "DSP": 710
+    },
+    "DPU_hierarchy": {
+      "LUT": 51291,
+      "FF": 96711,
+      "LUTRAM": 2736,
+      "SRL": 4297,
+      "RAMB36": 70,
+      "RAMB18": 10,
+      "BRAM_36k_equivalent": 75,
+      "URAM": 48,
+      "DSP": 710
+    }
+  },
+  "timing_ns": {
+    "WNS": 0.006,
+    "TNS": 0.0,
+    "WHS": 0.01,
+    "THS": 0.0,
+    "WPWS": 0.071,
+    "TPWS": 0.0,
+    "bus_skew_worst_slack": 1.979,
+    "bus_skew_constraints": 12
+  },
+  "routing": {
+    "routable_nets": 207743,
+    "fully_routed_nets": 207743,
+    "routing_errors": 0
+  },
+  "drc": {
+    "errors": 0,
+    "critical_warnings": 0,
+    "warnings": 580,
+    "HDPR_5_severity_at_independent_check": "Error",
+    "HDPR_5_violations": 0
+  },
+  "vectorless_power_estimate": {
+    "total_on_chip_W": 7.026,
+    "dynamic_W": 6.666,
+    "static_W": 0.36,
+    "confidence": "Low",
+    "simulation_activity_file": null,
+    "hardware_measurement": false,
+    "warnings": [
+      "VCCVCUINT voltage setting ignored by tool",
+      "high-fanout reset activity may make estimate inaccurate"
+    ]
+  },
+  "functional_parity": [
+    {
+      "platform": "B",
+      "fingerprint": "0x101000016010407",
+      "image": "P66",
+      "tensor": "arr_0",
+      "shape": "[1, 18, 128, 128]",
+      "max_abs": 0.0,
+      "RMSE": 0.0,
+      "different_values": 0,
+      "source": "results/new_platform/raw/P66_new_hardware.npz",
+      "reference": "results/new_platform/simulation/P66.npz"
+    },
+    {
+      "platform": "B",
+      "fingerprint": "0x101000016010407",
+      "image": "P66",
+      "tensor": "arr_1",
+      "shape": "[1, 18, 64, 64]",
+      "max_abs": 0.0,
+      "RMSE": 0.0,
+      "different_values": 0,
+      "source": "results/new_platform/raw/P66_new_hardware.npz",
+      "reference": "results/new_platform/simulation/P66.npz"
+    },
+    {
+      "platform": "B",
+      "fingerprint": "0x101000016010407",
+      "image": "P66",
+      "tensor": "arr_2",
+      "shape": "[1, 18, 32, 32]",
+      "max_abs": 0.0,
+      "RMSE": 0.0,
+      "different_values": 0,
+      "source": "results/new_platform/raw/P66_new_hardware.npz",
+      "reference": "results/new_platform/simulation/P66.npz"
+    },
+    {
+      "platform": "B",
+      "fingerprint": "0x101000016010407",
+      "image": "P74",
+      "tensor": "arr_0",
+      "shape": "[1, 18, 128, 128]",
+      "max_abs": 0.0,
+      "RMSE": 0.0,
+      "different_values": 0,
+      "source": "results/new_platform/raw/P74_new_hardware.npz",
+      "reference": "results/new_platform/simulation/P74.npz"
+    },
+    {
+      "platform": "B",
+      "fingerprint": "0x101000016010407",
+      "image": "P74",
+      "tensor": "arr_1",
+      "shape": "[1, 18, 64, 64]",
+      "max_abs": 0.0,
+      "RMSE": 0.0,
+      "different_values": 0,
+      "source": "results/new_platform/raw/P74_new_hardware.npz",
+      "reference": "results/new_platform/simulation/P74.npz"
+    },
+    {
+      "platform": "B",
+      "fingerprint": "0x101000016010407",
+      "image": "P74",
+      "tensor": "arr_2",
+      "shape": "[1, 18, 32, 32]",
+      "max_abs": 0.0,
+      "RMSE": 0.0,
+      "different_values": 0,
+      "source": "results/new_platform/raw/P74_new_hardware.npz",
+      "reference": "results/new_platform/simulation/P74.npz"
+    },
+    {
+      "platform": "B",
+      "fingerprint": "0x101000016010407",
+      "image": "P83",
+      "tensor": "arr_0",
+      "shape": "[1, 18, 128, 128]",
+      "max_abs": 0.0,
+      "RMSE": 0.0,
+      "different_values": 0,
+      "source": "results/new_platform/raw/P83_new_hardware.npz",
+      "reference": "results/new_platform/simulation/P83.npz"
+    },
+    {
+      "platform": "B",
+      "fingerprint": "0x101000016010407",
+      "image": "P83",
+      "tensor": "arr_1",
+      "shape": "[1, 18, 64, 64]",
+      "max_abs": 0.0,
+      "RMSE": 0.0,
+      "different_values": 0,
+      "source": "results/new_platform/raw/P83_new_hardware.npz",
+      "reference": "results/new_platform/simulation/P83.npz"
+    },
+    {
+      "platform": "B",
+      "fingerprint": "0x101000016010407",
+      "image": "P83",
+      "tensor": "arr_2",
+      "shape": "[1, 18, 32, 32]",
+      "max_abs": 0.0,
+      "RMSE": 0.0,
+      "different_values": 0,
+      "source": "results/new_platform/raw/P83_new_hardware.npz",
+      "reference": "results/new_platform/simulation/P83.npz"
+    }
+  ],
+  "normal_latency_ms": {
+    "preprocessing_ms": {
+      "mean": 212.2822191001069,
+      "median": 212.2134424998876,
+      "std": 0.7304243903325475,
+      "p95": 213.5437580497637
+    },
+    "input_quantize_copy_ms": {
+      "mean": 137.11877379992075,
+      "median": 136.824380500002,
+      "std": 1.0507339011732186,
+      "p95": 139.23687069900552
+    },
+    "graph_runner_ms": {
+      "mean": 45.90312551992611,
+      "median": 45.895441499851586,
+      "std": 0.064885866005699,
+      "p95": 45.96276804959416
+    },
+    "output_copy_ms": {
+      "mean": 0.9795861800557759,
+      "median": 0.9725809995870804,
+      "std": 0.029809654279882587,
+      "p95": 1.0385905493421888
+    },
+    "decode_ms": {
+      "mean": 57.05564386997139,
+      "median": 57.029096999031026,
+      "std": 0.2188834208337249,
+      "p95": 57.389443998727074
+    },
+    "nms_coordinates_ms": {
+      "mean": 6.799760349967983,
+      "median": 7.028853999145213,
+      "std": 0.8803780366639575,
+      "p95": 7.768619998569193
+    },
+    "total_ms": {
+      "mean": 460.1391088199489,
+      "median": 460.08410600006755,
+      "std": 1.4805666641065816,
+      "p95": 462.1731495503809
+    }
+  },
+  "profile_latency_ms": {
+    "preprocessing_ms": {
+      "mean": 211.80056760003936,
+      "median": 211.62874300080148,
+      "std": 0.8316237070027481,
+      "p95": 213.42433855061245
+    },
+    "input_quantize_copy_ms": {
+      "mean": 136.5275999900041,
+      "median": 136.5469354986999,
+      "std": 0.905988918450449,
+      "p95": 137.84980955042556
+    },
+    "graph_runner_ms": {
+      "mean": 46.026763250029035,
+      "median": 46.02091499964445,
+      "std": 0.040890857792587505,
+      "p95": 46.085078499982046
+    },
+    "output_copy_ms": {
+      "mean": 0.980844339937903,
+      "median": 0.9678559999883873,
+      "std": 0.02922100144072431,
+      "p95": 1.0358035005083366
+    },
+    "decode_ms": {
+      "mean": 57.00085160005983,
+      "median": 57.018894000975706,
+      "std": 0.18887357213800396,
+      "p95": 57.27045849944261
+    },
+    "nms_coordinates_ms": {
+      "mean": 6.828420129877486,
+      "median": 7.0707144996049465,
+      "std": 0.8807186043876292,
+      "p95": 7.780392999302421
+    },
+    "total_ms": {
+      "mean": 459.1650469099477,
+      "median": 459.2588039995462,
+      "std": 1.577035982397897,
+      "p95": 461.4697369993337
+    }
+  },
+  "profile_subgraphs_ms": {
+    "DPU_hardware_ms": {
+      "mean": 42.19568889999999,
+      "median": 42.19455333333333,
+      "std": 0.0077083302419506386,
+      "p95": 42.208422999999996
+    },
+    "DPU_controller_ms": {
+      "mean": 42.327899759999994,
+      "median": 42.328936499998804,
+      "std": 0.01486657646137946,
+      "p95": 42.34973245000049
+    },
+    "CPU_subgraphs_ms": {
+      "mean": 0.5826277699999949,
+      "median": 0.5788435000031456,
+      "std": 0.012538799647317835,
+      "p95": 0.6025610000024884
+    }
+  },
+  "power": {
+    "platform": "B",
+    "fingerprint": "0x101000016010407",
+    "scope": "VCC_SOM INA260 U14; not full carrier or wall",
+    "idle_before_W": 5.002000000000001,
+    "idle_after_W": 4.99,
+    "idle_W": 4.996000000000001,
+    "inference_W": 5.720899933606229,
+    "inference_std_W": 1.118866413866444,
+    "duration_s": 46.03880990899961,
+    "images": 100,
+    "active_samples": 92,
+    "idle_before_samples": 30,
+    "idle_after_samples": 30,
+    "total_energy_J_per_image": 2.6338342455170567,
+    "incremental_energy_J_per_image": 0.33373530246343563,
+    "method": "trapezoidal; endpoint hold; idle arithmetic mean",
+    "source": "results/new_platform/raw/y7_normal_power.csv"
+  },
+  "detections": {
+    "normal": {
+      "sample_P66.png": [
+        17
+      ],
+      "sample_P74.png": [
+        27
+      ],
+      "sample_P83.png": [
+        25
+      ]
+    },
+    "profiled": {
+      "sample_P66.png": [
+        17
+      ],
+      "sample_P74.png": [
+        27
+      ],
+      "sample_P83.png": [
+        25
+      ]
+    }
+  },
+  "trace_execution_intervals": 440,
+  "model_structure_unchanged_except_fingerprint": true,
+  "quantized_input_sha256": "e94a80f58fc6858012bc33b9152642abc4d0db9513cc3b7b78946e93d4e25335",
+  "arch_json_sha256": "4404a8c71b5738d1df15a53db508811ac4d8fbce38effe448f6c78bbc9c8ec74",
+  "common_protocol_files_verified": [
+    {
+      "file": "scripts/benchmark.py",
+      "sha256": "808d8868568c0eb3d2fc4478cbfa9f9fc8a3350748bd338d469c53c5145896d9"
+    },
+    {
+      "file": "scripts/postprocess.py",
+      "sha256": "5caa0b933e876c57c50c9e84c7ede9448230b0f20ef711533c2cd6c239d8e000"
+    },
+    {
+      "file": "artifacts/y7_decoder.json",
+      "sha256": "3f162799008f363284ce131f2d6ed546b87edf9944b141ba80f6a98da1105e05"
+    },
+    {
+      "file": "artifacts/sample_P66.png",
+      "sha256": "5bc8bfebe526b3e56b4e4b9e562bb764ea7f845dd4ff9e500f67c6585810d7d0"
+    },
+    {
+      "file": "artifacts/sample_P74.png",
+      "sha256": "5d56f74d23706cb38b2d18cbc21670c836b7ae12f131c1c29b753d456d2ff14b"
+    },
+    {
+      "file": "artifacts/sample_P83.png",
+      "sha256": "aed742dd3bfc82a4cadfcd73537a2e16fa7dca79cc99a862b0e3fa5f62d8cfe0"
+    }
+  ]
+}

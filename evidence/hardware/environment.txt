@@ -1,0 +1,15 @@
+Fri Sep 18 18:18:09 UTC 2026
+               total        used        free      shared  buff/cache   available
+Mem:            60Gi        18Gi        31Gi       1.1Gi        12Gi        42Gi
+Swap:             0B          0B          0B
+Vivado v2022.2 (64-bit)
+SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+Tool Version Limit: 2022.10
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+****** v++ v2022.2 (64-bit)
+  **** SW Build 3671529 on 2022-10-13-17:52:11
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+a3a83f179503792226adf83082aee7c05de620b4

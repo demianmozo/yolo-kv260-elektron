@@ -1,0 +1,14 @@
+{
+  "sensor": "/sys/class/hwmon/hwmon0/power1_input",
+  "scope": "VCC_SOM / INA260 U14; not carrier or wall power",
+  "active_samples": 92,
+  "idle_before_W": 5.002000000000001,
+  "idle_after_W": 4.99,
+  "idle_W": 4.996000000000001,
+  "inference_W": 5.720899933606229,
+  "inference_std_W": 1.118866413866444,
+  "duration_s": 46.03880990899961,
+  "images": 100,
+  "total_energy_J_per_image": 2.6338342455170567,
+  "incremental_energy_J_per_image": 0.33373530246343563
+}

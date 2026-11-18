@@ -1,0 +1,22 @@
+{
+  "board": "AMD Kria KV260 Vision AI Starter Kit",
+  "som": "K26",
+  "architecture": "aarch64",
+  "cpu_cores": 4,
+  "memory_reported_kB": 4023988,
+  "os": "PetaLinux 2022.2_release_S10071807 (honister)",
+  "kernel": "5.15.36-xilinx-v2022.2",
+  "vitis_ai": "3.0",
+  "vart": "3.0.0",
+  "xrt": "2.14.0",
+  "xrt_commit": "43926231f7183688add2dccfd391b36a1f000bea",
+  "dpu": "DPUCZDX8G_ISA1_B4096",
+  "dpu_cores": 1,
+  "dpu_frequency_MHz": 300,
+  "dpu_ip_version": "v4.1.0",
+  "fingerprint": "0x101000056010407",
+  "active_xclbin_UUID": "eedb44e9-3f77-0244-9ea9-23b953894638",
+  "cpu_frequency_kHz": 1333333,
+  "cpu_governor": "userspace",
+  "source": "../evidence/summary.json and ../evidence/active_firmware.json"
+}

@@ -1,0 +1,8 @@
+Vivado: 2022.2
+Source checkpoint: HARDWARE_ROOT/preparation_2022_2/kria-vitis-platforms/kv260/overlays/examples/benchmark/binary_container_1/link/vivado/vpl/prj/prj.runs/impl_1/kv260_ispMipiRx_vcu_DP_wrapper_routed.dcp
+Source size: 130189418 bytes
+Source SHA256: 5f9587a765421e4972ac5ec9e59727e0ab52c77c2cd95fbe5972c0102cc4f953  HARDWARE_ROOT/preparation_2022_2/kria-vitis-platforms/kv260/overlays/examples/benchmark/binary_container_1/link/vivado/vpl/prj/prj.runs/impl_1/kv260_ispMipiRx_vcu_DP_wrapper_routed.dcp
+UTC: 2026-09-18T20:06:30Z
+Checkpoint is read only in this flow; no write_checkpoint or implementation command is invoked.
+Power is a tool estimate using activity/environment retained in the checkpoint and tool defaults where absent. No measured activity file is applied. Inspect report_power confidence and assumptions.
+Clock periods describe the implemented timing model, not a hardware frequency measurement or a measured maximum frequency.

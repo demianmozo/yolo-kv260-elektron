@@ -1,0 +1,48 @@
+{
+  "official_component_xml": "HARDWARE_ROOT/ip_official_vai3_0/DPUCZDX8G_ip_repo_VAI_v3.0/DPUCZDX8G_v4_1_0/component.xml",
+  "matched_files": [
+    {
+      "packaged": "src/arch_def.vh",
+      "official": "Vitis/dpu/inc/arch_def.vh",
+      "sha256": "f9d66ca295441d76e44b98ba022443abae3b137d74f565afd89be884a27d2173"
+    },
+    {
+      "packaged": "src/arch_para.vh",
+      "official": "DPUCZDX8G_v4_1_0/inc/arch_para.vh",
+      "sha256": "8b943d35fdff153fa9e6ff6141fd9821b274f3176475d03b7fb77adb2d7840ab"
+    },
+    {
+      "packaged": "src/timing_clocks.xdc",
+      "official": "Vitis/dpu/xdc/timing_clocks.xdc",
+      "sha256": "81c6ecc545ada3b6da7bb2f39a0c2067f4ddfc698cb17c7476086a5feab2b7b0"
+    },
+    {
+      "packaged": "src/DPUCZDX8G.v",
+      "official": "Vitis/dpu/hdl/DPUCZDX8G.v",
+      "sha256": "791106bdfa30a44d760d25f2d3dc537d3731a613374b016a760ab4034077544a"
+    },
+    {
+      "packaged": "src/fingerprint_json.ttcl",
+      "official": "DPUCZDX8G_v4_1_0/ttcl/fingerprint_json.ttcl",
+      "sha256": "d59244c7b6a6abdd3bd1eb1845e3ba2c45eac67da25b2190d8ef7c09df63d0d2"
+    },
+    {
+      "packaged": "src/function.vh",
+      "official": "DPUCZDX8G_v4_1_0/inc/function.vh",
+      "sha256": "73c4faedc4f64e107df1fcc4bdc27a03fc31d7f2a463768e7a20fe7d9882fdd3"
+    },
+    {
+      "packaged": "src/DPUCZDX8G_v4_1_0_vl_dpu.sv",
+      "official": "DPUCZDX8G_v4_1_0/hdl/DPUCZDX8G_v4_1_0_vl_dpu.sv",
+      "sha256": "5d5ca9dcf677c59ab9ca44ced6320585fa625d011d1732e8ef82e073c9be24ff"
+    }
+  ],
+  "nonmatching_files": [
+    {
+      "packaged": "src/dpu_conf.vh",
+      "official": null,
+      "sha256": "0d9b8fb247a333d9f0e315e272405465a1d798aab62b46e84a19cfd4c1302456"
+    }
+  ],
+  "configuration_sha256_matches_benchmark": true
+}

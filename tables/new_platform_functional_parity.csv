@@ -1,0 +1,10 @@
+platform,fingerprint,image,tensor,shape,max_abs,RMSE,different_values,source,reference
+B,0x101000016010407,P66,arr_0,"[1, 18, 128, 128]",0.0,0.0,0,results/new_platform/raw/P66_new_hardware.npz,results/new_platform/simulation/P66.npz
+B,0x101000016010407,P66,arr_1,"[1, 18, 64, 64]",0.0,0.0,0,results/new_platform/raw/P66_new_hardware.npz,results/new_platform/simulation/P66.npz
+B,0x101000016010407,P66,arr_2,"[1, 18, 32, 32]",0.0,0.0,0,results/new_platform/raw/P66_new_hardware.npz,results/new_platform/simulation/P66.npz
+B,0x101000016010407,P74,arr_0,"[1, 18, 128, 128]",0.0,0.0,0,results/new_platform/raw/P74_new_hardware.npz,results/new_platform/simulation/P74.npz
+B,0x101000016010407,P74,arr_1,"[1, 18, 64, 64]",0.0,0.0,0,results/new_platform/raw/P74_new_hardware.npz,results/new_platform/simulation/P74.npz
+B,0x101000016010407,P74,arr_2,"[1, 18, 32, 32]",0.0,0.0,0,results/new_platform/raw/P74_new_hardware.npz,results/new_platform/simulation/P74.npz
+B,0x101000016010407,P83,arr_0,"[1, 18, 128, 128]",0.0,0.0,0,results/new_platform/raw/P83_new_hardware.npz,results/new_platform/simulation/P83.npz
+B,0x101000016010407,P83,arr_1,"[1, 18, 64, 64]",0.0,0.0,0,results/new_platform/raw/P83_new_hardware.npz,results/new_platform/simulation/P83.npz
+B,0x101000016010407,P83,arr_2,"[1, 18, 32, 32]",0.0,0.0,0,results/new_platform/raw/P83_new_hardware.npz,results/new_platform/simulation/P83.npz

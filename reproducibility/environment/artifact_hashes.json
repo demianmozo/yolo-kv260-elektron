@@ -1,0 +1,34 @@
+{
+  "excluded_binary_artifacts": [
+    {
+      "role": "YOLOv8n original CASE checkpoint",
+      "filename": "best.pt",
+      "sha256": "6ad6dabb90618f1ddec98066bccf27cf987144a0d32f8dedf0413d3e969a6cf2",
+      "bytes": 6298090
+    },
+    {
+      "role": "YOLOv8n compiled raw-head graph",
+      "filename": "case_raw.xmodel",
+      "sha256": "df01782c604080e22340ec3b61a7d7bce16f245d4ca063fe8e3dbf23b9ca695b",
+      "bytes": 5354394
+    },
+    {
+      "role": "YOLOv7-tiny corrected best EMA checkpoint",
+      "filename": "best.pt",
+      "sha256": "b58cf917f108e788c0cfcc403f266545dc69e59dbbfa1fa268ffaa833914a612",
+      "bytes": 72809205
+    },
+    {
+      "role": "YOLOv7-tiny compiled raw-head graph",
+      "filename": "yolov7tiny.xmodel",
+      "sha256": "1d702d165c9f8fab595a23aa1d954d8a5f7965f849ee7f8e0ff921830daeea53",
+      "bytes": 7555990
+    }
+  ],
+  "split_sha256": "971b6269a988f05c1bdc609c27c3da7a0b002930acb7680b32b9d2e6d1f8c48a",
+  "y7_pretrained_sha256": "0fa1423606133c06362ec716029dade1169d5631e83195b75d8efa66d2ee0b77",
+  "installed_xclbin_sha256": "fc3abb934eec544e49a17c484336cf177258f475522cefc994ec458b726f69ac",
+  "installed_bitstream_sha256": "7d12c877e0fde40a243d2350b1a2227f565788bf9e2dcae4439d07f213d40a3f",
+  "case_paper_sha256": "ae44578c3acdc1e81c8c360e08ccfa0a7e1ae183e372435c3a334da154c09a57",
+  "note": "Binary model and firmware artifacts are identified but intentionally absent from this package."
+}

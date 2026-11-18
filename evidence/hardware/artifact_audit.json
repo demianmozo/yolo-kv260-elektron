@@ -1,0 +1,43 @@
+{
+  "dpu.xclbin": {
+    "source": "HARDWARE_ROOT/preparation_2022_2/kria-vitis-platforms/kv260/overlays/examples/benchmark/binary_container_1/dpu.xclbin",
+    "bytes": 39470,
+    "sha256": "bcadaba2b60024be819bc23d74f6b1bda875970159babede81e3d57634151877"
+  },
+  "reference.bit": {
+    "source": "HARDWARE_ROOT/preparation_2022_2/kria-vitis-platforms/kv260/overlays/examples/benchmark/binary_container_1/sd_card/kv260_ispMipiRx_vcu_DP_wrapper.bit",
+    "bytes": 7797826,
+    "sha256": "a83c769f9e29f41388acf065f8ed31cbc5c7660cea52a45ea35d7496fc0cc93b"
+  },
+  "arch.json": {
+    "source": "HARDWARE_ROOT/preparation_2022_2/kria-vitis-platforms/kv260/overlays/examples/benchmark/binary_container_1/sd_card/arch.json",
+    "bytes": 36,
+    "sha256": "4404a8c71b5738d1df15a53db508811ac4d8fbce38effe448f6c78bbc9c8ec74"
+  },
+  "dpu.xsa": {
+    "source": "HARDWARE_ROOT/preparation_2022_2/kria-vitis-platforms/kv260/overlays/examples/benchmark/binary_container_1/dpu.xsa",
+    "bytes": 5857509,
+    "sha256": "453d7848fa2b2b3ca04c86a983d118fc260509913545106e1f94a7835a54295d"
+  },
+  "xsa_archive_members": [
+    "kv260_ispMipiRx_vcu_DP_mipi_csi2_rx_subsyst_0_0.hwh",
+    "psu_init.html",
+    "psu_init.tcl",
+    "kv260_ispMipiRx_vcu_DP.hwh",
+    "kv260_ispMipiRx_vcu_DP.bda",
+    "psu_init.h",
+    "psu_init.c",
+    "psu_init_gpl.c",
+    "vpl_gen_fixed.bit",
+    "psu_init_gpl.h",
+    "aie_primitive.json",
+    "vsom_kit.jpg",
+    "sysdef.xml",
+    "xsa.xml",
+    "link.xrd",
+    "xsa.json"
+  ],
+  "dtbo_generated_by_official_build": false,
+  "ready_for_board": false,
+  "reason": "Target device tree/runtime and rollback not yet inspected."
+}

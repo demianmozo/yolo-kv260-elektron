@@ -1,0 +1,9 @@
+{
+  "pre_nms_max_abs": 0.0001220703125,
+  "nms_max_abs": 5.960464477539063e-08,
+  "detections": 28,
+  "NMS_iou": 0.6,
+  "confidence": 0.25,
+  "samples": "retained quantized six raw outputs",
+  "reference": "Ultralytics original head._inference DFL+dist2bbox+sigmoid"
+}
