@@ -8,7 +8,7 @@
       "evidence/platform_B/y7_normal.json",
       "evidence/platform_B/y7_profiled.json"
     ],
-    "status": "Bytes verified against the platform B campaign. Redistribution terms for the derived weights and compiled artifact remain unconfirmed. File withheld."
+    "status": "Included as a separate release asset. Bytes verified against the normal and profiled platform B campaign records."
   },
   "fp32_checkpoint": {
     "filename": "best.pt",
@@ -17,6 +17,15 @@
       "evidence/historical_A/y7_training_verification.json",
       "reproducibility/environment/artifact_hashes.json"
     ],
-    "status": "Bytes verified against the reference YOLOv7-tiny EMA checkpoint used for INT8. Redistribution terms for weights derived from pretrained weights remain unconfirmed. File withheld."
+    "status": "Included as a separate release asset. Bytes verified against the frozen reference YOLOv7-tiny checkpoint used for INT8 (EMA component)."
+  },
+  "internal_validation": {
+    "status": "Excluded. All 18 validation image hashes also appear in historical YOLOv8n calibration.",
+    "verified_original_pairs": 18,
+    "verified_boxes": 548,
+    "manifest_sha256": "971b6269a988f05c1bdc609c27c3da7a0b002930acb7680b32b9d2e6d1f8c48a",
+    "image_sha256_overlap_yolov7_tiny_training": 0,
+    "image_sha256_overlap_yolov7_tiny_calibration": 0,
+    "image_sha256_overlap_historical_yolov8n_calibration": 18
   }
 }
